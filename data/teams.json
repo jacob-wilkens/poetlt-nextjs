@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1610612737,
+    "name": "Atlanta Hawks",
+    "abbreviation": "ATL",
+    "conference": "East",
+    "division": "Atl."
+  },
+  {
+    "id": 1610612738,
+    "name": "Boston Celtics",
+    "abbreviation": "BOS",
+    "conference": "East",
+    "division": "Atl."
+  },
+  {
+    "id": 1610612751,
+    "name": "Brooklyn Nets",
+    "abbreviation": "BKN",
+    "conference": "East",
+    "division": "Atl."
+  },
+  {
+    "id": 1610612766,
+    "name": "Charlotte Hornets",
+    "abbreviation": "CHA",
+    "conference": "East",
+    "division": "SE"
+  },
+  {
+    "id": 1610612741,
+    "name": "Chicago Bulls",
+    "abbreviation": "CHI",
+    "conference": "East",
+    "division": "Cen."
+  },
+  {
+    "id": 1610612739,
+    "name": "Cleveland Cavaliers",
+    "abbreviation": "CLE",
+    "conference": "East",
+    "division": "Cen."
+  },
+  {
+    "id": 1610612742,
+    "name": "Dallas Mavericks",
+    "abbreviation": "DAL",
+    "conference": "West",
+    "division": "SW"
+  },
+  {
+    "id": 1610612743,
+    "name": "Denver Nuggets",
+    "abbreviation": "DEN",
+    "conference": "West",
+    "division": "NW"
+  },
+  {
+    "id": 1610612765,
+    "name": "Detroit Pistons",
+    "abbreviation": "DET",
+    "conference": "East",
+    "division": "Cen."
+  },
+  {
+    "id": 1610612744,
+    "name": "Golden State Warriors",
+    "abbreviation": "GSW",
+    "conference": "West",
+    "division": "Pac."
+  },
+  {
+    "id": 1610612745,
+    "name": "Houston Rockets",
+    "abbreviation": "HOU",
+    "conference": "West",
+    "division": "SW"
+  },
+  {
+    "id": 1610612754,
+    "name": "Indiana Pacers",
+    "abbreviation": "IND",
+    "conference": "East",
+    "division": "Cen."
+  },
+  {
+    "id": 1610612746,
+    "name": "LA Clippers",
+    "abbreviation": "LAC",
+    "conference": "West",
+    "division": "Pac."
+  },
+  {
+    "id": 1610612747,
+    "name": "Los Angeles Lakers",
+    "abbreviation": "LAL",
+    "conference": "West",
+    "division": "Pac."
+  },
+  {
+    "id": 1610612763,
+    "name": "Memphis Grizzlies",
+    "abbreviation": "MEM",
+    "conference": "West",
+    "division": "SW"
+  },
+  {
+    "id": 1610612748,
+    "name": "Miami Heat",
+    "abbreviation": "MIA",
+    "conference": "East",
+    "division": "SE"
+  },
+  {
+    "id": 1610612749,
+    "name": "Milwaukee Bucks",
+    "abbreviation": "MIL",
+    "conference": "East",
+    "division": "Cen."
+  },
+  {
+    "id": 1610612750,
+    "name": "Minnesota Timberwolves",
+    "abbreviation": "MIN",
+    "conference": "West",
+    "division": "NW"
+  },
+  {
+    "id": 1610612740,
+    "name": "New Orleans Pelicans",
+    "abbreviation": "NOP",
+    "conference": "West",
+    "division": "SW"
+  },
+  {
+    "id": 1610612752,
+    "name": "New York Knicks",
+    "abbreviation": "NYK",
+    "conference": "East",
+    "division": "Atl."
+  },
+  {
+    "id": 1610612760,
+    "name": "Oklahoma City Thunder",
+    "abbreviation": "OKC",
+    "conference": "West",
+    "division": "NW"
+  },
+  {
+    "id": 1610612753,
+    "name": "Orlando Magic",
+    "abbreviation": "ORL",
+    "conference": "East",
+    "division": "SE"
+  },
+  {
+    "id": 1610612755,
+    "name": "Philadelphia 76ers",
+    "abbreviation": "PHI",
+    "conference": "East",
+    "division": "Atl."
+  },
+  {
+    "id": 1610612756,
+    "name": "Phoenix Suns",
+    "abbreviation": "PHX",
+    "conference": "West",
+    "division": "Pac."
+  },
+  {
+    "id": 1610612757,
+    "name": "Portland Trail Blazers",
+    "abbreviation": "POR",
+    "conference": "West",
+    "division": "NW"
+  },
+  {
+    "id": 1610612758,
+    "name": "Sacramento Kings",
+    "abbreviation": "SAC",
+    "conference": "West",
+    "division": "Pac."
+  },
+  {
+    "id": 1610612759,
+    "name": "San Antonio Spurs",
+    "abbreviation": "SAS",
+    "conference": "West",
+    "division": "SW"
+  },
+  {
+    "id": 1610612761,
+    "name": "Toronto Raptors",
+    "abbreviation": "TOR",
+    "conference": "East",
+    "division": "Atl."
+  },
+  {
+    "id": 1610612762,
+    "name": "Utah Jazz",
+    "abbreviation": "UTA",
+    "conference": "West",
+    "division": "NW"
+  },
+  {
+    "id": 1610612764,
+    "name": "Washington Wizards",
+    "abbreviation": "WAS",
+    "conference": "East",
+    "division": "SE"
+  }
+]

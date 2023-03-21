@@ -1,0 +1,5822 @@
+[
+  {
+    "age": 23,
+    "height": "6-8",
+    "id": 1630173,
+    "name": "Precious Achiuwa",
+    "number": "5",
+    "pos": "Forward",
+    "teamId": 1610612761,
+    "teams": [1610612748, 1610612761]
+  },
+  {
+    "age": 29,
+    "height": "6-11",
+    "id": 203500,
+    "name": "Steven Adams",
+    "number": "4",
+    "pos": "Center",
+    "teamId": 1610612763,
+    "teams": [1610612760, 1610612740, 1610612763]
+  },
+  {
+    "age": 25,
+    "height": "6-9",
+    "id": 1628389,
+    "name": "Bam Adebayo",
+    "number": "13",
+    "pos": "Center-Forward",
+    "teamId": 1610612748,
+    "teams": [1610612748]
+  },
+  {
+    "age": 22,
+    "height": "6-5",
+    "id": 1630534,
+    "name": "Ochai Agbaji",
+    "number": "30",
+    "pos": "Guard",
+    "teamId": 1610612762,
+    "teams": [1610612762]
+  },
+  {
+    "age": 22,
+    "height": "7-0",
+    "id": 1630583,
+    "name": "Santi Aldama",
+    "number": "7",
+    "pos": "Forward-Center",
+    "teamId": 1610612763,
+    "teams": [1610612763]
+  },
+  {
+    "age": 24,
+    "height": "6-5",
+    "id": 1629638,
+    "name": "Nickeil Alexander-Walker",
+    "number": "9",
+    "pos": "Guard",
+    "teamId": 1610612750,
+    "teams": [1610612740, 1610612762, 0, 1610612750]
+  },
+  {
+    "age": 27,
+    "height": "6-4",
+    "id": 1628960,
+    "name": "Grayson Allen",
+    "number": "12",
+    "pos": "Guard",
+    "teamId": 1610612749,
+    "teams": [1610612762, 1610612763, 1610612749]
+  },
+  {
+    "age": 24,
+    "height": "6-9",
+    "id": 1628386,
+    "name": "Jarrett Allen",
+    "number": "31",
+    "pos": "Center",
+    "teamId": 1610612739,
+    "teams": [1610612751, 1610612739, 0]
+  },
+  {
+    "age": 24,
+    "height": "6-0",
+    "id": 1630631,
+    "name": "Jose Alvarado",
+    "number": "15",
+    "pos": "Guard",
+    "teamId": 1610612740,
+    "teams": [1610612740]
+  },
+  {
+    "age": 29,
+    "height": "6-9",
+    "id": 203937,
+    "name": "Kyle Anderson",
+    "number": "5",
+    "pos": "Forward-Guard",
+    "teamId": 1610612750,
+    "teams": [1610612759, 1610612763, 1610612750]
+  },
+  {
+    "age": 28,
+    "height": "7-0",
+    "id": 203507,
+    "name": "Giannis Antetokounmpo",
+    "number": "34",
+    "pos": "Forward",
+    "teamId": 1610612749,
+    "teams": [1610612749]
+  },
+  {
+    "age": 25,
+    "height": "6-10",
+    "id": 1628961,
+    "name": "Kostas Antetokounmpo",
+    "number": "37",
+    "pos": "Forward",
+    "teamId": 1610612747,
+    "teams": [1610612742, 1610612747]
+  },
+  {
+    "age": 30,
+    "height": "6-7",
+    "id": 203648,
+    "name": "Thanasis Antetokounmpo",
+    "number": "43",
+    "pos": "Forward",
+    "teamId": 1610612749,
+    "teams": [1610612752, 1610612749]
+  },
+  {
+    "age": 22,
+    "height": "6-3",
+    "id": 1630175,
+    "name": "Cole Anthony",
+    "number": "50",
+    "pos": "Guard",
+    "teamId": 1610612753,
+    "teams": [1610612753]
+  },
+  {
+    "age": 25,
+    "height": "6-7",
+    "id": 1628384,
+    "name": "O.G. Anunoby",
+    "number": "3",
+    "pos": "Forward",
+    "teamId": 1610612761,
+    "teams": [1610612761]
+  },
+  {
+    "age": 28,
+    "height": "6-3",
+    "id": 1627853,
+    "name": "Ryan Arcidiacono",
+    "number": "51",
+    "pos": "Guard",
+    "teamId": 1610612757,
+    "teams": [1610612741, 1610612752, 1610612757, 0]
+  },
+  {
+    "age": 22,
+    "height": "6-9",
+    "id": 1630166,
+    "name": "Deni Avdija",
+    "number": "9",
+    "pos": "Forward",
+    "teamId": 1610612764,
+    "teams": [1610612764]
+  },
+  {
+    "age": 24,
+    "height": "7-0",
+    "id": 1629028,
+    "name": "Deandre Ayton",
+    "number": "22",
+    "pos": "Center",
+    "teamId": 1610612756,
+    "teams": [1610612756]
+  },
+  {
+    "age": 23,
+    "height": "6-11",
+    "id": 1628962,
+    "name": "Udoka Azubuike",
+    "number": "20",
+    "pos": "Center-Forward",
+    "teamId": 1610612762,
+    "teams": [1610612762]
+  },
+  {
+    "age": 24,
+    "height": "6-10",
+    "id": 1628963,
+    "name": "Marvin Bagley III",
+    "number": "35",
+    "pos": "Forward",
+    "teamId": 1610612765,
+    "teams": [1610612758, 1610612765, 0]
+  },
+  {
+    "age": 20,
+    "height": "6-9",
+    "id": 1631116,
+    "name": "Patrick Baldwin Jr.",
+    "number": "7",
+    "pos": "Forward",
+    "teamId": 1610612744,
+    "teams": [1610612744]
+  },
+  {
+    "age": 21,
+    "height": "6-7",
+    "id": 1630163,
+    "name": "LaMelo Ball",
+    "number": "1",
+    "pos": "Guard",
+    "teamId": 1610612766,
+    "teams": [1610612766]
+  },
+  {
+    "age": 24,
+    "height": "",
+    "id": 1629071,
+    "name": "LiAngelo Ball",
+    "number": "",
+    "pos": "",
+    "teamId": 0,
+    "teams": []
+  },
+  {
+    "age": 25,
+    "height": "6-6",
+    "id": 1628366,
+    "name": "Lonzo Ball",
+    "number": "2",
+    "pos": "Guard",
+    "teamId": 1610612741,
+    "teams": [1610612747, 1610612740, 1610612741]
+  },
+  {
+    "age": 24,
+    "height": "7-0",
+    "id": 1628964,
+    "name": "Mo Bamba",
+    "number": "12",
+    "pos": "Center",
+    "teamId": 1610612747,
+    "teams": [1610612753, 1610612747, 0]
+  },
+  {
+    "age": 20,
+    "height": "6-10",
+    "id": 1631094,
+    "name": "Paolo Banchero",
+    "number": "5",
+    "pos": "Forward",
+    "teamId": 1610612753,
+    "teams": [1610612753]
+  },
+  {
+    "age": 24,
+    "height": "6-5",
+    "id": 1630217,
+    "name": "Desmond Bane",
+    "number": "22",
+    "pos": "Guard",
+    "teamId": 1610612763,
+    "teams": [1610612763]
+  },
+  {
+    "age": 23,
+    "height": "6-7",
+    "id": 1630625,
+    "name": "Dalano Banton",
+    "number": "45",
+    "pos": "Forward",
+    "teamId": 1610612761,
+    "teams": [1610612761]
+  },
+  {
+    "age": 19,
+    "height": "6-9",
+    "id": 1631230,
+    "name": "Dominick Barlow",
+    "number": "26",
+    "pos": "Forward",
+    "teamId": 1610612759,
+    "teams": [1610612759]
+  },
+  {
+    "age": 30,
+    "height": "6-8",
+    "id": 203084,
+    "name": "Harrison Barnes",
+    "number": "40",
+    "pos": "Forward",
+    "teamId": 1610612758,
+    "teams": [1610612744, 1610612742, 1610612758, 0]
+  },
+  {
+    "age": 21,
+    "height": "6-8",
+    "id": 1630567,
+    "name": "Scottie Barnes",
+    "number": "4",
+    "pos": "Forward",
+    "teamId": 1610612761,
+    "teams": [1610612761]
+  },
+  {
+    "age": 22,
+    "height": "6-6",
+    "id": 1629628,
+    "name": "RJ Barrett",
+    "number": "9",
+    "pos": "Forward-Guard",
+    "teamId": 1610612752,
+    "teams": [1610612752]
+  },
+  {
+    "age": 32,
+    "height": "6-5",
+    "id": 203115,
+    "name": "Will Barton",
+    "number": "1",
+    "pos": "Guard",
+    "teamId": 1610612761,
+    "teams": [1610612757, 1610612743, 0, 1610612764, 1610612761]
+  },
+  {
+    "age": 22,
+    "height": "6-9",
+    "id": 1629646,
+    "name": "Charles Bassey",
+    "number": "28",
+    "pos": "Center-Forward",
+    "teamId": 1610612759,
+    "teams": [1610612755, 1610612759]
+  },
+  {
+    "age": 27,
+    "height": "6-8",
+    "id": 1628966,
+    "name": "Keita Bates-Diop",
+    "number": "31",
+    "pos": "Forward",
+    "teamId": 1610612759,
+    "teams": [1610612750, 1610612743, 0, 1610612759]
+  },
+  {
+    "age": 34,
+    "height": "6-8",
+    "id": 201587,
+    "name": "Nicolas Batum",
+    "number": "33",
+    "pos": "Guard-Forward",
+    "teamId": 1610612746,
+    "teams": [1610612757, 1610612766, 1610612746]
+  },
+  {
+    "age": 33,
+    "height": "6-4",
+    "id": 203145,
+    "name": "Kent Bazemore",
+    "number": "9",
+    "pos": "Guard-Forward",
+    "teamId": 1610612747,
+    "teams": [1610612744, 1610612747, 0, 1610612737, 1610612757, 1610612758]
+  },
+  {
+    "age": 22,
+    "height": "6-9",
+    "id": 1629647,
+    "name": "Darius Bazley",
+    "number": "55",
+    "pos": "Forward",
+    "teamId": 1610612756,
+    "teams": [1610612760, 1610612756, 0]
+  },
+  {
+    "age": 29,
+    "height": "6-4",
+    "id": 203078,
+    "name": "Bradley Beal",
+    "number": "3",
+    "pos": "Guard",
+    "teamId": 1610612764,
+    "teams": [1610612764]
+  },
+  {
+    "age": 26,
+    "height": "6-4",
+    "id": 1627736,
+    "name": "Malik Beasley",
+    "number": "5",
+    "pos": "Guard",
+    "teamId": 1610612747,
+    "teams": [1610612743, 1610612750, 0, 1610612762, 1610612747]
+  },
+  {
+    "age": 22,
+    "height": "6-7",
+    "id": 1630699,
+    "name": "MarJon Beauchamp",
+    "number": "0",
+    "pos": "Forward",
+    "teamId": 1610612749,
+    "teams": [1610612749]
+  },
+  {
+    "age": 23,
+    "height": "",
+    "id": 1631262,
+    "name": "Jules Bernard",
+    "number": "",
+    "pos": "",
+    "teamId": 0,
+    "teams": []
+  },
+  {
+    "age": 30,
+    "height": "6-10",
+    "id": 202722,
+    "name": "Davis Bertans",
+    "number": "44",
+    "pos": "Forward",
+    "teamId": 1610612742,
+    "teams": [1610612759, 1610612764, 1610612742, 0]
+  },
+  {
+    "age": 34,
+    "height": "6-2",
+    "id": 201976,
+    "name": "Patrick Beverley",
+    "number": "21",
+    "pos": "Guard",
+    "teamId": 1610612741,
+    "teams": [1610612745, 1610612746, 1610612750, 1610612747, 1610612741, 0]
+  },
+  {
+    "age": 23,
+    "height": "6-7",
+    "id": 1630180,
+    "name": "Saddiq Bey",
+    "number": "41",
+    "pos": "Forward",
+    "teamId": 1610612737,
+    "teams": [1610612765, 1610612737, 0]
+  },
+  {
+    "age": 22,
+    "height": "",
+    "id": 1631234,
+    "name": "Marcus Bingham Jr.",
+    "number": "",
+    "pos": "",
+    "teamId": 0,
+    "teams": []
+  },
+  {
+    "age": 30,
+    "height": "6-8",
+    "id": 203920,
+    "name": "Khem Birch",
+    "number": "24",
+    "pos": "Center",
+    "teamId": 1610612759,
+    "teams": [1610612753, 1610612761, 0]
+  },
+  {
+    "age": 23,
+    "height": "6-11",
+    "id": 1629048,
+    "name": "Goga Bitadze",
+    "number": "88",
+    "pos": "Center-Forward",
+    "teamId": 1610612753,
+    "teams": [1610612754, 1610612753, 0]
+  },
+  {
+    "age": 30,
+    "height": "6-8",
+    "id": 202687,
+    "name": "Bismack Biyombo",
+    "number": "18",
+    "pos": "Center",
+    "teamId": 1610612756,
+    "teams": [1610612766, 1610612761, 1610612753, 1610612756]
+  },
+  {
+    "age": 23,
+    "height": "6-6",
+    "id": 1631205,
+    "name": "Buddy Boeheim",
+    "number": "27",
+    "pos": "Forward",
+    "teamId": 1610612765,
+    "teams": [1610612765]
+  },
+  {
+    "age": 30,
+    "height": "6-5",
+    "id": 203992,
+    "name": "Bogdan Bogdanovic",
+    "number": "13",
+    "pos": "Guard",
+    "teamId": 1610612737,
+    "teams": [1610612758, 1610612737]
+  },
+  {
+    "age": 33,
+    "height": "6-7",
+    "id": 202711,
+    "name": "Bojan Bogdanovic",
+    "number": "44",
+    "pos": "Forward",
+    "teamId": 1610612765,
+    "teams": [1610612751, 1610612764, 0, 1610612754, 1610612762, 1610612765]
+  },
+  {
+    "age": 23,
+    "height": "7-2",
+    "id": 1629626,
+    "name": "Bol Bol",
+    "number": "10",
+    "pos": "Center-Forward",
+    "teamId": 1610612753,
+    "teams": [1610612743, 1610612753]
+  },
+  {
+    "age": 24,
+    "height": "6-10",
+    "id": 1629716,
+    "name": "Marques Bolden",
+    "number": "",
+    "pos": "Center",
+    "teamId": 0,
+    "teams": [1610612739]
+  },
+  {
+    "age": 22,
+    "height": "6-6",
+    "id": 1630195,
+    "name": "Leandro Bolmaro",
+    "number": "",
+    "pos": "Forward",
+    "teamId": 0,
+    "teams": [1610612750, 1610612762]
+  },
+  {
+    "age": 26,
+    "height": "6-5",
+    "id": 1626164,
+    "name": "Devin Booker",
+    "number": "1",
+    "pos": "Guard",
+    "teamId": 1610612756,
+    "teams": [1610612756]
+  },
+  {
+    "age": 21,
+    "height": "6-6",
+    "id": 1630527,
+    "name": "Brandon Boston Jr.",
+    "number": "4",
+    "pos": "Guard",
+    "teamId": 1610612746,
+    "teams": [1610612746]
+  },
+  {
+    "age": 30,
+    "height": "6-9",
+    "id": 1628449,
+    "name": "Chris Boucher",
+    "number": "25",
+    "pos": "Forward-Center",
+    "teamId": 1610612761,
+    "teams": [1610612744, 1610612761]
+  },
+  {
+    "age": 22,
+    "height": "6-4",
+    "id": 1630547,
+    "name": "James Bouknight",
+    "number": "2",
+    "pos": "Guard",
+    "teamId": 1610612766,
+    "teams": [1610612766]
+  },
+  {
+    "age": 23,
+    "height": "6-2",
+    "id": 1631123,
+    "name": "Jamaree Bouyea",
+    "number": "",
+    "pos": "Guard",
+    "teamId": 0,
+    "teams": [1610612748, 1610612764, 0]
+  },
+  {
+    "age": 25,
+    "height": "6-11",
+    "id": 1628396,
+    "name": "Tony Bradley",
+    "number": "",
+    "pos": "Center-Forward",
+    "teamId": 0,
+    "teams": [1610612762, 1610612755, 1610612760, 0, 1610612741]
+  },
+  {
+    "age": 19,
+    "height": "6-4",
+    "id": 1631103,
+    "name": "Malaki Branham",
+    "number": "22",
+    "pos": "Forward",
+    "teamId": 1610612759,
+    "teams": [1610612759]
+  },
+  {
+    "age": 21,
+    "height": "6-6",
+    "id": 1631128,
+    "name": "Christian Braun",
+    "number": "0",
+    "pos": "Guard",
+    "teamId": 1610612743,
+    "teams": [1610612743]
+  },
+  {
+    "age": 26,
+    "height": "6-6",
+    "id": 1628969,
+    "name": "Mikal Bridges",
+    "number": "1",
+    "pos": "Forward",
+    "teamId": 1610612751,
+    "teams": [1610612756, 1610612751, 0]
+  },
+  {
+    "age": 24,
+    "height": "6-7",
+    "id": 1629052,
+    "name": "Oshae Brissett",
+    "number": "12",
+    "pos": "Forward-Guard",
+    "teamId": 1610612754,
+    "teams": [1610612761, 1610612754]
+  },
+  {
+    "age": 30,
+    "height": "6-4",
+    "id": 1627763,
+    "name": "Malcolm Brogdon",
+    "number": "13",
+    "pos": "Guard",
+    "teamId": 1610612738,
+    "teams": [1610612749, 1610612754, 1610612738]
+  },
+  {
+    "age": 27,
+    "height": "6-6",
+    "id": 1628415,
+    "name": "Dillon Brooks",
+    "number": "24",
+    "pos": "Guard-Forward",
+    "teamId": 1610612763,
+    "teams": [1610612763]
+  },
+  {
+    "age": 26,
+    "height": "6-4",
+    "id": 1628971,
+    "name": "Bruce Brown",
+    "number": "11",
+    "pos": "Guard-Forward",
+    "teamId": 1610612743,
+    "teams": [1610612765, 1610612751, 1610612743]
+  },
+  {
+    "age": 23,
+    "height": "",
+    "id": 1631122,
+    "name": "Gabe Brown",
+    "number": "",
+    "pos": "",
+    "teamId": 0,
+    "teams": []
+  },
+  {
+    "age": 26,
+    "height": "6-6",
+    "id": 1627759,
+    "name": "Jaylen Brown",
+    "number": "7",
+    "pos": "Guard-Forward",
+    "teamId": 1610612738,
+    "teams": [1610612738]
+  },
+  {
+    "age": 19,
+    "height": "6-7",
+    "id": 1631112,
+    "name": "Kendall Brown",
+    "number": "10",
+    "pos": "Guard",
+    "teamId": 1610612754,
+    "teams": [1610612754]
+  },
+  {
+    "age": 23,
+    "height": "7-2",
+    "id": 1629650,
+    "name": "Moses Brown",
+    "number": "",
+    "pos": "Center",
+    "teamId": 0,
+    "teams": [1610612757, 1610612760, 1610612742, 1610612739, 0, 1610612746]
+  },
+  {
+    "age": 21,
+    "height": "6-7",
+    "id": 1630535,
+    "name": "Greg Brown III",
+    "number": "",
+    "pos": "Forward",
+    "teamId": 0,
+    "teams": [1610612757]
+  },
+  {
+    "age": 26,
+    "height": "6-6",
+    "id": 1629718,
+    "name": "Charlie Brown Jr.",
+    "number": "16",
+    "pos": "Guard",
+    "teamId": 1610612755,
+    "teams": [1610612737, 1610612760, 1610612742, 1610612755, 0]
+  },
+  {
+    "age": 23,
+    "height": "6-7",
+    "id": 1628972,
+    "name": "Troy Brown Jr.",
+    "number": "7",
+    "pos": "Guard-Forward",
+    "teamId": 1610612747,
+    "teams": [1610612764, 1610612741, 0, 1610612747]
+  },
+  {
+    "age": 26,
+    "height": "6-2",
+    "id": 1628973,
+    "name": "Jalen Brunson",
+    "number": "11",
+    "pos": "Guard",
+    "teamId": 1610612752,
+    "teams": [1610612742, 1610612752]
+  },
+  {
+    "age": 25,
+    "height": "6-10",
+    "id": 1628418,
+    "name": "Thomas Bryant",
+    "number": "13",
+    "pos": "Center-Forward",
+    "teamId": 1610612743,
+    "teams": [1610612747, 1610612764, 1610612743, 0]
+  },
+  {
+    "age": 32,
+    "height": "6-6",
+    "id": 203493,
+    "name": "Reggie Bullock",
+    "number": "25",
+    "pos": "Guard-Forward",
+    "teamId": 1610612742,
+    "teams": [1610612746, 1610612756, 0, 1610612765, 1610612747, 1610612752, 1610612742]
+  },
+  {
+    "age": 30,
+    "height": "6-0",
+    "id": 203504,
+    "name": "Trey Burke",
+    "number": "3",
+    "pos": "Guard",
+    "teamId": 1610612742,
+    "teams": [1610612762, 1610612764, 1610612752, 1610612742, 0, 1610612755]
+  },
+  {
+    "age": 31,
+    "height": "6-6",
+    "id": 202692,
+    "name": "Alec Burks",
+    "number": "5",
+    "pos": "Guard",
+    "teamId": 1610612765,
+    "teams": [1610612762, 1610612739, 1610612758, 0, 1610612744, 1610612755, 1610612752, 1610612765]
+  },
+  {
+    "age": 22,
+    "height": "6-3",
+    "id": 1630215,
+    "name": "Jared Butler",
+    "number": "14",
+    "pos": "Guard",
+    "teamId": 1610612760,
+    "teams": [1610612762, 1610612760]
+  },
+  {
+    "age": 33,
+    "height": "6-7",
+    "id": 202710,
+    "name": "Jimmy Butler",
+    "number": "22",
+    "pos": "Forward",
+    "teamId": 1610612748,
+    "teams": [1610612741, 1610612750, 1610612755, 0, 1610612748]
+  },
+  {
+    "age": 23,
+    "height": "6-6",
+    "id": 1631288,
+    "name": "Jamal Cain",
+    "number": "8",
+    "pos": "Forward",
+    "teamId": 1610612748,
+    "teams": [1610612748]
+  },
+  {
+    "age": 30,
+    "height": "6-5",
+    "id": 203484,
+    "name": "Kentavious Caldwell-Pope",
+    "number": "5",
+    "pos": "Guard",
+    "teamId": 1610612743,
+    "teams": [1610612765, 1610612747, 1610612764, 1610612743]
+  },
+  {
+    "age": 25,
+    "height": "6-8",
+    "id": 1628427,
+    "name": "Vlatko Cancar",
+    "number": "31",
+    "pos": "Forward",
+    "teamId": 1610612743,
+    "teams": [1610612743]
+  },
+  {
+    "age": 26,
+    "height": "6-2",
+    "id": 1629962,
+    "name": "Devin Cannady",
+    "number": "30",
+    "pos": "Guard",
+    "teamId": 1610612753,
+    "teams": [1610612753]
+  },
+  {
+    "age": 28,
+    "height": "6-10",
+    "id": 203991,
+    "name": "Clint Capela",
+    "number": "15",
+    "pos": "Center",
+    "teamId": 1610612737,
+    "teams": [1610612745, 1610612737]
+  },
+  {
+    "age": 22,
+    "height": "6-10",
+    "id": 1630176,
+    "name": "Vernon Carey Jr.",
+    "number": "",
+    "pos": "Center",
+    "teamId": 0,
+    "teams": [1610612766, 1610612764, 0]
+  },
+  {
+    "age": 27,
+    "height": "6-1",
+    "id": 1628975,
+    "name": "Jevon Carter",
+    "number": "5",
+    "pos": "Guard",
+    "teamId": 1610612749,
+    "teams": [1610612763, 1610612756, 1610612751, 1610612749, 0]
+  },
+  {
+    "age": 23,
+    "height": "6-10",
+    "id": 1628976,
+    "name": "Wendell Carter Jr.",
+    "number": "34",
+    "pos": "Center-Forward",
+    "teamId": 1610612753,
+    "teams": [1610612741, 1610612753, 0]
+  },
+  {
+    "age": 29,
+    "height": "6-5",
+    "id": 1627936,
+    "name": "Alex Caruso",
+    "number": "6",
+    "pos": "Guard",
+    "teamId": 1610612741,
+    "teams": [1610612747, 1610612741]
+  },
+  {
+    "age": 29,
+    "height": "7-0",
+    "id": 1626161,
+    "name": "Willie Cauley-Stein",
+    "number": "",
+    "pos": "Center",
+    "teamId": 0,
+    "teams": [1610612758, 1610612744, 1610612742, 0, 1610612755]
+  },
+  {
+    "age": 21,
+    "height": "6-7",
+    "id": 1630577,
+    "name": "Julian Champagnie",
+    "number": "30",
+    "pos": "Forward",
+    "teamId": 1610612759,
+    "teams": [1610612755, 1610612759, 0]
+  },
+  {
+    "age": 21,
+    "height": "6-6",
+    "id": 1630551,
+    "name": "Justin Champagnie",
+    "number": "",
+    "pos": "Guard-Forward",
+    "teamId": 0,
+    "teams": [1610612761]
+  },
+  {
+    "age": 20,
+    "height": "5-11",
+    "id": 1631113,
+    "name": "Kennedy Chandler",
+    "number": "1",
+    "pos": "Guard",
+    "teamId": 1610612763,
+    "teams": [1610612763]
+  },
+  {
+    "age": 27,
+    "height": "6-5",
+    "id": 1629597,
+    "name": "Zylan Cheatham",
+    "number": "",
+    "pos": "Forward",
+    "teamId": 0,
+    "teams": [1610612740, 1610612762]
+  },
+  {
+    "age": 27,
+    "height": "5-11",
+    "id": 1629185,
+    "name": "Chris Chiozza",
+    "number": "2",
+    "pos": "Guard",
+    "teamId": 1610612744,
+    "teams": [1610612745, 1610612764, 1610612751, 0, 1610612744]
+  },
+  {
+    "age": 25,
+    "height": "6-9",
+    "id": 1627737,
+    "name": "Marquese Chriss",
+    "number": "35",
+    "pos": "Forward",
+    "teamId": 1610612742,
+    "teams": [1610612756, 1610612745, 1610612739, 0, 1610612744, 1610612742]
+  },
+  {
+    "age": 20,
+    "height": "6-5",
+    "id": 1631108,
+    "name": "Max Christie",
+    "number": "10",
+    "pos": "Guard",
+    "teamId": 1610612747,
+    "teams": [1610612747]
+  },
+  {
+    "age": 21,
+    "height": "6-4",
+    "id": 1630528,
+    "name": "Josh Christopher",
+    "number": "9",
+    "pos": "Guard",
+    "teamId": 1610612745,
+    "teams": [1610612745]
+  },
+  {
+    "age": 26,
+    "height": "6-8",
+    "id": 1629634,
+    "name": "Brandon Clarke",
+    "number": "15",
+    "pos": "Forward",
+    "teamId": 1610612763,
+    "teams": [1610612763]
+  },
+  {
+    "age": 30,
+    "height": "6-5",
+    "id": 203903,
+    "name": "Jordan Clarkson",
+    "number": "00",
+    "pos": "Guard",
+    "teamId": 1610612762,
+    "teams": [1610612747, 1610612739, 0, 1610612762]
+  },
+  {
+    "age": 23,
+    "height": "6-11",
+    "id": 1629651,
+    "name": "Nic Claxton",
+    "number": "33",
+    "pos": "Center",
+    "teamId": 1610612751,
+    "teams": [1610612751]
+  },
+  {
+    "age": 25,
+    "height": "6-7",
+    "id": 1629599,
+    "name": "Amir Coffey",
+    "number": "7",
+    "pos": "Guard-Forward",
+    "teamId": 1610612746,
+    "teams": [1610612746]
+  },
+  {
+    "age": 25,
+    "height": "6-9",
+    "id": 1628381,
+    "name": "John Collins",
+    "number": "20",
+    "pos": "Forward-Center",
+    "teamId": 1610612737,
+    "teams": [1610612737]
+  },
+  {
+    "age": 25,
+    "height": "6-11",
+    "id": 1628380,
+    "name": "Zach Collins",
+    "number": "23",
+    "pos": "Forward-Center",
+    "teamId": 1610612759,
+    "teams": [1610612757, 1610612759]
+  },
+  {
+    "age": 35,
+    "height": "6-1",
+    "id": 201144,
+    "name": "Mike Conley",
+    "number": "10",
+    "pos": "Guard",
+    "teamId": 1610612750,
+    "teams": [1610612763, 1610612762, 1610612750, 0]
+  },
+  {
+    "age": 30,
+    "height": "6-5",
+    "id": 1626192,
+    "name": "Pat Connaughton",
+    "number": "24",
+    "pos": "Guard",
+    "teamId": 1610612749,
+    "teams": [1610612757, 1610612749]
+  },
+  {
+    "age": 29,
+    "height": "6-1",
+    "id": 1626188,
+    "name": "Quinn Cook",
+    "number": "",
+    "pos": "Guard",
+    "teamId": 0,
+    "teams": [1610612742, 1610612740, 0, 1610612744, 1610612747, 1610612739]
+  },
+  {
+    "age": 21,
+    "height": "6-1",
+    "id": 1630536,
+    "name": "Sharife Cooper",
+    "number": "2",
+    "pos": "Guard",
+    "teamId": 1610612737,
+    "teams": [1610612737]
+  },
+  {
+    "age": 32,
+    "height": "6-7",
+    "id": 203496,
+    "name": "Robert Covington",
+    "number": "23",
+    "pos": "Forward",
+    "teamId": 1610612746,
+    "teams": [1610612745, 1610612755, 1610612750, 0, 1610612757, 1610612746]
+  },
+  {
+    "age": 32,
+    "height": "6-7",
+    "id": 1628470,
+    "name": "Torrey Craig",
+    "number": "0",
+    "pos": "Forward",
+    "teamId": 1610612756,
+    "teams": [1610612743, 1610612749, 1610612756, 0, 1610612754]
+  },
+  {
+    "age": 32,
+    "height": "6-6",
+    "id": 203109,
+    "name": "Jae Crowder",
+    "number": "99",
+    "pos": "Forward",
+    "teamId": 1610612749,
+    "teams": [1610612742, 1610612738, 0, 1610612739, 1610612762, 1610612763, 1610612748, 1610612756, 1610612749]
+  },
+  {
+    "age": 23,
+    "height": "",
+    "id": 1630622,
+    "name": "Jalen Crutcher",
+    "number": "",
+    "pos": "",
+    "teamId": 0,
+    "teams": []
+  },
+  {
+    "age": 24,
+    "height": "6-6",
+    "id": 1629633,
+    "name": "Jarrett Culver",
+    "number": "",
+    "pos": "Guard-Forward",
+    "teamId": 0,
+    "teams": [1610612750, 1610612763, 1610612737]
+  },
+  {
+    "age": 21,
+    "height": "6-7",
+    "id": 1630595,
+    "name": "Cade Cunningham",
+    "number": "2",
+    "pos": "Guard",
+    "teamId": 1610612765,
+    "teams": [1610612765]
+  },
+  {
+    "age": 32,
+    "height": "6-1",
+    "id": 203552,
+    "name": "Seth Curry",
+    "number": "30",
+    "pos": "Guard",
+    "teamId": 1610612751,
+    "teams": [1610612763, 1610612739, 0, 1610612756, 1610612758, 1610612742, 1610612757, 1610612755, 1610612751]
+  },
+  {
+    "age": 35,
+    "height": "6-2",
+    "id": 201939,
+    "name": "Stephen Curry",
+    "number": "30",
+    "pos": "Guard",
+    "teamId": 1610612744,
+    "teams": [1610612744]
+  },
+  {
+    "age": 19,
+    "height": "6-7",
+    "id": 1630700,
+    "name": "Dyson Daniels",
+    "number": "11",
+    "pos": "Guard",
+    "teamId": 1610612740,
+    "teams": [1610612740]
+  },
+  {
+    "age": 24,
+    "height": "6-6",
+    "id": 1630268,
+    "name": "Nate Darling",
+    "number": "30",
+    "pos": "Guard",
+    "teamId": 1610612766,
+    "teams": [1610612766]
+  },
+  {
+    "age": 30,
+    "height": "6-10",
+    "id": 203076,
+    "name": "Anthony Davis",
+    "number": "3",
+    "pos": "Forward-Center",
+    "teamId": 1610612747,
+    "teams": [1610612740, 1610612747]
+  },
+  {
+    "age": 21,
+    "height": "6-4",
+    "id": 1631098,
+    "name": "Johnny Davis",
+    "number": "1",
+    "pos": "Guard",
+    "teamId": 1610612764,
+    "teams": [1610612764]
+  },
+  {
+    "age": 25,
+    "height": "6-4",
+    "id": 1629056,
+    "name": "Terence Davis",
+    "number": "3",
+    "pos": "Guard",
+    "teamId": 1610612758,
+    "teams": [1610612761, 1610612758, 0]
+  },
+  {
+    "age": 20,
+    "height": "6-1",
+    "id": 1631120,
+    "name": "JD Davison",
+    "number": "20",
+    "pos": "Guard",
+    "teamId": 1610612738,
+    "teams": [1610612738]
+  },
+  {
+    "age": 23,
+    "height": "6-7",
+    "id": 1630620,
+    "name": "Darius Days",
+    "number": "5",
+    "pos": "Forward",
+    "teamId": 1610612745,
+    "teams": [1610612745]
+  },
+  {
+    "age": 33,
+    "height": "6-6",
+    "id": 201942,
+    "name": "DeMar DeRozan",
+    "number": "11",
+    "pos": "Guard-Forward",
+    "teamId": 1610612741,
+    "teams": [1610612761, 1610612759, 1610612741]
+  },
+  {
+    "age": 33,
+    "height": "6-10",
+    "id": 203473,
+    "name": "Dewayne Dedmon",
+    "number": "14",
+    "pos": "Center",
+    "teamId": 1610612755,
+    "teams": [1610612744, 1610612755, 1610612753, 0, 1610612759, 1610612737, 1610612758, 1610612748]
+  },
+  {
+    "age": 32,
+    "height": "6-3",
+    "id": 203521,
+    "name": "Matthew Dellavedova",
+    "number": "8",
+    "pos": "Guard",
+    "teamId": 1610612758,
+    "teams": [1610612739, 1610612749, 0, 1610612758]
+  },
+  {
+    "age": 26,
+    "height": "6-4",
+    "id": 1628978,
+    "name": "Donte DiVincenzo",
+    "number": "0",
+    "pos": "Guard",
+    "teamId": 1610612744,
+    "teams": [1610612749, 1610612758, 0, 1610612744]
+  },
+  {
+    "age": 21,
+    "height": "6-10",
+    "id": 1631217,
+    "name": "Moussa Diabate",
+    "number": "25",
+    "pos": "Forward",
+    "teamId": 1610612746,
+    "teams": [1610612746]
+  },
+  {
+    "age": 26,
+    "height": "6-9",
+    "id": 1629603,
+    "name": "Mamadi Diakite",
+    "number": "21",
+    "pos": "Forward",
+    "teamId": 1610612739,
+    "teams": [1610612749, 1610612760, 1610612739]
+  },
+  {
+    "age": 24,
+    "height": "6-5",
+    "id": 1628977,
+    "name": "Hamidou Diallo",
+    "number": "6",
+    "pos": "Guard",
+    "teamId": 1610612765,
+    "teams": [1610612760, 1610612765, 0]
+  },
+  {
+    "age": 33,
+    "height": "6-10",
+    "id": 203476,
+    "name": "Gorgui Dieng",
+    "number": "41",
+    "pos": "Center",
+    "teamId": 1610612759,
+    "teams": [1610612750, 1610612763, 0, 1610612759, 1610612737]
+  },
+  {
+    "age": 19,
+    "height": "6-9",
+    "id": 1631172,
+    "name": "Ousmane Dieng",
+    "number": "13",
+    "pos": "Forward",
+    "teamId": 1610612760,
+    "teams": [1610612760]
+  },
+  {
+    "age": 29,
+    "height": "6-5",
+    "id": 203915,
+    "name": "Spencer Dinwiddie",
+    "number": "26",
+    "pos": "Guard",
+    "teamId": 1610612751,
+    "teams": [1610612765, 1610612751, 1610612764, 1610612742, 0]
+  },
+  {
+    "age": 24,
+    "height": "6-7",
+    "id": 1629029,
+    "name": "Luka Doncic",
+    "number": "77",
+    "pos": "Forward-Guard",
+    "teamId": 1610612742,
+    "teams": [1610612742]
+  },
+  {
+    "age": 27,
+    "height": "6-4",
+    "id": 1628416,
+    "name": "Tyler Dorsey",
+    "number": "",
+    "pos": "Guard",
+    "teamId": 0,
+    "teams": [1610612737, 1610612763, 0, 1610612742]
+  },
+  {
+    "age": 23,
+    "height": "6-4",
+    "id": 1629652,
+    "name": "Luguentz Dort",
+    "number": "5",
+    "pos": "Guard",
+    "teamId": 1610612760,
+    "teams": [1610612760]
+  },
+  {
+    "age": 23,
+    "height": "6-5",
+    "id": 1630245,
+    "name": "Ayo Dosunmu",
+    "number": "12",
+    "pos": "Guard",
+    "teamId": 1610612741,
+    "teams": [1610612741]
+  },
+  {
+    "age": 23,
+    "height": "6-1",
+    "id": 1629653,
+    "name": "Devon Dotson",
+    "number": "",
+    "pos": "Guard",
+    "teamId": 0,
+    "teams": [1610612741, 1610612764]
+  },
+  {
+    "age": 25,
+    "height": "6-3",
+    "id": 1630288,
+    "name": "Jeff Dowtin Jr.",
+    "number": "20",
+    "pos": "Guard",
+    "teamId": 1610612761,
+    "teams": [1610612744, 1610612749, 1610612753, 0, 1610612761]
+  },
+  {
+    "age": 26,
+    "height": "6-6",
+    "id": 1628408,
+    "name": "PJ Dozier",
+    "number": "35",
+    "pos": "Guard-Forward",
+    "teamId": 1610612758,
+    "teams": [1610612760, 1610612738, 1610612743, 1610612758]
+  },
+  {
+    "age": 36,
+    "height": "6-4",
+    "id": 201609,
+    "name": "Goran Dragic",
+    "number": "7",
+    "pos": "Guard",
+    "teamId": 1610612749,
+    "teams": [1610612756, 1610612745, 0, 1610612748, 1610612761, 1610612751, 1610612741]
+  },
+  {
+    "age": 29,
+    "height": "6-11",
+    "id": 203083,
+    "name": "Andre Drummond",
+    "number": "3",
+    "pos": "Center",
+    "teamId": 1610612741,
+    "teams": [1610612765, 1610612739, 0, 1610612747, 1610612755, 1610612751, 1610612741]
+  },
+  {
+    "age": 25,
+    "height": "6-5",
+    "id": 1630537,
+    "name": "Chris Duarte",
+    "number": "3",
+    "pos": "Guard",
+    "teamId": 1610612754,
+    "teams": [1610612754]
+  },
+  {
+    "age": 23,
+    "height": "6-4",
+    "id": 1630561,
+    "name": "David Duke Jr.",
+    "number": "6",
+    "pos": "Guard",
+    "teamId": 1610612751,
+    "teams": [1610612751]
+  },
+  {
+    "age": 34,
+    "height": "6-10",
+    "id": 201142,
+    "name": "Kevin Durant",
+    "number": "35",
+    "pos": "Forward",
+    "teamId": 1610612756,
+    "teams": [1610612760, 1610612744, 1610612751, 1610612756, 0]
+  },
+  {
+    "age": 19,
+    "height": "6-11",
+    "id": 1631105,
+    "name": "Jalen Duren",
+    "number": "0",
+    "pos": "Center",
+    "teamId": 1610612765,
+    "teams": [1610612765]
+  },
+  {
+    "age": 24,
+    "height": "",
+    "id": 1631347,
+    "name": "Anthony Duruji",
+    "number": "",
+    "pos": "",
+    "teamId": 0,
+    "teams": []
+  },
+  {
+    "age": 21,
+    "height": "6-8",
+    "id": 1631106,
+    "name": "Tari Eason",
+    "number": "17",
+    "pos": "Forward",
+    "teamId": 1610612745,
+    "teams": [1610612745]
+  },
+  {
+    "age": 21,
+    "height": "6-4",
+    "id": 1630162,
+    "name": "Anthony Edwards",
+    "number": "1",
+    "pos": "Guard",
+    "teamId": 1610612750,
+    "teams": [1610612750]
+  },
+  {
+    "age": 22,
+    "height": "6-7",
+    "id": 1630556,
+    "name": "Kessler Edwards",
+    "number": "14",
+    "pos": "Forward",
+    "teamId": 1610612758,
+    "teams": [1610612751, 1610612758, 0]
+  },
+  {
+    "age": 22,
+    "height": "6-6",
+    "id": 1629604,
+    "name": "CJ Elleby",
+    "number": "16",
+    "pos": "Forward-Guard",
+    "teamId": 1610612757,
+    "teams": [1610612757]
+  },
+  {
+    "age": 23,
+    "height": "6-3",
+    "id": 1631165,
+    "name": "Keon Ellis",
+    "number": "23",
+    "pos": "Guard",
+    "teamId": 1610612758,
+    "teams": [1610612758]
+  },
+  {
+    "age": 29,
+    "height": "7-0",
+    "id": 203954,
+    "name": "Joel Embiid",
+    "number": "21",
+    "pos": "Center-Forward",
+    "teamId": 1610612755,
+    "teams": [1610612755]
+  },
+  {
+    "age": 26,
+    "height": "6-10",
+    "id": 1629234,
+    "name": "Drew Eubanks",
+    "number": "24",
+    "pos": "Forward-Center",
+    "teamId": 1610612757,
+    "teams": [1610612759, 1610612757, 0]
+  },
+  {
+    "age": 31,
+    "height": "6-9",
+    "id": 202324,
+    "name": "Derrick Favors",
+    "number": "15",
+    "pos": "Forward",
+    "teamId": 1610612760,
+    "teams": [1610612751, 1610612762, 0, 1610612740, 1610612760]
+  },
+  {
+    "age": 24,
+    "height": "6-10",
+    "id": 1628981,
+    "name": "Bruno Fernando",
+    "number": "20",
+    "pos": "Forward-Center",
+    "teamId": 1610612737,
+    "teams": [1610612737, 1610612738, 1610612745, 0]
+  },
+  {
+    "age": 29,
+    "height": "6-7",
+    "id": 1627827,
+    "name": "Dorian Finney-Smith",
+    "number": "28",
+    "pos": "Forward",
+    "teamId": 1610612751,
+    "teams": [1610612742, 1610612751, 0]
+  },
+  {
+    "age": 25,
+    "height": "6-5",
+    "id": 1630238,
+    "name": "Malik Fitts",
+    "number": "8",
+    "pos": "Forward",
+    "teamId": 1610612738,
+    "teams": [1610612746, 1610612762, 1610612738, 0]
+  },
+  {
+    "age": 24,
+    "height": "6-1",
+    "id": 1630201,
+    "name": "Malachi Flynn",
+    "number": "22",
+    "pos": "Guard",
+    "teamId": 1610612761,
+    "teams": [1610612761]
+  },
+  {
+    "age": 27,
+    "height": "6-7",
+    "id": 1631323,
+    "name": "Simone Fontecchio",
+    "number": "16",
+    "pos": "Forward",
+    "teamId": 1610612762,
+    "teams": [1610612762]
+  },
+  {
+    "age": 29,
+    "height": "6-2",
+    "id": 1627854,
+    "name": "Bryn Forbes",
+    "number": "",
+    "pos": "Guard",
+    "teamId": 0,
+    "teams": [1610612759, 1610612749, 1610612743, 0, 1610612750]
+  },
+  {
+    "age": 24,
+    "height": "6-4",
+    "id": 1630235,
+    "name": "Trent Forrest",
+    "number": "2",
+    "pos": "Guard",
+    "teamId": 1610612737,
+    "teams": [1610612762, 1610612737]
+  },
+  {
+    "age": 20,
+    "height": "6-8",
+    "id": 1630701,
+    "name": "Michael Foster Jr.",
+    "number": "",
+    "pos": "Forward",
+    "teamId": 0,
+    "teams": [1610612755]
+  },
+  {
+    "age": 30,
+    "height": "6-6",
+    "id": 203095,
+    "name": "Evan Fournier",
+    "number": "13",
+    "pos": "Guard-Forward",
+    "teamId": 1610612752,
+    "teams": [1610612743, 1610612753, 1610612738, 0, 1610612752]
+  },
+  {
+    "age": 25,
+    "height": "6-3",
+    "id": 1628368,
+    "name": "De'Aaron Fox",
+    "number": "5",
+    "pos": "Guard",
+    "teamId": 1610612758,
+    "teams": [1610612758]
+  },
+  {
+    "age": 24,
+    "height": "6-4",
+    "id": 1628365,
+    "name": "Markelle Fultz",
+    "number": "20",
+    "pos": "Guard",
+    "teamId": 1610612753,
+    "teams": [1610612755, 1610612753]
+  },
+  {
+    "age": 25,
+    "height": "6-9",
+    "id": 1629117,
+    "name": "Wenyen Gabriel",
+    "number": "35",
+    "pos": "Forward",
+    "teamId": 1610612747,
+    "teams": [1610612758, 1610612757, 0, 1610612740, 1610612751, 1610612746, 1610612747]
+  },
+  {
+    "age": 31,
+    "height": "",
+    "id": 203583,
+    "name": "Abdul Gaddy",
+    "number": "",
+    "pos": "",
+    "teamId": 0,
+    "teams": []
+  },
+  {
+    "age": 24,
+    "height": "6-10",
+    "id": 1629655,
+    "name": "Daniel Gafford",
+    "number": "21",
+    "pos": "Forward-Center",
+    "teamId": 1610612764,
+    "teams": [1610612741, 1610612764, 0]
+  },
+  {
+    "age": 34,
+    "height": "6-10",
+    "id": 201568,
+    "name": "Danilo Gallinari",
+    "number": "8",
+    "pos": "Forward",
+    "teamId": 1610612738,
+    "teams": [1610612752, 1610612743, 0, 1610612746, 1610612760, 1610612737]
+  },
+  {
+    "age": 31,
+    "height": "6-1",
+    "id": 204038,
+    "name": "Langston Galloway",
+    "number": "",
+    "pos": "Guard",
+    "teamId": 0,
+    "teams": [1610612752, 1610612740, 1610612758, 0, 1610612765, 1610612756, 1610612751, 1610612749]
+  },
+  {
+    "age": 23,
+    "height": "6-1",
+    "id": 1629636,
+    "name": "Darius Garland",
+    "number": "10",
+    "pos": "Guard",
+    "teamId": 1610612739,
+    "teams": [1610612739]
+  },
+  {
+    "age": 24,
+    "height": "6-5",
+    "id": 1630585,
+    "name": "Marcus Garrett",
+    "number": "",
+    "pos": "Guard",
+    "teamId": 0,
+    "teams": [1610612748]
+  },
+  {
+    "age": 21,
+    "height": "6-8",
+    "id": 1630586,
+    "name": "Usman Garuba",
+    "number": "16",
+    "pos": "Forward",
+    "teamId": 1610612745,
+    "teams": [1610612745]
+  },
+  {
+    "age": 24,
+    "height": "6-10",
+    "id": 1630568,
+    "name": "Luka Garza",
+    "number": "55",
+    "pos": "Center",
+    "teamId": 1610612750,
+    "teams": [1610612765, 1610612750]
+  },
+  {
+    "age": 36,
+    "height": "6-8",
+    "id": 200752,
+    "name": "Rudy Gay",
+    "number": "22",
+    "pos": "Forward-Guard",
+    "teamId": 1610612762,
+    "teams": [1610612763, 1610612761, 0, 1610612758, 1610612759, 1610612762]
+  },
+  {
+    "age": 32,
+    "height": "6-8",
+    "id": 202331,
+    "name": "Paul George",
+    "number": "13",
+    "pos": "Forward",
+    "teamId": 1610612746,
+    "teams": [1610612754, 1610612760, 1610612746]
+  },
+  {
+    "age": 37,
+    "height": "6-9",
+    "id": 201959,
+    "name": "Taj Gibson",
+    "number": "67",
+    "pos": "Forward",
+    "teamId": 1610612764,
+    "teams": [1610612741, 1610612760, 0, 1610612750, 1610612752, 1610612764]
+  },
+  {
+    "age": 20,
+    "height": "6-8",
+    "id": 1630581,
+    "name": "Josh Giddey",
+    "number": "3",
+    "pos": "Guard",
+    "teamId": 1610612760,
+    "teams": [1610612760]
+  },
+  {
+    "age": 24,
+    "height": "6-6",
+    "id": 1628983,
+    "name": "Shai Gilgeous-Alexander",
+    "number": "2",
+    "pos": "Guard",
+    "teamId": 1610612760,
+    "teams": [1610612746, 1610612760]
+  },
+  {
+    "age": 30,
+    "height": "6-8",
+    "id": 1630264,
+    "name": "Anthony Gill",
+    "number": "16",
+    "pos": "Forward",
+    "teamId": 1610612764,
+    "teams": [1610612764]
+  },
+  {
+    "age": 23,
+    "height": "6-1",
+    "id": 1631221,
+    "name": "Collin Gillespie",
+    "number": "21",
+    "pos": "Guard",
+    "teamId": 1610612743,
+    "teams": []
+  },
+  {
+    "age": 30,
+    "height": "7-1",
+    "id": 203497,
+    "name": "Rudy Gobert",
+    "number": "27",
+    "pos": "Center",
+    "teamId": 1610612750,
+    "teams": [1610612762, 1610612750]
+  },
+  {
+    "age": 25,
+    "height": "",
+    "id": 1631371,
+    "name": "Grant Golden",
+    "number": "",
+    "pos": "",
+    "teamId": 0,
+    "teams": []
+  },
+  {
+    "age": 24,
+    "height": "6-3",
+    "id": 1630692,
+    "name": "Jordan Goodwin",
+    "number": "7",
+    "pos": "Guard",
+    "teamId": 1610612764,
+    "teams": [1610612764]
+  },
+  {
+    "age": 27,
+    "height": "6-8",
+    "id": 203932,
+    "name": "Aaron Gordon",
+    "number": "50",
+    "pos": "Forward",
+    "teamId": 1610612743,
+    "teams": [1610612753, 1610612743, 0]
+  },
+  {
+    "age": 34,
+    "height": "6-3",
+    "id": 201569,
+    "name": "Eric Gordon",
+    "number": "10",
+    "pos": "Guard",
+    "teamId": 1610612746,
+    "teams": [1610612746, 1610612740, 1610612745, 0]
+  },
+  {
+    "age": 28,
+    "height": "6-1",
+    "id": 1628984,
+    "name": "Devonte' Graham",
+    "number": "4",
+    "pos": "Guard",
+    "teamId": 1610612759,
+    "teams": [1610612766, 1610612740, 1610612759, 0]
+  },
+  {
+    "age": 29,
+    "height": "6-8",
+    "id": 203924,
+    "name": "Jerami Grant",
+    "number": "9",
+    "pos": "Forward",
+    "teamId": 1610612757,
+    "teams": [1610612755, 1610612760, 0, 1610612743, 1610612765, 1610612757]
+  },
+  {
+    "age": 23,
+    "height": "",
+    "id": 1630564,
+    "name": "RaiQuan Gray",
+    "number": "",
+    "pos": "",
+    "teamId": 0,
+    "teams": []
+  },
+  {
+    "age": 23,
+    "height": "6-5",
+    "id": 1631260,
+    "name": "AJ Green",
+    "number": "20",
+    "pos": "Guard",
+    "teamId": 1610612749,
+    "teams": [1610612749]
+  },
+  {
+    "age": 35,
+    "height": "6-6",
+    "id": 201980,
+    "name": "Danny Green",
+    "number": "14",
+    "pos": "Guard",
+    "teamId": 1610612739,
+    "teams": [1610612739, 1610612759, 1610612761, 1610612747, 1610612755, 1610612763, 0]
+  },
+  {
+    "age": 33,
+    "height": "6-6",
+    "id": 203110,
+    "name": "Draymond Green",
+    "number": "23",
+    "pos": "Forward",
+    "teamId": 1610612744,
+    "teams": [1610612744]
+  },
+  {
+    "age": 32,
+    "height": "6-9",
+    "id": 203210,
+    "name": "JaMychal Green",
+    "number": "1",
+    "pos": "Forward-Center",
+    "teamId": 1610612744,
+    "teams": [1610612759, 1610612763, 0, 1610612746, 1610612743, 1610612744]
+  },
+  {
+    "age": 21,
+    "height": "6-4",
+    "id": 1630224,
+    "name": "Jalen Green",
+    "number": "4",
+    "pos": "Guard",
+    "teamId": 1610612745,
+    "teams": [1610612745]
+  },
+  {
+    "age": 29,
+    "height": "6-5",
+    "id": 1629750,
+    "name": "Javonte Green",
+    "number": "24",
+    "pos": "Guard",
+    "teamId": 1610612741,
+    "teams": [1610612738, 1610612741, 0]
+  },
+  {
+    "age": 36,
+    "height": "6-8",
+    "id": 201145,
+    "name": "Jeff Green",
+    "number": "32",
+    "pos": "Forward",
+    "teamId": 1610612743,
+    "teams": [1610612760, 1610612738, 0, 1610612763, 1610612746, 1610612753, 1610612739, 1610612764, 1610612762, 1610612745, 1610612751, 1610612743]
+  },
+  {
+    "age": 22,
+    "height": "6-7",
+    "id": 1630182,
+    "name": "Josh Green",
+    "number": "8",
+    "pos": "Guard",
+    "teamId": 1610612742,
+    "teams": [1610612742]
+  },
+  {
+    "age": 19,
+    "height": "6-6",
+    "id": 1631100,
+    "name": "AJ Griffin",
+    "number": "14",
+    "pos": "Forward",
+    "teamId": 1610612737,
+    "teams": [1610612737]
+  },
+  {
+    "age": 34,
+    "height": "6-9",
+    "id": 201933,
+    "name": "Blake Griffin",
+    "number": "91",
+    "pos": "Forward",
+    "teamId": 1610612738,
+    "teams": [1610612746, 1610612765, 0, 1610612751, 1610612738]
+  },
+  {
+    "age": 22,
+    "height": "6-5",
+    "id": 1629656,
+    "name": "Quentin Grimes",
+    "number": "6",
+    "pos": "Guard",
+    "teamId": 1610612752,
+    "teams": [1610612752]
+  },
+  {
+    "age": 24,
+    "height": "",
+    "id": 1631338,
+    "name": "Mouhamadou Gueye",
+    "number": "",
+    "pos": "",
+    "teamId": 0,
+    "teams": []
+  },
+  {
+    "age": 25,
+    "height": "6-8",
+    "id": 1629060,
+    "name": "Rui Hachimura",
+    "number": "28",
+    "pos": "Forward",
+    "teamId": 1610612747,
+    "teams": [1610612764, 1610612747, 0]
+  },
+  {
+    "age": 23,
+    "height": "6-5",
+    "id": 1630169,
+    "name": "Tyrese Haliburton",
+    "number": "0",
+    "pos": "Guard",
+    "teamId": 1610612754,
+    "teams": [1610612758, 1610612754, 0]
+  },
+  {
+    "age": 21,
+    "height": "6-7",
+    "id": 1631160,
+    "name": "Jordan Hall",
+    "number": "",
+    "pos": "Guard",
+    "teamId": 0,
+    "teams": [1610612759]
+  },
+  {
+    "age": 25,
+    "height": "6-5",
+    "id": 1629788,
+    "name": "Tyler Hall",
+    "number": "",
+    "pos": "Guard",
+    "teamId": 0,
+    "teams": [1610612752]
+  },
+  {
+    "age": 22,
+    "height": "6-4",
+    "id": 1630181,
+    "name": "R.J. Hampton",
+    "number": "14",
+    "pos": "Guard",
+    "teamId": 1610612765,
+    "teams": [1610612743, 1610612753, 0, 1610612765]
+  },
+  {
+    "age": 31,
+    "height": "6-5",
+    "id": 203501,
+    "name": "Tim Hardaway Jr.",
+    "number": "11",
+    "pos": "Guard-Forward",
+    "teamId": 1610612742,
+    "teams": [1610612752, 1610612737, 1610612742, 0]
+  },
+  {
+    "age": 33,
+    "height": "6-5",
+    "id": 201935,
+    "name": "James Harden",
+    "number": "1",
+    "pos": "Guard",
+    "teamId": 1610612755,
+    "teams": [1610612760, 1610612745, 1610612751, 0, 1610612755]
+  },
+  {
+    "age": 20,
+    "height": "6-3",
+    "id": 1630702,
+    "name": "Jaden Hardy",
+    "number": "3",
+    "pos": "Guard",
+    "teamId": 1610612742,
+    "teams": [1610612742]
+  },
+  {
+    "age": 22,
+    "height": "6-5",
+    "id": 1631199,
+    "name": "Ron Harper Jr.",
+    "number": "8",
+    "pos": "Forward",
+    "teamId": 1610612761,
+    "teams": [1610612761]
+  },
+  {
+    "age": 29,
+    "height": "6-7",
+    "id": 1626149,
+    "name": "Montrezl Harrell",
+    "number": "5",
+    "pos": "Forward-Center",
+    "teamId": 1610612755,
+    "teams": [1610612745, 1610612746, 1610612747, 1610612764, 1610612766, 0, 1610612755]
+  },
+  {
+    "age": 28,
+    "height": "6-4",
+    "id": 203914,
+    "name": "Gary Harris",
+    "number": "14",
+    "pos": "Guard",
+    "teamId": 1610612753,
+    "teams": [1610612743, 1610612753, 0]
+  },
+  {
+    "age": 24,
+    "height": "6-5",
+    "id": 1630223,
+    "name": "Jalen Harris",
+    "number": "",
+    "pos": "Guard",
+    "teamId": 0,
+    "teams": [1610612761]
+  },
+  {
+    "age": 31,
+    "height": "6-6",
+    "id": 203925,
+    "name": "Joe Harris",
+    "number": "12",
+    "pos": "Guard-Forward",
+    "teamId": 1610612751,
+    "teams": [1610612739, 1610612751]
+  },
+  {
+    "age": 25,
+    "height": "6-6",
+    "id": 1630284,
+    "name": "Kevon Harris",
+    "number": "7",
+    "pos": "Guard",
+    "teamId": 1610612753,
+    "teams": [1610612753]
+  },
+  {
+    "age": 30,
+    "height": "6-7",
+    "id": 202699,
+    "name": "Tobias Harris",
+    "number": "12",
+    "pos": "Forward",
+    "teamId": 1610612755,
+    "teams": [1610612749, 1610612753, 0, 1610612765, 1610612746, 1610612755]
+  },
+  {
+    "age": 29,
+    "height": "6-4",
+    "id": 1627885,
+    "name": "Shaquille Harrison",
+    "number": "",
+    "pos": "Guard",
+    "teamId": 0,
+    "teams": [1610612756, 1610612741, 1610612762, 1610612743, 0, 1610612751]
+  },
+  {
+    "age": 28,
+    "height": "6-4",
+    "id": 1628404,
+    "name": "Josh Hart",
+    "number": "3",
+    "pos": "Guard",
+    "teamId": 1610612752,
+    "teams": [1610612747, 1610612740, 1610612757, 0, 1610612752]
+  },
+  {
+    "age": 24,
+    "height": "7-0",
+    "id": 1628392,
+    "name": "Isaiah Hartenstein",
+    "number": "55",
+    "pos": "Center-Forward",
+    "teamId": 1610612752,
+    "teams": [1610612745, 1610612743, 1610612739, 0, 1610612746, 1610612752]
+  },
+  {
+    "age": 42,
+    "height": "6-7",
+    "id": 2617,
+    "name": "Udonis Haslem",
+    "number": "40",
+    "pos": "Forward",
+    "teamId": 1610612748,
+    "teams": [1610612748]
+  },
+  {
+    "age": 25,
+    "height": "6-7",
+    "id": 1630573,
+    "name": "Sam Hauser",
+    "number": "30",
+    "pos": "Forward",
+    "teamId": 1610612738,
+    "teams": [1610612738]
+  },
+  {
+    "age": 22,
+    "height": "7-0",
+    "id": 1629637,
+    "name": "Jaxson Hayes",
+    "number": "10",
+    "pos": "Center-Forward",
+    "teamId": 1610612740,
+    "teams": [1610612740]
+  },
+  {
+    "age": 21,
+    "height": "6-5",
+    "id": 1630165,
+    "name": "Killian Hayes",
+    "number": "7",
+    "pos": "Guard",
+    "teamId": 1610612765,
+    "teams": [1610612765]
+  },
+  {
+    "age": 32,
+    "height": "6-7",
+    "id": 202330,
+    "name": "Gordon Hayward",
+    "number": "20",
+    "pos": "Forward",
+    "teamId": 1610612766,
+    "teams": [1610612762, 1610612738, 1610612766]
+  },
+  {
+    "age": 27,
+    "height": "6-9",
+    "id": 1627823,
+    "name": "Juancho Hernangomez",
+    "number": "",
+    "pos": "Forward",
+    "teamId": 0,
+    "teams": [1610612743, 1610612750, 0, 1610612738, 1610612759, 1610612762, 1610612761]
+  },
+  {
+    "age": 28,
+    "height": "6-11",
+    "id": 1626195,
+    "name": "Willy Hernangomez",
+    "number": "9",
+    "pos": "Center-Forward",
+    "teamId": 1610612740,
+    "teams": [1610612752, 1610612766, 0, 1610612740]
+  },
+  {
+    "age": 23,
+    "height": "6-5",
+    "id": 1629639,
+    "name": "Tyler Herro",
+    "number": "14",
+    "pos": "Guard",
+    "teamId": 1610612748,
+    "teams": [1610612748]
+  },
+  {
+    "age": 30,
+    "height": "6-4",
+    "id": 1627741,
+    "name": "Buddy Hield",
+    "number": "24",
+    "pos": "Guard",
+    "teamId": 1610612754,
+    "teams": [1610612740, 1610612758, 0, 1610612754]
+  },
+  {
+    "age": 26,
+    "height": "6-5",
+    "id": 1629312,
+    "name": "Haywood Highsmith",
+    "number": "24",
+    "pos": "Forward",
+    "teamId": 1610612748,
+    "teams": [1610612755, 1610612748]
+  },
+  {
+    "age": 36,
+    "height": "6-4",
+    "id": 201588,
+    "name": "George Hill",
+    "number": "7",
+    "pos": "Guard",
+    "teamId": 1610612754,
+    "teams": [1610612759, 1610612754, 1610612762, 1610612758, 1610612739, 0, 1610612749, 1610612760, 1610612755]
+  },
+  {
+    "age": 27,
+    "height": "6-6",
+    "id": 1630792,
+    "name": "Malcolm Hill",
+    "number": "",
+    "pos": "Forward",
+    "teamId": 0,
+    "teams": [1610612737, 1610612741, 0]
+  },
+  {
+    "age": 23,
+    "height": "6-5",
+    "id": 1630207,
+    "name": "Nate Hinton",
+    "number": "14",
+    "pos": "Guard-Forward",
+    "teamId": 1610612754,
+    "teams": [1610612742, 1610612754]
+  },
+  {
+    "age": 26,
+    "height": "6-0",
+    "id": 1628988,
+    "name": "Aaron Holiday",
+    "number": "3",
+    "pos": "Guard",
+    "teamId": 1610612737,
+    "teams": [1610612754, 1610612764, 1610612756, 0, 1610612737]
+  },
+  {
+    "age": 32,
+    "height": "6-5",
+    "id": 201950,
+    "name": "Jrue Holiday",
+    "number": "21",
+    "pos": "Guard",
+    "teamId": 1610612749,
+    "teams": [1610612755, 1610612740, 1610612749]
+  },
+  {
+    "age": 33,
+    "height": "6-6",
+    "id": 203200,
+    "name": "Justin Holiday",
+    "number": "0",
+    "pos": "Forward-Guard",
+    "teamId": 1610612742,
+    "teams": [1610612755, 1610612744, 1610612737, 1610612741, 0, 1610612752, 1610612763, 1610612754, 1610612758, 1610612742]
+  },
+  {
+    "age": 29,
+    "height": "6-8",
+    "id": 1626158,
+    "name": "Richaun Holmes",
+    "number": "22",
+    "pos": "Forward",
+    "teamId": 1610612758,
+    "teams": [1610612755, 1610612756, 1610612758]
+  },
+  {
+    "age": 20,
+    "height": "7-1",
+    "id": 1631096,
+    "name": "Chet Holmgren",
+    "number": "7",
+    "pos": "Center-Forward",
+    "teamId": 1610612760,
+    "teams": []
+  },
+  {
+    "age": 36,
+    "height": "6-9",
+    "id": 201143,
+    "name": "Al Horford",
+    "number": "42",
+    "pos": "Center-Forward",
+    "teamId": 1610612738,
+    "teams": [1610612737, 1610612738, 1610612755, 1610612760]
+  },
+  {
+    "age": 22,
+    "height": "6-4",
+    "id": 1629659,
+    "name": "Talen Horton-Tucker",
+    "number": "0",
+    "pos": "Guard",
+    "teamId": 1610612762,
+    "teams": [1610612747, 1610612762]
+  },
+  {
+    "age": 29,
+    "height": "6-6",
+    "id": 1627863,
+    "name": "Danuel House Jr.",
+    "number": "25",
+    "pos": "Forward-Guard",
+    "teamId": 1610612755,
+    "teams": [1610612764, 1610612756, 1610612745, 1610612752, 1610612762, 0, 1610612755]
+  },
+  {
+    "age": 20,
+    "height": "6-8",
+    "id": 1631216,
+    "name": "Caleb Houstan",
+    "number": "2",
+    "pos": "Guard",
+    "teamId": 1610612753,
+    "teams": [1610612753]
+  },
+  {
+    "age": 23,
+    "height": "6-0",
+    "id": 1631309,
+    "name": "Trevor Hudgins",
+    "number": "12",
+    "pos": "Guard",
+    "teamId": 1610612745,
+    "teams": [1610612745]
+  },
+  {
+    "age": 24,
+    "height": "6-7",
+    "id": 1628989,
+    "name": "Kevin Huerter",
+    "number": "9",
+    "pos": "Guard-Forward",
+    "teamId": 1610612758,
+    "teams": [1610612737, 1610612758]
+  },
+  {
+    "age": 25,
+    "height": "7-1",
+    "id": 1630643,
+    "name": "Jay Huff",
+    "number": "30",
+    "pos": "Center",
+    "teamId": 1610612764,
+    "teams": [1610612747, 1610612764]
+  },
+  {
+    "age": 23,
+    "height": "6-8",
+    "id": 1630624,
+    "name": "Feron Hunt",
+    "number": "11",
+    "pos": "Forward",
+    "teamId": 1610612752,
+    "teams": [1610612752]
+  },
+  {
+    "age": 25,
+    "height": "6-8",
+    "id": 1629631,
+    "name": "De'Andre Hunter",
+    "number": "12",
+    "pos": "Forward-Guard",
+    "teamId": 1610612737,
+    "teams": [1610612737]
+  },
+  {
+    "age": 22,
+    "height": "",
+    "id": 1630562,
+    "name": "Matt Hurt",
+    "number": "",
+    "pos": "",
+    "teamId": 0,
+    "teams": []
+  },
+  {
+    "age": 22,
+    "height": "6-2",
+    "id": 1630538,
+    "name": "Bones Hyland",
+    "number": "3",
+    "pos": "Guard",
+    "teamId": 1610612746,
+    "teams": [1610612743, 1610612746, 0]
+  },
+  {
+    "age": 33,
+    "height": "6-11",
+    "id": 201586,
+    "name": "Serge Ibaka",
+    "number": "",
+    "pos": "Forward",
+    "teamId": 0,
+    "teams": [1610612760, 1610612753, 1610612761, 0, 1610612746, 1610612749]
+  },
+  {
+    "age": 39,
+    "height": "6-6",
+    "id": 2738,
+    "name": "Andre Iguodala",
+    "number": "9",
+    "pos": "Guard-Forward",
+    "teamId": 1610612744,
+    "teams": [1610612755, 1610612743, 1610612744, 1610612748]
+  },
+  {
+    "age": 35,
+    "height": "6-9",
+    "id": 204060,
+    "name": "Joe Ingles",
+    "number": "7",
+    "pos": "Forward-Guard",
+    "teamId": 1610612749,
+    "teams": [1610612762, 1610612749]
+  },
+  {
+    "age": 25,
+    "height": "6-8",
+    "id": 1627742,
+    "name": "Brandon Ingram",
+    "number": "14",
+    "pos": "Forward",
+    "teamId": 1610612740,
+    "teams": [1610612747, 1610612740]
+  },
+  {
+    "age": 30,
+    "height": "6-2",
+    "id": 202681,
+    "name": "Kyrie Irving",
+    "number": "2",
+    "pos": "Guard",
+    "teamId": 1610612742,
+    "teams": [1610612739, 1610612738, 1610612751, 1610612742, 0]
+  },
+  {
+    "age": 25,
+    "height": "6-10",
+    "id": 1628371,
+    "name": "Jonathan Isaac",
+    "number": "1",
+    "pos": "Forward",
+    "teamId": 1610612753,
+    "teams": [1610612753]
+  },
+  {
+    "age": 21,
+    "height": "6-4",
+    "id": 1631093,
+    "name": "Jaden Ivey",
+    "number": "23",
+    "pos": "Guard",
+    "teamId": 1610612765,
+    "teams": [1610612765]
+  },
+  {
+    "age": 21,
+    "height": "6-9",
+    "id": 1630543,
+    "name": "Isaiah Jackson",
+    "number": "22",
+    "pos": "Forward",
+    "teamId": 1610612754,
+    "teams": [1610612754]
+  },
+  {
+    "age": 26,
+    "height": "6-8",
+    "id": 1628367,
+    "name": "Josh Jackson",
+    "number": "55",
+    "pos": "Guard-Forward",
+    "teamId": 1610612758,
+    "teams": [1610612756, 1610612763, 1610612765, 1610612758, 0]
+  },
+  {
+    "age": 27,
+    "height": "6-8",
+    "id": 1628382,
+    "name": "Justin Jackson",
+    "number": "",
+    "pos": "Forward",
+    "teamId": 0,
+    "teams": [1610612758, 1610612742, 0, 1610612760, 1610612749, 1610612738, 1610612756]
+  },
+  {
+    "age": 24,
+    "height": "6-5",
+    "id": 1631245,
+    "name": "Quenton Jackson",
+    "number": "29",
+    "pos": "Guard",
+    "teamId": 1610612764,
+    "teams": [1610612764]
+  },
+  {
+    "age": 32,
+    "height": "6-2",
+    "id": 202704,
+    "name": "Reggie Jackson",
+    "number": "7",
+    "pos": "Guard",
+    "teamId": 1610612743,
+    "teams": [1610612760, 1610612765, 0, 1610612746, 1610612743]
+  },
+  {
+    "age": 23,
+    "height": "6-10",
+    "id": 1628991,
+    "name": "Jaren Jackson Jr.",
+    "number": "13",
+    "pos": "Forward-Center",
+    "teamId": 1610612763,
+    "teams": [1610612763]
+  },
+  {
+    "age": 38,
+    "height": "6-9",
+    "id": 2544,
+    "name": "LeBron James",
+    "number": "6",
+    "pos": "Forward",
+    "teamId": 1610612747,
+    "teams": [1610612739, 1610612748, 1610612747]
+  },
+  {
+    "age": 25,
+    "height": "6-5",
+    "id": 1629610,
+    "name": "DaQuan Jeffries",
+    "number": "",
+    "pos": "Guard-Forward",
+    "teamId": 0,
+    "teams": [1610612758, 1610612745, 0, 1610612763]
+  },
+  {
+    "age": 24,
+    "height": "",
+    "id": 1631300,
+    "name": "Drake Jeffries",
+    "number": "",
+    "pos": "",
+    "teamId": 0,
+    "teams": []
+  },
+  {
+    "age": 25,
+    "height": "6-5",
+    "id": 1629660,
+    "name": "Ty Jerome",
+    "number": "10",
+    "pos": "Guard-Forward",
+    "teamId": 1610612744,
+    "teams": [1610612756, 1610612760, 1610612744]
+  },
+  {
+    "age": 23,
+    "height": "6-3",
+    "id": 1630198,
+    "name": "Isaiah Joe",
+    "number": "11",
+    "pos": "Guard",
+    "teamId": 1610612760,
+    "teams": [1610612755, 1610612760]
+  },
+  {
+    "age": 26,
+    "height": "6-8",
+    "id": 1628993,
+    "name": "Alize Johnson",
+    "number": "",
+    "pos": "Forward",
+    "teamId": 0,
+    "teams": [1610612754, 1610612751, 1610612741, 1610612764, 1610612740, 0, 1610612759]
+  },
+  {
+    "age": 27,
+    "height": "6-8",
+    "id": 1629661,
+    "name": "Cameron Johnson",
+    "number": "2",
+    "pos": "Forward",
+    "teamId": 1610612751,
+    "teams": [1610612756, 1610612751, 0]
+  },
+  {
+    "age": 21,
+    "height": "6-8",
+    "id": 1630552,
+    "name": "Jalen Johnson",
+    "number": "1",
+    "pos": "Forward",
+    "teamId": 1610612737,
+    "teams": [1610612737]
+  },
+  {
+    "age": 36,
+    "height": "6-7",
+    "id": 201949,
+    "name": "James Johnson",
+    "number": "16",
+    "pos": "Forward",
+    "teamId": 1610612754,
+    "teams": [1610612741, 1610612761, 0, 1610612758, 1610612763, 1610612748, 1610612750, 1610612742, 1610612740, 1610612751, 1610612754]
+  },
+  {
+    "age": 23,
+    "height": "6-5",
+    "id": 1629640,
+    "name": "Keldon Johnson",
+    "number": "3",
+    "pos": "Forward-Guard",
+    "teamId": 1610612759,
+    "teams": [1610612759]
+  },
+  {
+    "age": 21,
+    "height": "6-3",
+    "id": 1630553,
+    "name": "Keon Johnson",
+    "number": "6",
+    "pos": "Guard",
+    "teamId": 1610612757,
+    "teams": [1610612746, 1610612757, 0]
+  },
+  {
+    "age": 26,
+    "height": "6-6",
+    "id": 1626169,
+    "name": "Stanley Johnson",
+    "number": "",
+    "pos": "Forward-Guard",
+    "teamId": 0,
+    "teams": [1610612765, 1610612740, 0, 1610612761, 1610612747, 1610612759]
+  },
+  {
+    "age": 28,
+    "height": "6-11",
+    "id": 203999,
+    "name": "Nikola Jokic",
+    "number": "15",
+    "pos": "Center",
+    "teamId": 1610612743,
+    "teams": [1610612743]
+  },
+  {
+    "age": 25,
+    "height": "6-0",
+    "id": 1630637,
+    "name": "Carlik Jones",
+    "number": "22",
+    "pos": "Guard",
+    "teamId": 1610612741,
+    "teams": [1610612742, 1610612743, 0, 1610612741]
+  },
+  {
+    "age": 27,
+    "height": "6-11",
+    "id": 1627745,
+    "name": "Damian Jones",
+    "number": "15",
+    "pos": "Center",
+    "teamId": 1610612762,
+    "teams": [1610612744, 1610612737, 1610612756, 1610612747, 1610612758, 0, 1610612762]
+  },
+  {
+    "age": 24,
+    "height": "6-7",
+    "id": 1630529,
+    "name": "Herbert Jones",
+    "number": "5",
+    "pos": "Forward",
+    "teamId": 1610612740,
+    "teams": [1610612740]
+  },
+  {
+    "age": 22,
+    "height": "6-11",
+    "id": 1630539,
+    "name": "Kai Jones",
+    "number": "23",
+    "pos": "Center-Forward",
+    "teamId": 1610612766,
+    "teams": [1610612766]
+  },
+  {
+    "age": 23,
+    "height": "6-1",
+    "id": 1630200,
+    "name": "Tre Jones",
+    "number": "33",
+    "pos": "Guard",
+    "teamId": 1610612759,
+    "teams": [1610612759]
+  },
+  {
+    "age": 26,
+    "height": "6-2",
+    "id": 1626145,
+    "name": "Tyus Jones",
+    "number": "21",
+    "pos": "Guard",
+    "teamId": 1610612763,
+    "teams": [1610612750, 1610612763]
+  },
+  {
+    "age": 26,
+    "height": "6-6",
+    "id": 1627884,
+    "name": "Derrick Jones Jr.",
+    "number": "5",
+    "pos": "Forward",
+    "teamId": 1610612741,
+    "teams": [1610612756, 1610612748, 0, 1610612757, 1610612741]
+  },
+  {
+    "age": 34,
+    "height": "6-11",
+    "id": 201599,
+    "name": "DeAndre Jordan",
+    "number": "6",
+    "pos": "Center",
+    "teamId": 1610612743,
+    "teams": [1610612746, 1610612742, 1610612752, 0, 1610612751, 1610612747, 1610612755, 1610612743]
+  },
+  {
+    "age": 31,
+    "height": "6-3",
+    "id": 202709,
+    "name": "Cory Joseph",
+    "number": "18",
+    "pos": "Guard",
+    "teamId": 1610612765,
+    "teams": [1610612759, 1610612761, 1610612754, 1610612758, 1610612765, 0]
+  },
+  {
+    "age": 19,
+    "height": "6-10",
+    "id": 1631107,
+    "name": "Nikola Jovic",
+    "number": "5",
+    "pos": "Forward",
+    "teamId": 1610612748,
+    "teams": [1610612748]
+  },
+  {
+    "age": 21,
+    "height": "6-6",
+    "id": 1630548,
+    "name": "Johnny Juzang",
+    "number": "33",
+    "pos": "Guard",
+    "teamId": 1610612762,
+    "teams": [1610612762]
+  },
+  {
+    "age": 25,
+    "height": "6-10",
+    "id": 1629662,
+    "name": "Mfiondu Kabengele",
+    "number": "28",
+    "pos": "Center",
+    "teamId": 1610612738,
+    "teams": [1610612746, 1610612739, 0, 1610612738]
+  },
+  {
+    "age": 29,
+    "height": "7-0",
+    "id": 1626163,
+    "name": "Frank Kaminsky",
+    "number": "33",
+    "pos": "Forward-Center",
+    "teamId": 1610612745,
+    "teams": [1610612766, 1610612756, 1610612737, 1610612745, 0]
+  },
+  {
+    "age": 19,
+    "height": "6-4",
+    "id": 1631211,
+    "name": "Trevor Keels",
+    "number": "3",
+    "pos": "Guard",
+    "teamId": 1610612752,
+    "teams": [1610612752]
+  },
+  {
+    "age": 26,
+    "height": "6-5",
+    "id": 1628379,
+    "name": "Luke Kennard",
+    "number": "10",
+    "pos": "Guard",
+    "teamId": 1610612763,
+    "teams": [1610612765, 1610612746, 1610612763, 0]
+  },
+  {
+    "age": 21,
+    "height": "7-0",
+    "id": 1631117,
+    "name": "Walker Kessler",
+    "number": "24",
+    "pos": "Center",
+    "teamId": 1610612762,
+    "teams": [1610612762]
+  },
+  {
+    "age": 26,
+    "height": "6-8",
+    "id": 1630296,
+    "name": "Braxton Key",
+    "number": "",
+    "pos": "Forward",
+    "teamId": 0,
+    "teams": [1610612755, 1610612765, 0]
+  },
+  {
+    "age": 23,
+    "height": "",
+    "id": 1631452,
+    "name": "Noah Kirkwood",
+    "number": "",
+    "pos": "",
+    "teamId": 0,
+    "teams": []
+  },
+  {
+    "age": 24,
+    "height": "6-6",
+    "id": 1630557,
+    "name": "Corey Kispert",
+    "number": "24",
+    "pos": "Forward",
+    "teamId": 1610612764,
+    "teams": [1610612764]
+  },
+  {
+    "age": 31,
+    "height": "6-10",
+    "id": 1628467,
+    "name": "Maxi Kleber",
+    "number": "42",
+    "pos": "Forward",
+    "teamId": 1610612742,
+    "teams": [1610612742]
+  },
+  {
+    "age": 25,
+    "height": "6-8",
+    "id": 1630233,
+    "name": "Nathan Knight",
+    "number": "13",
+    "pos": "Forward-Center",
+    "teamId": 1610612750,
+    "teams": [1610612737, 1610612750]
+  },
+  {
+    "age": 23,
+    "height": "6-7",
+    "id": 1628995,
+    "name": "Kevin Knox II",
+    "number": "11",
+    "pos": "Forward",
+    "teamId": 1610612757,
+    "teams": [1610612752, 1610612737, 0, 1610612765, 1610612757]
+  },
+  {
+    "age": 22,
+    "height": "7-0",
+    "id": 1631132,
+    "name": "Christian Koloko",
+    "number": "35",
+    "pos": "Center",
+    "teamId": 1610612761,
+    "teams": [1610612761]
+  },
+  {
+    "age": 26,
+    "height": "6-5",
+    "id": 1629723,
+    "name": "John Konchar",
+    "number": "46",
+    "pos": "Guard",
+    "teamId": 1610612763,
+    "teams": [1610612763]
+  },
+  {
+    "age": 25,
+    "height": "6-7",
+    "id": 1627788,
+    "name": "Furkan Korkmaz",
+    "number": "30",
+    "pos": "Guard-Forward",
+    "teamId": 1610612755,
+    "teams": [1610612755]
+  },
+  {
+    "age": 27,
+    "height": "7-2",
+    "id": 1628436,
+    "name": "Luke Kornet",
+    "number": "40",
+    "pos": "Center-Forward",
+    "teamId": 1610612738,
+    "teams": [1610612752, 1610612741, 1610612738, 0, 1610612739, 1610612749]
+  },
+  {
+    "age": 22,
+    "height": "6-8",
+    "id": 1630249,
+    "name": "Vit Krejci",
+    "number": "27",
+    "pos": "Guard",
+    "teamId": 1610612737,
+    "teams": [1610612760, 1610612737]
+  },
+  {
+    "age": 20,
+    "height": "6-7",
+    "id": 1630228,
+    "name": "Jonathan Kuminga",
+    "number": "00",
+    "pos": "Forward",
+    "teamId": 1610612744,
+    "teams": [1610612744]
+  },
+  {
+    "age": 27,
+    "height": "6-9",
+    "id": 1628398,
+    "name": "Kyle Kuzma",
+    "number": "33",
+    "pos": "Forward",
+    "teamId": 1610612764,
+    "teams": [1610612747, 1610612764]
+  },
+  {
+    "age": 21,
+    "height": "6-7",
+    "id": 1631222,
+    "name": "Jake LaRavia",
+    "number": "3",
+    "pos": "Forward",
+    "teamId": 1610612763,
+    "teams": [1610612763]
+  },
+  {
+    "age": 28,
+    "height": "6-5",
+    "id": 203897,
+    "name": "Zach LaVine",
+    "number": "8",
+    "pos": "Guard",
+    "teamId": 1610612741,
+    "teams": [1610612750, 1610612741]
+  },
+  {
+    "age": 25,
+    "height": "6-6",
+    "id": 1630237,
+    "name": "Anthony Lamb",
+    "number": "40",
+    "pos": "Forward",
+    "teamId": 1610612744,
+    "teams": [1610612745, 1610612759, 1610612744]
+  },
+  {
+    "age": 27,
+    "height": "6-11",
+    "id": 1629111,
+    "name": "Jock Landale",
+    "number": "11",
+    "pos": "Center",
+    "teamId": 1610612756,
+    "teams": [1610612759, 1610612756]
+  },
+  {
+    "age": 23,
+    "height": "6-5",
+    "id": 1629641,
+    "name": "Romeo Langford",
+    "number": "35",
+    "pos": "Guard-Forward",
+    "teamId": 1610612759,
+    "teams": [1610612738, 1610612759, 0]
+  },
+  {
+    "age": 22,
+    "height": "6-6",
+    "id": 1630639,
+    "name": "A.J. Lawson",
+    "number": "9",
+    "pos": "Guard",
+    "teamId": 1610612742,
+    "teams": [1610612750, 1610612742, 0]
+  },
+  {
+    "age": 29,
+    "height": "6-8",
+    "id": 1627774,
+    "name": "Jake Layman",
+    "number": "10",
+    "pos": "Forward",
+    "teamId": 1610612750,
+    "teams": [1610612757, 1610612750]
+  },
+  {
+    "age": 28,
+    "height": "6-6",
+    "id": 1627747,
+    "name": "Caris LeVert",
+    "number": "3",
+    "pos": "Guard",
+    "teamId": 1610612739,
+    "teams": [1610612751, 1610612754, 0, 1610612739]
+  },
+  {
+    "age": 30,
+    "height": "6-5",
+    "id": 1627814,
+    "name": "Damion Lee",
+    "number": "10",
+    "pos": "Guard-Forward",
+    "teamId": 1610612756,
+    "teams": [1610612737, 1610612744, 1610612756]
+  },
+  {
+    "age": 29,
+    "height": "7-2",
+    "id": 203458,
+    "name": "Alex Len",
+    "number": "25",
+    "pos": "Center",
+    "teamId": 1610612758,
+    "teams": [1610612756, 1610612737, 1610612758, 0, 1610612761, 1610612764]
+  },
+  {
+    "age": 31,
+    "height": "6-7",
+    "id": 202695,
+    "name": "Kawhi Leonard",
+    "number": "2",
+    "pos": "Forward",
+    "teamId": 1610612746,
+    "teams": [1610612759, 1610612761, 1610612746]
+  },
+  {
+    "age": 20,
+    "height": "6-7",
+    "id": 1631171,
+    "name": "Justin Lewis",
+    "number": "34",
+    "pos": "Forward",
+    "teamId": 1610612741,
+    "teams": []
+  },
+  {
+    "age": 21,
+    "height": "6-1",
+    "id": 1630184,
+    "name": "Kira Lewis Jr.",
+    "number": "13",
+    "pos": "Guard",
+    "teamId": 1610612740,
+    "teams": [1610612740]
+  },
+  {
+    "age": 32,
+    "height": "6-2",
+    "id": 203081,
+    "name": "Damian Lillard",
+    "number": "0",
+    "pos": "Guard",
+    "teamId": 1610612757,
+    "teams": [1610612757]
+  },
+  {
+    "age": 23,
+    "height": "6-5",
+    "id": 1629642,
+    "name": "Nassir Little",
+    "number": "10",
+    "pos": "Forward-Guard",
+    "teamId": 1610612757,
+    "teams": [1610612757]
+  },
+  {
+    "age": 24,
+    "height": "6-6",
+    "id": 1630587,
+    "name": "Isaiah Livers",
+    "number": "12",
+    "pos": "Forward",
+    "teamId": 1610612765,
+    "teams": [1610612765]
+  },
+  {
+    "age": 20,
+    "height": "6-6",
+    "id": 1631254,
+    "name": "Kenneth Lofton Jr.",
+    "number": "6",
+    "pos": "Forward",
+    "teamId": 1610612763,
+    "teams": [1610612763]
+  },
+  {
+    "age": 27,
+    "height": "6-9",
+    "id": 1626172,
+    "name": "Kevon Looney",
+    "number": "5",
+    "pos": "Forward",
+    "teamId": 1610612744,
+    "teams": [1610612744]
+  },
+  {
+    "age": 34,
+    "height": "7-1",
+    "id": 201572,
+    "name": "Brook Lopez",
+    "number": "11",
+    "pos": "Center",
+    "teamId": 1610612749,
+    "teams": [1610612751, 1610612747, 1610612749]
+  },
+  {
+    "age": 34,
+    "height": "7-0",
+    "id": 201577,
+    "name": "Robin Lopez",
+    "number": "33",
+    "pos": "Center",
+    "teamId": 1610612739,
+    "teams": [1610612756, 1610612740, 1610612757, 1610612752, 1610612741, 1610612749, 1610612764, 1610612753, 1610612739]
+  },
+  {
+    "age": 34,
+    "height": "6-8",
+    "id": 201567,
+    "name": "Kevin Love",
+    "number": "0",
+    "pos": "Forward-Center",
+    "teamId": 1610612748,
+    "teams": [1610612750, 1610612739, 1610612748, 0]
+  },
+  {
+    "age": 36,
+    "height": "6-0",
+    "id": 200768,
+    "name": "Kyle Lowry",
+    "number": "7",
+    "pos": "Guard",
+    "teamId": 1610612748,
+    "teams": [1610612763, 1610612745, 0, 1610612761, 1610612748]
+  },
+  {
+    "age": 27,
+    "height": "6-7",
+    "id": 1627789,
+    "name": "Timothe Luwawu-Cabarrot",
+    "number": "7",
+    "pos": "Guard-Forward",
+    "teamId": 1610612737,
+    "teams": [1610612755, 1610612760, 1610612741, 0, 1610612751, 1610612737]
+  },
+  {
+    "age": 27,
+    "height": "6-9",
+    "id": 1626168,
+    "name": "Trey Lyles",
+    "number": "41",
+    "pos": "Forward",
+    "teamId": 1610612758,
+    "teams": [1610612762, 1610612743, 1610612759, 1610612765, 1610612758, 0]
+  },
+  {
+    "age": 22,
+    "height": "",
+    "id": 1630588,
+    "name": "Makur Maker",
+    "number": "",
+    "pos": "",
+    "teamId": 0,
+    "teams": []
+  },
+  {
+    "age": 23,
+    "height": "6-10",
+    "id": 1630572,
+    "name": "Sandro Mamukelashvili",
+    "number": "54",
+    "pos": "Forward-Center",
+    "teamId": 1610612759,
+    "teams": [1610612749, 1610612759, 0]
+  },
+  {
+    "age": 26,
+    "height": "6-5",
+    "id": 1629611,
+    "name": "Terance Mann",
+    "number": "14",
+    "pos": "Guard-Forward",
+    "teamId": 1610612746,
+    "teams": [1610612746]
+  },
+  {
+    "age": 22,
+    "height": "6-3",
+    "id": 1630544,
+    "name": "Tre Mann",
+    "number": "23",
+    "pos": "Guard",
+    "teamId": 1610612760,
+    "teams": [1610612760]
+  },
+  {
+    "age": 34,
+    "height": "7-4",
+    "id": 1626246,
+    "name": "Boban Marjanovic",
+    "number": "51",
+    "pos": "Center",
+    "teamId": 1610612745,
+    "teams": [1610612759, 1610612765, 1610612746, 0, 1610612755, 1610612742, 1610612745]
+  },
+  {
+    "age": 25,
+    "height": "7-0",
+    "id": 1628374,
+    "name": "Lauri Markkanen",
+    "number": "23",
+    "pos": "Forward-Center",
+    "teamId": 1610612762,
+    "teams": [1610612741, 1610612739, 1610612762]
+  },
+  {
+    "age": 25,
+    "height": "6-7",
+    "id": 1630230,
+    "name": "Naji Marshall",
+    "number": "8",
+    "pos": "Forward",
+    "teamId": 1610612740,
+    "teams": [1610612740]
+  },
+  {
+    "age": 27,
+    "height": "6-5",
+    "id": 1628997,
+    "name": "Caleb Martin",
+    "number": "16",
+    "pos": "Forward",
+    "teamId": 1610612748,
+    "teams": [1610612766, 1610612748]
+  },
+  {
+    "age": 27,
+    "height": "6-6",
+    "id": 1628998,
+    "name": "Cody Martin",
+    "number": "11",
+    "pos": "Forward",
+    "teamId": 1610612766,
+    "teams": [1610612766]
+  },
+  {
+    "age": 27,
+    "height": "6-5",
+    "id": 1629103,
+    "name": "Kelan Martin",
+    "number": "",
+    "pos": "Forward",
+    "teamId": 0,
+    "teams": [1610612750, 1610612754, 1610612738, 0]
+  },
+  {
+    "age": 24,
+    "height": "6-6",
+    "id": 1631213,
+    "name": "Tyrese Martin",
+    "number": "22",
+    "pos": "Guard",
+    "teamId": 1610612737,
+    "teams": [1610612737]
+  },
+  {
+    "age": 22,
+    "height": "6-7",
+    "id": 1630231,
+    "name": "Kenyon Martin Jr.",
+    "number": "6",
+    "pos": "Forward",
+    "teamId": 1610612745,
+    "teams": [1610612745]
+  },
+  {
+    "age": 26,
+    "height": "6-6",
+    "id": 1629726,
+    "name": "Garrison Mathews",
+    "number": "25",
+    "pos": "Guard",
+    "teamId": 1610612737,
+    "teams": [1610612764, 1610612745, 1610612737, 0]
+  },
+  {
+    "age": 20,
+    "height": "6-5",
+    "id": 1631097,
+    "name": "Bennedict Mathurin",
+    "number": "00",
+    "pos": "Guard-Forward",
+    "teamId": 1610612754,
+    "teams": [1610612754]
+  },
+  {
+    "age": 36,
+    "height": "6-5",
+    "id": 202083,
+    "name": "Wesley Matthews",
+    "number": "23",
+    "pos": "Guard",
+    "teamId": 1610612749,
+    "teams": [1610612762, 1610612757, 1610612742, 1610612752, 1610612754, 0, 1610612749, 1610612747]
+  },
+  {
+    "age": 22,
+    "height": "6-2",
+    "id": 1630178,
+    "name": "Tyrese Maxey",
+    "number": "0",
+    "pos": "Guard",
+    "teamId": 1610612755,
+    "teams": [1610612755]
+  },
+  {
+    "age": 25,
+    "height": "6-4",
+    "id": 1630219,
+    "name": "Skylar Mays",
+    "number": "4",
+    "pos": "Guard",
+    "teamId": 1610612737,
+    "teams": [1610612737]
+  },
+  {
+    "age": 22,
+    "height": "6-2",
+    "id": 1630540,
+    "name": "Miles McBride",
+    "number": "2",
+    "pos": "Guard",
+    "teamId": 1610612752,
+    "teams": [1610612752]
+  },
+  {
+    "age": 31,
+    "height": "6-3",
+    "id": 203468,
+    "name": "CJ McCollum",
+    "number": "3",
+    "pos": "Guard",
+    "teamId": 1610612740,
+    "teams": [1610612757, 1610612740, 0]
+  },
+  {
+    "age": 30,
+    "height": "6-1",
+    "id": 204456,
+    "name": "T.J. McConnell",
+    "number": "9",
+    "pos": "Guard",
+    "teamId": 1610612754,
+    "teams": [1610612755, 1610612754]
+  },
+  {
+    "age": 22,
+    "height": "6-9",
+    "id": 1630183,
+    "name": "Jaden McDaniels",
+    "number": "3",
+    "pos": "Forward",
+    "teamId": 1610612750,
+    "teams": [1610612750]
+  },
+  {
+    "age": 25,
+    "height": "6-9",
+    "id": 1629667,
+    "name": "Jalen McDaniels",
+    "number": "7",
+    "pos": "Forward-Center",
+    "teamId": 1610612755,
+    "teams": [1610612766, 1610612755, 0]
+  },
+  {
+    "age": 31,
+    "height": "6-6",
+    "id": 203926,
+    "name": "Doug McDermott",
+    "number": "17",
+    "pos": "Forward",
+    "teamId": 1610612759,
+    "teams": [1610612741, 1610612760, 0, 1610612752, 1610612742, 1610612754, 1610612759]
+  },
+  {
+    "age": 26,
+    "height": "6-6",
+    "id": 1630253,
+    "name": "Sean McDermott",
+    "number": "30",
+    "pos": "Forward",
+    "teamId": 1610612763,
+    "teams": [1610612763]
+  },
+  {
+    "age": 35,
+    "height": "7-0",
+    "id": 201580,
+    "name": "JaVale McGee",
+    "number": "00",
+    "pos": "Center-Forward",
+    "teamId": 1610612742,
+    "teams": [1610612764, 1610612743, 0, 1610612755, 1610612742, 1610612744, 1610612747, 1610612739, 1610612756]
+  },
+  {
+    "age": 20,
+    "height": "6-6",
+    "id": 1631121,
+    "name": "Bryce McGowens",
+    "number": "7",
+    "pos": "Guard",
+    "teamId": 1610612766,
+    "teams": [1610612766]
+  },
+  {
+    "age": 31,
+    "height": "6-4",
+    "id": 203585,
+    "name": "Rodney McGruder",
+    "number": "17",
+    "pos": "Guard",
+    "teamId": 1610612765,
+    "teams": [1610612748, 1610612746, 1610612765]
+  },
+  {
+    "age": 26,
+    "height": "6-0",
+    "id": 1629162,
+    "name": "Jordan McLaughlin",
+    "number": "6",
+    "pos": "Guard",
+    "teamId": 1610612750,
+    "teams": [1610612750]
+  },
+  {
+    "age": 24,
+    "height": "6-2",
+    "id": 1629001,
+    "name": "De'Anthony Melton",
+    "number": "8",
+    "pos": "Guard",
+    "teamId": 1610612755,
+    "teams": [1610612756, 1610612763, 1610612755]
+  },
+  {
+    "age": 26,
+    "height": "6-4",
+    "id": 1630241,
+    "name": "Sam Merrill",
+    "number": "20",
+    "pos": "Guard",
+    "teamId": 1610612739,
+    "teams": [1610612749, 1610612763, 1610612739]
+  },
+  {
+    "age": 25,
+    "height": "6-9",
+    "id": 1629002,
+    "name": "Chimezie Metu",
+    "number": "7",
+    "pos": "Forward-Center",
+    "teamId": 1610612758,
+    "teams": [1610612759, 1610612758]
+  },
+  {
+    "age": 31,
+    "height": "6-7",
+    "id": 203114,
+    "name": "Khris Middleton",
+    "number": "22",
+    "pos": "Forward",
+    "teamId": 1610612749,
+    "teams": [1610612765, 1610612749]
+  },
+  {
+    "age": 25,
+    "height": "",
+    "id": 1630627,
+    "name": "Isaiah Miller",
+    "number": "",
+    "pos": "",
+    "teamId": 0,
+    "teams": []
+  },
+  {
+    "age": 34,
+    "height": "6-0",
+    "id": 201988,
+    "name": "Patty Mills",
+    "number": "8",
+    "pos": "Guard",
+    "teamId": 1610612751,
+    "teams": [1610612757, 1610612759, 1610612751]
+  },
+  {
+    "age": 26,
+    "height": "6-5",
+    "id": 1629003,
+    "name": "Shake Milton",
+    "number": "18",
+    "pos": "Guard-Forward",
+    "teamId": 1610612755,
+    "teams": [1610612755]
+  },
+  {
+    "age": 20,
+    "height": "6-8",
+    "id": 1631169,
+    "name": "Josh Minott",
+    "number": "8",
+    "pos": "Forward",
+    "teamId": 1610612750,
+    "teams": [1610612750]
+  },
+  {
+    "age": 24,
+    "height": "6-0",
+    "id": 1630558,
+    "name": "Davion Mitchell",
+    "number": "15",
+    "pos": "Guard",
+    "teamId": 1610612758,
+    "teams": [1610612758]
+  },
+  {
+    "age": 26,
+    "height": "6-1",
+    "id": 1628378,
+    "name": "Donovan Mitchell",
+    "number": "45",
+    "pos": "Guard",
+    "teamId": 1610612739,
+    "teams": [1610612762, 1610612739]
+  },
+  {
+    "age": 25,
+    "height": "",
+    "id": 1630342,
+    "name": "Trhae Mitchell",
+    "number": "",
+    "pos": "",
+    "teamId": 0,
+    "teams": []
+  },
+  {
+    "age": 21,
+    "height": "6-11",
+    "id": 1630596,
+    "name": "Evan Mobley",
+    "number": "4",
+    "pos": "Center",
+    "teamId": 1610612739,
+    "teams": [1610612739]
+  },
+  {
+    "age": 23,
+    "height": "6-8",
+    "id": 1630600,
+    "name": "Isaiah Mobley",
+    "number": "15",
+    "pos": "Forward",
+    "teamId": 1610612739,
+    "teams": [1610612739]
+  },
+  {
+    "age": 27,
+    "height": "6-5",
+    "id": 1631320,
+    "name": "Chima Moneke",
+    "number": "",
+    "pos": "Forward",
+    "teamId": 0,
+    "teams": [1610612758]
+  },
+  {
+    "age": 25,
+    "height": "6-3",
+    "id": 1628370,
+    "name": "Malik Monk",
+    "number": "0",
+    "pos": "Guard",
+    "teamId": 1610612758,
+    "teams": [1610612766, 1610612747, 1610612758]
+  },
+  {
+    "age": 20,
+    "height": "6-5",
+    "id": 1630541,
+    "name": "Moses Moody",
+    "number": "4",
+    "pos": "Guard",
+    "teamId": 1610612744,
+    "teams": [1610612744]
+  },
+  {
+    "age": 28,
+    "height": "6-0",
+    "id": 1629875,
+    "name": "Xavier Moon",
+    "number": "15",
+    "pos": "Guard",
+    "teamId": 1610612746,
+    "teams": [1610612746]
+  },
+  {
+    "age": 21,
+    "height": "6-5",
+    "id": 1631111,
+    "name": "Wendell Moore Jr.",
+    "number": "7",
+    "pos": "Guard",
+    "teamId": 1610612750,
+    "teams": [1610612750]
+  },
+  {
+    "age": 23,
+    "height": "6-2",
+    "id": 1629630,
+    "name": "Ja Morant",
+    "number": "12",
+    "pos": "Guard",
+    "teamId": 1610612763,
+    "teams": [1610612763]
+  },
+  {
+    "age": 33,
+    "height": "6-9",
+    "id": 202693,
+    "name": "Markieff Morris",
+    "number": "13",
+    "pos": "Forward",
+    "teamId": 1610612742,
+    "teams": [1610612756, 1610612764, 0, 1610612760, 1610612765, 1610612747, 1610612748, 1610612751, 1610612742]
+  },
+  {
+    "age": 27,
+    "height": "6-2",
+    "id": 1628420,
+    "name": "Monte Morris",
+    "number": "22",
+    "pos": "Guard",
+    "teamId": 1610612764,
+    "teams": [1610612743, 1610612764]
+  },
+  {
+    "age": 33,
+    "height": "6-8",
+    "id": 202694,
+    "name": "Marcus Morris Sr.",
+    "number": "8",
+    "pos": "Forward",
+    "teamId": 1610612746,
+    "teams": [1610612745, 1610612756, 0, 1610612765, 1610612738, 1610612752, 1610612746]
+  },
+  {
+    "age": 28,
+    "height": "6-3",
+    "id": 1628539,
+    "name": "Mychal Mulder",
+    "number": "12",
+    "pos": "Guard",
+    "teamId": 1610612748,
+    "teams": [1610612744, 1610612753, 1610612748, 0]
+  },
+  {
+    "age": 22,
+    "height": "6-8",
+    "id": 1630530,
+    "name": "Trey Murphy III",
+    "number": "25",
+    "pos": "Forward",
+    "teamId": 1610612740,
+    "teams": [1610612740]
+  },
+  {
+    "age": 26,
+    "height": "6-5",
+    "id": 1627749,
+    "name": "Dejounte Murray",
+    "number": "5",
+    "pos": "Guard",
+    "teamId": 1610612737,
+    "teams": [1610612759, 1610612737]
+  },
+  {
+    "age": 26,
+    "height": "6-4",
+    "id": 1627750,
+    "name": "Jamal Murray",
+    "number": "27",
+    "pos": "Guard",
+    "teamId": 1610612743,
+    "teams": [1610612743]
+  },
+  {
+    "age": 22,
+    "height": "6-8",
+    "id": 1631099,
+    "name": "Keegan Murray",
+    "number": "13",
+    "pos": "Forward",
+    "teamId": 1610612758,
+    "teams": [1610612758]
+  },
+  {
+    "age": 31,
+    "height": "6-11",
+    "id": 203488,
+    "name": "Mike Muscala",
+    "number": "57",
+    "pos": "Forward-Center",
+    "teamId": 1610612738,
+    "teams": [1610612737, 1610612755, 1610612747, 0, 1610612760, 1610612738]
+  },
+  {
+    "age": 25,
+    "height": "6-7",
+    "id": 1629004,
+    "name": "Svi Mykhailiuk",
+    "number": "17",
+    "pos": "Guard-Forward",
+    "teamId": 1610612766,
+    "teams": [1610612747, 1610612765, 0, 1610612760, 1610612761, 1610612752, 1610612766]
+  },
+  {
+    "age": 30,
+    "height": "6-8",
+    "id": 1626204,
+    "name": "Larry Nance Jr.",
+    "number": "22",
+    "pos": "Forward-Center",
+    "teamId": 1610612740,
+    "teams": [1610612747, 1610612739, 0, 1610612757, 1610612740]
+  },
+  {
+    "age": 23,
+    "height": "6-3",
+    "id": 1629614,
+    "name": "Andrew Nembhard",
+    "number": "2",
+    "pos": "Guard-Forward",
+    "teamId": 1610612754,
+    "teams": [1610612754]
+  },
+  {
+    "age": 23,
+    "height": "6-4",
+    "id": 1630612,
+    "name": "RJ Nembhard Jr.",
+    "number": "5",
+    "pos": "Guard",
+    "teamId": 1610612739,
+    "teams": [1610612739]
+  },
+  {
+    "age": 23,
+    "height": "6-5",
+    "id": 1630174,
+    "name": "Aaron Nesmith",
+    "number": "23",
+    "pos": "Guard-Forward",
+    "teamId": 1610612754,
+    "teams": [1610612738, 1610612754]
+  },
+  {
+    "age": 30,
+    "height": "6-2",
+    "id": 203526,
+    "name": "Raul Neto",
+    "number": "19",
+    "pos": "Guard",
+    "teamId": 1610612739,
+    "teams": [1610612762, 1610612755, 1610612764, 1610612739]
+  },
+  {
+    "age": 29,
+    "height": "6-7",
+    "id": 1627777,
+    "name": "Georges Niang",
+    "number": "20",
+    "pos": "Forward",
+    "teamId": 1610612755,
+    "teams": [1610612754, 1610612762, 1610612755]
+  },
+  {
+    "age": 21,
+    "height": "6-4",
+    "id": 1630227,
+    "name": "Daishen Nix",
+    "number": "15",
+    "pos": "Guard",
+    "teamId": 1610612745,
+    "teams": [1610612745]
+  },
+  {
+    "age": 22,
+    "height": "6-9",
+    "id": 1630192,
+    "name": "Zeke Nnaji",
+    "number": "22",
+    "pos": "Forward-Center",
+    "teamId": 1610612743,
+    "teams": [1610612743]
+  },
+  {
+    "age": 28,
+    "height": "6-10",
+    "id": 203457,
+    "name": "Nerlens Noel",
+    "number": "0",
+    "pos": "Center-Forward",
+    "teamId": 1610612751,
+    "teams": [1610612755, 1610612742, 0, 1610612760, 1610612752, 1610612765, 1610612751]
+  },
+  {
+    "age": 23,
+    "height": "6-4",
+    "id": 1629669,
+    "name": "Jaylen Nowell",
+    "number": "4",
+    "pos": "Guard",
+    "teamId": 1610612750,
+    "teams": [1610612750]
+  },
+  {
+    "age": 24,
+    "height": "6-4",
+    "id": 1628373,
+    "name": "Frank Ntilikina",
+    "number": "21",
+    "pos": "Guard",
+    "teamId": 1610612742,
+    "teams": [1610612752, 1610612742]
+  },
+  {
+    "age": 27,
+    "height": "6-3",
+    "id": 1629134,
+    "name": "Kendrick Nunn",
+    "number": "12",
+    "pos": "Guard",
+    "teamId": 1610612764,
+    "teams": [1610612748, 1610612747, 1610612764, 0]
+  },
+  {
+    "age": 28,
+    "height": "7-0",
+    "id": 203994,
+    "name": "Jusuf Nurkic",
+    "number": "27",
+    "pos": "Center",
+    "teamId": 1610612757,
+    "teams": [1610612743, 1610612757, 0]
+  },
+  {
+    "age": 30,
+    "height": "6-5",
+    "id": 1628021,
+    "name": "David Nwaba",
+    "number": "2",
+    "pos": "Guard-Forward",
+    "teamId": 1610612745,
+    "teams": [1610612747, 1610612741, 1610612739, 1610612751, 1610612745]
+  },
+  {
+    "age": 24,
+    "height": "6-9",
+    "id": 1629670,
+    "name": "Jordan Nwora",
+    "number": "13",
+    "pos": "Forward",
+    "teamId": 1610612754,
+    "teams": [1610612749, 1610612754, 0]
+  },
+  {
+    "age": 29,
+    "height": "6-6",
+    "id": 1626220,
+    "name": "Royce O'Neale",
+    "number": "00",
+    "pos": "Forward",
+    "teamId": 1610612751,
+    "teams": [1610612762, 1610612751]
+  },
+  {
+    "age": 24,
+    "height": "6-8",
+    "id": 1629643,
+    "name": "Chuma Okeke",
+    "number": "3",
+    "pos": "Forward",
+    "teamId": 1610612753,
+    "teams": [1610612753]
+  },
+  {
+    "age": 24,
+    "height": "6-4",
+    "id": 1629006,
+    "name": "Josh Okogie",
+    "number": "2",
+    "pos": "Guard",
+    "teamId": 1610612756,
+    "teams": [1610612750, 1610612756]
+  },
+  {
+    "age": 22,
+    "height": "6-9",
+    "id": 1630168,
+    "name": "Onyeka Okongwu",
+    "number": "17",
+    "pos": "Forward-Center",
+    "teamId": 1610612737,
+    "teams": [1610612737]
+  },
+  {
+    "age": 22,
+    "height": "6-5",
+    "id": 1630171,
+    "name": "Isaac Okoro",
+    "number": "35",
+    "pos": "Forward-Guard",
+    "teamId": 1610612739,
+    "teams": [1610612739]
+  },
+  {
+    "age": 23,
+    "height": "6-8",
+    "id": 1629644,
+    "name": "KZ Okpala",
+    "number": "",
+    "pos": "Forward-Guard",
+    "teamId": 0,
+    "teams": [1610612748, 1610612758]
+  },
+  {
+    "age": 30,
+    "height": "6-3",
+    "id": 203506,
+    "name": "Victor Oladipo",
+    "number": "4",
+    "pos": "Guard",
+    "teamId": 1610612748,
+    "teams": [1610612753, 1610612760, 1610612754, 1610612745, 1610612748, 0]
+  },
+  {
+    "age": 31,
+    "height": "6-11",
+    "id": 203482,
+    "name": "Kelly Olynyk",
+    "number": "41",
+    "pos": "Forward-Center",
+    "teamId": 1610612762,
+    "teams": [1610612738, 1610612748, 1610612745, 0, 1610612765, 1610612762]
+  },
+  {
+    "age": 26,
+    "height": "6-6",
+    "id": 1630647,
+    "name": "Eugene Omoruyi",
+    "number": "97",
+    "pos": "Forward",
+    "teamId": 1610612765,
+    "teams": [1610612742, 1610612760, 1610612765, 0]
+  },
+  {
+    "age": 27,
+    "height": "6-7",
+    "id": 1626224,
+    "name": "Cedi Osman",
+    "number": "16",
+    "pos": "Forward",
+    "teamId": 1610612739,
+    "teams": [1610612739]
+  },
+  {
+    "age": 27,
+    "height": "6-6",
+    "id": 1626162,
+    "name": "Kelly Oubre Jr.",
+    "number": "12",
+    "pos": "Forward-Guard",
+    "teamId": 1610612766,
+    "teams": [1610612764, 1610612756, 0, 1610612744, 1610612766]
+  },
+  {
+    "age": 26,
+    "height": "6-6",
+    "id": 1629672,
+    "name": "Eric Paschall",
+    "number": "0",
+    "pos": "Forward",
+    "teamId": 1610612762,
+    "teams": [1610612744, 1610612762]
+  },
+  {
+    "age": 37,
+    "height": "6-0",
+    "id": 101108,
+    "name": "Chris Paul",
+    "number": "3",
+    "pos": "Guard",
+    "teamId": 1610612756,
+    "teams": [1610612740, 1610612746, 1610612745, 1610612760, 1610612756]
+  },
+  {
+    "age": 28,
+    "height": "6-1",
+    "id": 1626166,
+    "name": "Cameron Payne",
+    "number": "15",
+    "pos": "Guard",
+    "teamId": 1610612756,
+    "teams": [1610612760, 1610612741, 0, 1610612739, 1610612756]
+  },
+  {
+    "age": 30,
+    "height": "6-2",
+    "id": 1627780,
+    "name": "Gary Payton II",
+    "number": "8",
+    "pos": "Guard",
+    "teamId": 1610612744,
+    "teams": [1610612749, 1610612747, 0, 1610612764, 1610612744, 1610612757]
+  },
+  {
+    "age": 25,
+    "height": "6-9",
+    "id": 1630691,
+    "name": "Jamorko Pickett",
+    "number": "24",
+    "pos": "Forward",
+    "teamId": 1610612765,
+    "teams": [1610612765]
+  },
+  {
+    "age": 24,
+    "height": "",
+    "id": 1630321,
+    "name": "Nate Pierre-Louis",
+    "number": "",
+    "pos": "",
+    "teamId": 0,
+    "teams": []
+  },
+  {
+    "age": 27,
+    "height": "6-7",
+    "id": 1629033,
+    "name": "Theo Pinson",
+    "number": "1",
+    "pos": "Guard-Forward",
+    "teamId": 1610612742,
+    "teams": [1610612751, 1610612752, 1610612742]
+  },
+  {
+    "age": 22,
+    "height": "6-1",
+    "id": 1630590,
+    "name": "Scotty Pippen Jr.",
+    "number": "14",
+    "pos": "Guard",
+    "teamId": 1610612747,
+    "teams": [1610612747]
+  },
+  {
+    "age": 24,
+    "height": "",
+    "id": 1631342,
+    "name": "Daeqwon Plowden",
+    "number": "",
+    "pos": "",
+    "teamId": 0,
+    "teams": []
+  },
+  {
+    "age": 33,
+    "height": "7-0",
+    "id": 203486,
+    "name": "Mason Plumlee",
+    "number": "44",
+    "pos": "Forward-Center",
+    "teamId": 1610612746,
+    "teams": [1610612751, 1610612757, 1610612743, 0, 1610612765, 1610612766, 1610612746]
+  },
+  {
+    "age": 27,
+    "height": "7-1",
+    "id": 1627751,
+    "name": "Jakob Poeltl",
+    "number": "19",
+    "pos": "Center",
+    "teamId": 1610612761,
+    "teams": [1610612761, 1610612759, 0]
+  },
+  {
+    "age": 21,
+    "height": "7-0",
+    "id": 1630197,
+    "name": "Aleksej Pokusevski",
+    "number": "17",
+    "pos": "Forward",
+    "teamId": 1610612760,
+    "teams": [1610612760]
+  },
+  {
+    "age": 23,
+    "height": "6-4",
+    "id": 1629673,
+    "name": "Jordan Poole",
+    "number": "3",
+    "pos": "Guard",
+    "teamId": 1610612744,
+    "teams": [1610612744]
+  },
+  {
+    "age": 22,
+    "height": "6-4",
+    "id": 1629645,
+    "name": "Kevin Porter Jr.",
+    "number": "3",
+    "pos": "Guard-Forward",
+    "teamId": 1610612745,
+    "teams": [1610612739, 1610612745]
+  },
+  {
+    "age": 24,
+    "height": "6-10",
+    "id": 1629008,
+    "name": "Michael Porter Jr.",
+    "number": "1",
+    "pos": "Forward",
+    "teamId": 1610612743,
+    "teams": [1610612743]
+  },
+  {
+    "age": 29,
+    "height": "6-8",
+    "id": 203490,
+    "name": "Otto Porter Jr.",
+    "number": "32",
+    "pos": "Forward",
+    "teamId": 1610612761,
+    "teams": [1610612764, 1610612741, 0, 1610612753, 1610612744, 1610612761]
+  },
+  {
+    "age": 28,
+    "height": "6-11",
+    "id": 1626171,
+    "name": "Bobby Portis",
+    "number": "9",
+    "pos": "Forward",
+    "teamId": 1610612749,
+    "teams": [1610612741, 1610612764, 0, 1610612752, 1610612749]
+  },
+  {
+    "age": 27,
+    "height": "7-3",
+    "id": 204001,
+    "name": "Kristaps Porzingis",
+    "number": "6",
+    "pos": "Forward-Center",
+    "teamId": 1610612764,
+    "teams": [1610612752, 1610612742, 1610612764, 0]
+  },
+  {
+    "age": 31,
+    "height": "6-10",
+    "id": 203939,
+    "name": "Dwight Powell",
+    "number": "7",
+    "pos": "Forward-Center",
+    "teamId": 1610612742,
+    "teams": [1610612738, 1610612742, 0]
+  },
+  {
+    "age": 29,
+    "height": "6-4",
+    "id": 1626181,
+    "name": "Norman Powell",
+    "number": "24",
+    "pos": "Guard",
+    "teamId": 1610612746,
+    "teams": [1610612761, 1610612757, 0, 1610612746]
+  },
+  {
+    "age": 23,
+    "height": "6-3",
+    "id": 1630554,
+    "name": "Jason Preston",
+    "number": "17",
+    "pos": "Guard",
+    "teamId": 1610612746,
+    "teams": [1610612746]
+  },
+  {
+    "age": 20,
+    "height": "6-6",
+    "id": 1630563,
+    "name": "Joshua Primo",
+    "number": "",
+    "pos": "Guard",
+    "teamId": 0,
+    "teams": [1610612759]
+  },
+  {
+    "age": 28,
+    "height": "6-6",
+    "id": 1627752,
+    "name": "Taurean Prince",
+    "number": "12",
+    "pos": "Forward",
+    "teamId": 1610612750,
+    "teams": [1610612737, 1610612751, 1610612739, 0, 1610612750]
+  },
+  {
+    "age": 25,
+    "height": "6-1",
+    "id": 1630202,
+    "name": "Payton Pritchard",
+    "number": "11",
+    "pos": "Guard",
+    "teamId": 1610612738,
+    "teams": [1610612738]
+  },
+  {
+    "age": 23,
+    "height": "7-0",
+    "id": 1629674,
+    "name": "Neemias Queta",
+    "number": "88",
+    "pos": "Center",
+    "teamId": 1610612758,
+    "teams": [1610612758]
+  },
+  {
+    "age": 23,
+    "height": "6-2",
+    "id": 1630193,
+    "name": "Immanuel Quickley",
+    "number": "5",
+    "pos": "Guard",
+    "teamId": 1610612752,
+    "teams": [1610612752]
+  },
+  {
+    "age": 22,
+    "height": "",
+    "id": 1631311,
+    "name": "Lester Quinones",
+    "number": "",
+    "pos": "",
+    "teamId": 0,
+    "teams": []
+  },
+  {
+    "age": 30,
+    "height": "6-2",
+    "id": 1626184,
+    "name": "Chasson Randle",
+    "number": "25",
+    "pos": "Guard",
+    "teamId": 1610612753,
+    "teams": [1610612755, 1610612752, 0, 1610612764, 1610612744, 1610612753]
+  },
+  {
+    "age": 28,
+    "height": "6-8",
+    "id": 203944,
+    "name": "Julius Randle",
+    "number": "30",
+    "pos": "Forward-Center",
+    "teamId": 1610612752,
+    "teams": [1610612747, 1610612740, 1610612752]
+  },
+  {
+    "age": 24,
+    "height": "6-5",
+    "id": 1630559,
+    "name": "Austin Reaves",
+    "number": "15",
+    "pos": "Guard",
+    "teamId": 1610612747,
+    "teams": [1610612747]
+  },
+  {
+    "age": 23,
+    "height": "6-7",
+    "id": 1629629,
+    "name": "Cam Reddish",
+    "number": "5",
+    "pos": "Forward-Guard",
+    "teamId": 1610612757,
+    "teams": [1610612737, 1610612752, 0, 1610612757]
+  },
+  {
+    "age": 27,
+    "height": "6-5",
+    "id": 1628432,
+    "name": "Davon Reed",
+    "number": "11",
+    "pos": "Guard",
+    "teamId": 1610612747,
+    "teams": [1610612756, 1610612754, 1610612743, 1610612747, 0]
+  },
+  {
+    "age": 23,
+    "height": "6-9",
+    "id": 1630194,
+    "name": "Paul Reed",
+    "number": "44",
+    "pos": "Forward",
+    "teamId": 1610612755,
+    "teams": [1610612755]
+  },
+  {
+    "age": 23,
+    "height": "6-9",
+    "id": 1629675,
+    "name": "Naz Reid",
+    "number": "11",
+    "pos": "Center-Forward",
+    "teamId": 1610612750,
+    "teams": [1610612750]
+  },
+  {
+    "age": 23,
+    "height": "6-6",
+    "id": 1631197,
+    "name": "Jared Rhoden",
+    "number": "8",
+    "pos": "Guard",
+    "teamId": 1610612765,
+    "teams": [1610612765]
+  },
+  {
+    "age": 25,
+    "height": "7-0",
+    "id": 1630208,
+    "name": "Nick Richards",
+    "number": "4",
+    "pos": "Center",
+    "teamId": 1610612766,
+    "teams": [1610612766]
+  },
+  {
+    "age": 29,
+    "height": "6-6",
+    "id": 1626196,
+    "name": "Josh Richardson",
+    "number": "2",
+    "pos": "Guard",
+    "teamId": 1610612740,
+    "teams": [1610612748, 1610612755, 1610612742, 1610612738, 1610612759, 0, 1610612740]
+  },
+  {
+    "age": 30,
+    "height": "6-4",
+    "id": 203085,
+    "name": "Austin Rivers",
+    "number": "25",
+    "pos": "Guard",
+    "teamId": 1610612750,
+    "teams": [1610612740, 1610612746, 0, 1610612764, 1610612745, 1610612752, 1610612743, 1610612750]
+  },
+  {
+    "age": 28,
+    "height": "6-7",
+    "id": 1629130,
+    "name": "Duncan Robinson",
+    "number": "55",
+    "pos": "Forward",
+    "teamId": 1610612748,
+    "teams": [1610612748]
+  },
+  {
+    "age": 26,
+    "height": "6-4",
+    "id": 1629010,
+    "name": "Jerome Robinson",
+    "number": "",
+    "pos": "Guard",
+    "teamId": 0,
+    "teams": [1610612746, 1610612764, 0]
+  },
+  {
+    "age": 24,
+    "height": "7-0",
+    "id": 1629011,
+    "name": "Mitchell Robinson",
+    "number": "23",
+    "pos": "Center-Forward",
+    "teamId": 1610612752,
+    "teams": [1610612752]
+  },
+  {
+    "age": 22,
+    "height": "6-10",
+    "id": 1631115,
+    "name": "Orlando Robinson",
+    "number": "25",
+    "pos": "Center",
+    "teamId": 1610612748,
+    "teams": [1610612748]
+  },
+  {
+    "age": 22,
+    "height": "6-8",
+    "id": 1630526,
+    "name": "Jeremiah Robinson-Earl",
+    "number": "50",
+    "pos": "Forward",
+    "teamId": 1610612760,
+    "teams": [1610612760]
+  },
+  {
+    "age": 25,
+    "height": "6-8",
+    "id": 1629676,
+    "name": "Isaiah Roby",
+    "number": "",
+    "pos": "Forward",
+    "teamId": 0,
+    "teams": [1610612760, 1610612759]
+  },
+  {
+    "age": 21,
+    "height": "6-4",
+    "id": 1631223,
+    "name": "David Roddy",
+    "number": "27",
+    "pos": "Forward",
+    "teamId": 1610612763,
+    "teams": [1610612763]
+  },
+  {
+    "age": 20,
+    "height": "6-3",
+    "id": 1631157,
+    "name": "Ryan Rollins",
+    "number": "2",
+    "pos": "Guard",
+    "teamId": 1610612744,
+    "teams": [1610612744]
+  },
+  {
+    "age": 34,
+    "height": "6-3",
+    "id": 201565,
+    "name": "Derrick Rose",
+    "number": "4",
+    "pos": "Guard",
+    "teamId": 1610612752,
+    "teams": [1610612741, 1610612752, 1610612739, 1610612750, 0, 1610612765]
+  },
+  {
+    "age": 32,
+    "height": "6-7",
+    "id": 203082,
+    "name": "Terrence Ross",
+    "number": "8",
+    "pos": "Guard-Forward",
+    "teamId": 1610612756,
+    "teams": [1610612761, 1610612753, 0, 1610612756]
+  },
+  {
+    "age": 28,
+    "height": "6-1",
+    "id": 1626179,
+    "name": "Terry Rozier",
+    "number": "3",
+    "pos": "Guard",
+    "teamId": 1610612766,
+    "teams": [1610612738, 1610612766]
+  },
+  {
+    "age": 32,
+    "height": "6-2",
+    "id": 201937,
+    "name": "Ricky Rubio",
+    "number": "13",
+    "pos": "Guard",
+    "teamId": 1610612739,
+    "teams": [1610612750, 1610612762, 1610612756, 1610612739]
+  },
+  {
+    "age": 27,
+    "height": "6-4",
+    "id": 1626156,
+    "name": "D'Angelo Russell",
+    "number": "1",
+    "pos": "Guard",
+    "teamId": 1610612747,
+    "teams": [1610612747, 1610612751, 1610612744, 1610612750, 0]
+  },
+  {
+    "age": 25,
+    "height": "6-6",
+    "id": 1630346,
+    "name": "Matt Ryan",
+    "number": "37",
+    "pos": "Forward",
+    "teamId": 1610612750,
+    "teams": [1610612738, 1610612747, 1610612750, 0]
+  },
+  {
+    "age": 26,
+    "height": "7-1",
+    "id": 1627734,
+    "name": "Domantas Sabonis",
+    "number": "10",
+    "pos": "Forward-Center",
+    "teamId": 1610612758,
+    "teams": [1610612760, 1610612754, 1610612758, 0]
+  },
+  {
+    "age": 28,
+    "height": "6-10",
+    "id": 203967,
+    "name": "Dario Saric",
+    "number": "9",
+    "pos": "Forward-Center",
+    "teamId": 1610612760,
+    "teams": [1610612755, 1610612750, 0, 1610612756, 1610612760]
+  },
+  {
+    "age": 24,
+    "height": "6-11",
+    "id": 1630846,
+    "name": "Olivier Sarr",
+    "number": "30",
+    "pos": "Center",
+    "teamId": 1610612760,
+    "teams": [1610612760]
+  },
+  {
+    "age": 24,
+    "height": "6-6",
+    "id": 1630648,
+    "name": "Jordan Schakel",
+    "number": "",
+    "pos": "Guard",
+    "teamId": 0,
+    "teams": [1610612764]
+  },
+  {
+    "age": 25,
+    "height": "6-5",
+    "id": 1629678,
+    "name": "Admiral Schofield",
+    "number": "25",
+    "pos": "Forward",
+    "teamId": 1610612753,
+    "teams": [1610612764, 1610612753]
+  },
+  {
+    "age": 29,
+    "height": "6-1",
+    "id": 203471,
+    "name": "Dennis Schroder",
+    "number": "17",
+    "pos": "Guard",
+    "teamId": 1610612747,
+    "teams": [1610612737, 1610612760, 1610612747, 1610612738, 1610612745, 0]
+  },
+  {
+    "age": 22,
+    "height": "6-5",
+    "id": 1630206,
+    "name": "Jay Scrubb",
+    "number": "0",
+    "pos": "Guard",
+    "teamId": 1610612746,
+    "teams": [1610612746]
+  },
+  {
+    "age": 22,
+    "height": "6-5",
+    "id": 1631220,
+    "name": "Dereon Seabron",
+    "number": "0",
+    "pos": "Guard",
+    "teamId": 1610612740,
+    "teams": [1610612740]
+  },
+  {
+    "age": 20,
+    "height": "6-11",
+    "id": 1630578,
+    "name": "Alperen Sengun",
+    "number": "28",
+    "pos": "Center",
+    "teamId": 1610612745,
+    "teams": [1610612745]
+  },
+  {
+    "age": 24,
+    "height": "6-2",
+    "id": 1629012,
+    "name": "Collin Sexton",
+    "number": "2",
+    "pos": "Guard",
+    "teamId": 1610612762,
+    "teams": [1610612739, 1610612762]
+  },
+  {
+    "age": 26,
+    "height": "6-4",
+    "id": 1629013,
+    "name": "Landry Shamet",
+    "number": "14",
+    "pos": "Guard",
+    "teamId": 1610612756,
+    "teams": [1610612755, 1610612746, 0, 1610612751, 1610612756]
+  },
+  {
+    "age": 21,
+    "height": "6-9",
+    "id": 1630549,
+    "name": "Day'Ron Sharpe",
+    "number": "20",
+    "pos": "Center",
+    "teamId": 1610612751,
+    "teams": [1610612751]
+  },
+  {
+    "age": 19,
+    "height": "6-5",
+    "id": 1631101,
+    "name": "Shaedon Sharpe",
+    "number": "17",
+    "pos": "Guard",
+    "teamId": 1610612757,
+    "teams": [1610612757]
+  },
+  {
+    "age": 28,
+    "height": "6-8",
+    "id": 1627783,
+    "name": "Pascal Siakam",
+    "number": "43",
+    "pos": "Forward",
+    "teamId": 1610612761,
+    "teams": [1610612761]
+  },
+  {
+    "age": 26,
+    "height": "6-10",
+    "id": 1627732,
+    "name": "Ben Simmons",
+    "number": "10",
+    "pos": "Guard-Forward",
+    "teamId": 1610612751,
+    "teams": [1610612755, 1610612751]
+  },
+  {
+    "age": 23,
+    "height": "7-0",
+    "id": 1630250,
+    "name": "Marko Simonovic",
+    "number": "19",
+    "pos": "Center",
+    "teamId": 1610612741,
+    "teams": [1610612741]
+  },
+  {
+    "age": 23,
+    "height": "6-3",
+    "id": 1629014,
+    "name": "Anfernee Simons",
+    "number": "1",
+    "pos": "Guard",
+    "teamId": 1610612757,
+    "teams": [1610612757]
+  },
+  {
+    "age": 24,
+    "height": "",
+    "id": 1631301,
+    "name": "Jaylen Sims",
+    "number": "",
+    "pos": "",
+    "teamId": 0,
+    "teams": []
+  },
+  {
+    "age": 24,
+    "height": "6-10",
+    "id": 1630579,
+    "name": "Jericho Sims",
+    "number": "45",
+    "pos": "Center",
+    "teamId": 1610612752,
+    "teams": [1610612752]
+  },
+  {
+    "age": 22,
+    "height": "6-8",
+    "id": 1629686,
+    "name": "Deividas Sirvydis",
+    "number": "",
+    "pos": "Forward-Guard",
+    "teamId": 0,
+    "teams": [1610612765]
+  },
+  {
+    "age": 23,
+    "height": "6-4",
+    "id": 1630606,
+    "name": "Javonte Smart",
+    "number": "15",
+    "pos": "Guard",
+    "teamId": 1610612748,
+    "teams": [1610612749, 1610612748, 0]
+  },
+  {
+    "age": 29,
+    "height": "6-4",
+    "id": 203935,
+    "name": "Marcus Smart",
+    "number": "36",
+    "pos": "Guard",
+    "teamId": 1610612738,
+    "teams": [1610612738]
+  },
+  {
+    "age": 25,
+    "height": "6-3",
+    "id": 1630696,
+    "name": "Dru Smith",
+    "number": "9",
+    "pos": "Guard",
+    "teamId": 1610612751,
+    "teams": [1610612748, 1610612751, 0]
+  },
+  {
+    "age": 34,
+    "height": "6-0",
+    "id": 202397,
+    "name": "Ish Smith",
+    "number": "14",
+    "pos": "Guard",
+    "teamId": 1610612743,
+    "teams": [1610612745, 1610612763, 0, 1610612744, 1610612753, 1610612749, 1610612756, 1610612760, 1610612755, 1610612740, 1610612765, 1610612764, 1610612766, 1610612743]
+  },
+  {
+    "age": 23,
+    "height": "6-9",
+    "id": 1630188,
+    "name": "Jalen Smith",
+    "number": "25",
+    "pos": "Forward-Center",
+    "teamId": 1610612754,
+    "teams": [1610612756, 1610612754, 0]
+  },
+  {
+    "age": 25,
+    "height": "6-2",
+    "id": 1628372,
+    "name": "Dennis Smith Jr.",
+    "number": "8",
+    "pos": "Guard",
+    "teamId": 1610612766,
+    "teams": [1610612742, 1610612752, 0, 1610612765, 1610612757, 1610612766]
+  },
+  {
+    "age": 19,
+    "height": "6-11",
+    "id": 1631095,
+    "name": "Jabari Smith Jr.",
+    "number": "1",
+    "pos": "Forward",
+    "teamId": 1610612745,
+    "teams": [1610612745]
+  },
+  {
+    "age": 25,
+    "height": "6-5",
+    "id": 1630270,
+    "name": "Xavier Sneed",
+    "number": "19",
+    "pos": "Forward",
+    "teamId": 1610612762,
+    "teams": [1610612763, 1610612762, 0]
+  },
+  {
+    "age": 19,
+    "height": "6-8",
+    "id": 1631110,
+    "name": "Jeremy Sochan",
+    "number": "10",
+    "pos": "Forward",
+    "teamId": 1610612759,
+    "teams": [1610612759]
+  },
+  {
+    "age": 26,
+    "height": "",
+    "id": 1630311,
+    "name": "Pat Spencer",
+    "number": "",
+    "pos": "",
+    "teamId": 0,
+    "teams": []
+  },
+  {
+    "age": 20,
+    "height": "6-4",
+    "id": 1630531,
+    "name": "Jaden Springer",
+    "number": "11",
+    "pos": "Guard",
+    "teamId": 1610612755,
+    "teams": [1610612755]
+  },
+  {
+    "age": 25,
+    "height": "6-6",
+    "id": 1630205,
+    "name": "Lamar Stevens",
+    "number": "8",
+    "pos": "Forward",
+    "teamId": 1610612739,
+    "teams": [1610612739]
+  },
+  {
+    "age": 23,
+    "height": "6-5",
+    "id": 1630597,
+    "name": "DJ Stewart",
+    "number": "18",
+    "pos": "Guard",
+    "teamId": 1610612759,
+    "teams": []
+  },
+  {
+    "age": 21,
+    "height": "6-8",
+    "id": 1630191,
+    "name": "Isaiah Stewart",
+    "number": "28",
+    "pos": "Forward-Center",
+    "teamId": 1610612765,
+    "teams": [1610612765]
+  },
+  {
+    "age": 26,
+    "height": "6-5",
+    "id": 1629622,
+    "name": "Max Strus",
+    "number": "31",
+    "pos": "Guard-Forward",
+    "teamId": 1610612748,
+    "teams": [1610612741, 1610612748]
+  },
+  {
+    "age": 21,
+    "height": "6-5",
+    "id": 1630591,
+    "name": "Jalen Suggs",
+    "number": "4",
+    "pos": "Guard",
+    "teamId": 1610612753,
+    "teams": [1610612753]
+  },
+  {
+    "age": 27,
+    "height": "6-4",
+    "id": 1628410,
+    "name": "Edmond Sumner",
+    "number": "4",
+    "pos": "Guard",
+    "teamId": 1610612751,
+    "teams": [1610612754, 1610612751]
+  },
+  {
+    "age": 23,
+    "height": "6-9",
+    "id": 1631306,
+    "name": "Cole Swider",
+    "number": "20",
+    "pos": "Forward",
+    "teamId": 1610612747,
+    "teams": [1610612747]
+  },
+  {
+    "age": 27,
+    "height": "6-5",
+    "id": 1630256,
+    "name": "Jae'Sean Tate",
+    "number": "8",
+    "pos": "Forward",
+    "teamId": 1610612745,
+    "teams": [1610612745]
+  },
+  {
+    "age": 25,
+    "height": "6-8",
+    "id": 1628369,
+    "name": "Jayson Tatum",
+    "number": "0",
+    "pos": "Forward-Guard",
+    "teamId": 1610612738,
+    "teams": [1610612738]
+  },
+  {
+    "age": 23,
+    "height": "6-4",
+    "id": 1630678,
+    "name": "Terry Taylor",
+    "number": "32",
+    "pos": "Forward",
+    "teamId": 1610612741,
+    "teams": [1610612754, 1610612741, 0]
+  },
+  {
+    "age": 36,
+    "height": "6-6",
+    "id": 202066,
+    "name": "Garrett Temple",
+    "number": "41",
+    "pos": "Guard-Forward",
+    "teamId": 1610612740,
+    "teams": [1610612745, 1610612758, 1610612759, 0, 1610612749, 1610612766, 1610612764, 1610612763, 1610612746, 1610612751, 1610612741, 1610612740]
+  },
+  {
+    "age": 20,
+    "height": "6-7",
+    "id": 1631207,
+    "name": "Dalen Terry",
+    "number": "25",
+    "pos": "Forward",
+    "teamId": 1610612741,
+    "teams": [1610612741]
+  },
+  {
+    "age": 30,
+    "height": "6-8",
+    "id": 1628464,
+    "name": "Daniel Theis",
+    "number": "27",
+    "pos": "Forward-Center",
+    "teamId": 1610612754,
+    "teams": [1610612738, 1610612741, 0, 1610612745, 1610612754]
+  },
+  {
+    "age": 26,
+    "height": "6-5",
+    "id": 1630271,
+    "name": "Brodric Thomas",
+    "number": "97",
+    "pos": "Guard",
+    "teamId": 1610612738,
+    "teams": [1610612745, 1610612739, 0, 1610612738]
+  },
+  {
+    "age": 21,
+    "height": "6-3",
+    "id": 1630560,
+    "name": "Cam Thomas",
+    "number": "24",
+    "pos": "Guard",
+    "teamId": 1610612751,
+    "teams": [1610612751]
+  },
+  {
+    "age": 33,
+    "height": "6-6",
+    "id": 202691,
+    "name": "Klay Thompson",
+    "number": "11",
+    "pos": "Guard",
+    "teamId": 1610612744,
+    "teams": [1610612744]
+  },
+  {
+    "age": 20,
+    "height": "6-9",
+    "id": 1630550,
+    "name": "JT Thor",
+    "number": "21",
+    "pos": "Forward",
+    "teamId": 1610612766,
+    "teams": [1610612766]
+  },
+  {
+    "age": 26,
+    "height": "6-5",
+    "id": 1629680,
+    "name": "Matisse Thybulle",
+    "number": "4",
+    "pos": "Guard-Forward",
+    "teamId": 1610612757,
+    "teams": [1610612755, 1610612757, 0]
+  },
+  {
+    "age": 25,
+    "height": "6-9",
+    "id": 1629681,
+    "name": "Killian Tillie",
+    "number": "35",
+    "pos": "Forward-Center",
+    "teamId": 1610612763,
+    "teams": [1610612763]
+  },
+  {
+    "age": 24,
+    "height": "6-7",
+    "id": 1630214,
+    "name": "Xavier Tillman",
+    "number": "2",
+    "pos": "Forward",
+    "teamId": 1610612763,
+    "teams": [1610612763]
+  },
+  {
+    "age": 21,
+    "height": "6-9",
+    "id": 1630225,
+    "name": "Isaiah Todd",
+    "number": "14",
+    "pos": "Forward",
+    "teamId": 1610612764,
+    "teams": [1610612764]
+  },
+  {
+    "age": 25,
+    "height": "6-9",
+    "id": 1630167,
+    "name": "Obi Toppin",
+    "number": "1",
+    "pos": "Forward",
+    "teamId": 1610612752,
+    "teams": [1610612752]
+  },
+  {
+    "age": 29,
+    "height": "6-6",
+    "id": 1629308,
+    "name": "Juan Toscano-Anderson",
+    "number": "95",
+    "pos": "Forward",
+    "teamId": 1610612762,
+    "teams": [1610612744, 1610612747, 1610612762, 0]
+  },
+  {
+    "age": 27,
+    "height": "7-0",
+    "id": 1626157,
+    "name": "Karl-Anthony Towns",
+    "number": "32",
+    "pos": "Center-Forward",
+    "teamId": 1610612750,
+    "teams": [1610612750]
+  },
+  {
+    "age": 24,
+    "height": "6-5",
+    "id": 1629018,
+    "name": "Gary Trent Jr.",
+    "number": "33",
+    "pos": "Guard-Forward",
+    "teamId": 1610612761,
+    "teams": [1610612757, 1610612761, 0]
+  },
+  {
+    "age": 37,
+    "height": "6-5",
+    "id": 200782,
+    "name": "P.J. Tucker",
+    "number": "17",
+    "pos": "Forward",
+    "teamId": 1610612755,
+    "teams": [1610612761, 1610612756, 0, 1610612745, 1610612749, 1610612748, 1610612755]
+  },
+  {
+    "age": 26,
+    "height": "6-11",
+    "id": 1626167,
+    "name": "Myles Turner",
+    "number": "33",
+    "pos": "Center-Forward",
+    "teamId": 1610612754,
+    "teams": [1610612754]
+  },
+  {
+    "age": 23,
+    "height": "6-6",
+    "id": 1630649,
+    "name": "Stanley Umude",
+    "number": "",
+    "pos": "Guard",
+    "teamId": 0,
+    "teams": [1610612765]
+  },
+  {
+    "age": 30,
+    "height": "6-11",
+    "id": 202685,
+    "name": "Jonas Valanciunas",
+    "number": "17",
+    "pos": "Center",
+    "teamId": 1610612740,
+    "teams": [1610612761, 1610612763, 0, 1610612740]
+  },
+  {
+    "age": 29,
+    "height": "6-0",
+    "id": 1627832,
+    "name": "Fred VanVleet",
+    "number": "23",
+    "pos": "Guard",
+    "teamId": 1610612761,
+    "teams": [1610612761]
+  },
+  {
+    "age": 23,
+    "height": "6-8",
+    "id": 1629020,
+    "name": "Jarred Vanderbilt",
+    "number": "2",
+    "pos": "Forward",
+    "teamId": 1610612747,
+    "teams": [1610612743, 1610612750, 0, 1610612762, 1610612747]
+  },
+  {
+    "age": 22,
+    "height": "6-5",
+    "id": 1630170,
+    "name": "Devin Vassell",
+    "number": "24",
+    "pos": "Guard-Forward",
+    "teamId": 1610612759,
+    "teams": [1610612759]
+  },
+  {
+    "age": 27,
+    "height": "6-3",
+    "id": 1630492,
+    "name": "Luca Vildoza",
+    "number": "6",
+    "pos": "Guard",
+    "teamId": 1610612749,
+    "teams": []
+  },
+  {
+    "age": 26,
+    "height": "6-2",
+    "id": 1629216,
+    "name": "Gabe Vincent",
+    "number": "2",
+    "pos": "Guard",
+    "teamId": 1610612748,
+    "teams": [1610612748]
+  },
+  {
+    "age": 27,
+    "height": "6-10",
+    "id": 203943,
+    "name": "Noah Vonleh",
+    "number": "",
+    "pos": "Forward",
+    "teamId": 0,
+    "teams": [1610612766, 1610612757, 1610612741, 0, 1610612752, 1610612750, 1610612743, 1610612751, 1610612738]
+  },
+  {
+    "age": 32,
+    "height": "6-10",
+    "id": 202696,
+    "name": "Nikola Vucevic",
+    "number": "9",
+    "pos": "Center",
+    "teamId": 1610612741,
+    "teams": [1610612755, 1610612753, 1610612741, 0]
+  },
+  {
+    "age": 26,
+    "height": "6-9",
+    "id": 1629731,
+    "name": "Dean Wade",
+    "number": "32",
+    "pos": "Forward-Center",
+    "teamId": 1610612739,
+    "teams": [1610612739]
+  },
+  {
+    "age": 21,
+    "height": "6-10",
+    "id": 1630532,
+    "name": "Franz Wagner",
+    "number": "22",
+    "pos": "Forward",
+    "teamId": 1610612753,
+    "teams": [1610612753]
+  },
+  {
+    "age": 25,
+    "height": "6-11",
+    "id": 1629021,
+    "name": "Moritz Wagner",
+    "number": "21",
+    "pos": "Forward-Center",
+    "teamId": 1610612753,
+    "teams": [1610612747, 1610612764, 1610612738, 1610612753, 0]
+  },
+  {
+    "age": 28,
+    "height": "6-5",
+    "id": 1630688,
+    "name": "Ish Wainright",
+    "number": "12",
+    "pos": "Forward",
+    "teamId": 1610612756,
+    "teams": [1610612756]
+  },
+  {
+    "age": 20,
+    "height": "6-7",
+    "id": 1631133,
+    "name": "Jabari Walker",
+    "number": "34",
+    "pos": "Forward",
+    "teamId": 1610612757,
+    "teams": [1610612757]
+  },
+  {
+    "age": 32,
+    "height": "6-0",
+    "id": 202689,
+    "name": "Kemba Walker",
+    "number": "",
+    "pos": "Guard",
+    "teamId": 0,
+    "teams": [1610612766, 1610612738, 1610612752, 1610612742]
+  },
+  {
+    "age": 24,
+    "height": "6-4",
+    "id": 1629022,
+    "name": "Lonnie Walker IV",
+    "number": "4",
+    "pos": "Guard-Forward",
+    "teamId": 1610612747,
+    "teams": [1610612759, 1610612747]
+  },
+  {
+    "age": 32,
+    "height": "6-3",
+    "id": 202322,
+    "name": "John Wall",
+    "number": "",
+    "pos": "Guard",
+    "teamId": 0,
+    "teams": [1610612764, 1610612745, 1610612746]
+  },
+  {
+    "age": 29,
+    "height": "6-8",
+    "id": 203933,
+    "name": "T.J. Warren",
+    "number": "21",
+    "pos": "Forward",
+    "teamId": 1610612756,
+    "teams": [1610612756, 1610612754, 1610612751, 0]
+  },
+  {
+    "age": 24,
+    "height": "6-7",
+    "id": 1629023,
+    "name": "P.J. Washington",
+    "number": "25",
+    "pos": "Forward",
+    "teamId": 1610612766,
+    "teams": [1610612766]
+  },
+  {
+    "age": 22,
+    "height": "6-2",
+    "id": 1630613,
+    "name": "Duane Washington Jr.",
+    "number": "4",
+    "pos": "Guard",
+    "teamId": 1610612752,
+    "teams": [1610612754, 1610612756]
+  },
+  {
+    "age": 21,
+    "height": "6-3",
+    "id": 1631102,
+    "name": "TyTy Washington Jr.",
+    "number": "0",
+    "pos": "Guard",
+    "teamId": 1610612745,
+    "teams": [1610612745]
+  },
+  {
+    "age": 28,
+    "height": "6-8",
+    "id": 1629139,
+    "name": "Yuta Watanabe",
+    "number": "18",
+    "pos": "Guard-Forward",
+    "teamId": 1610612751,
+    "teams": [1610612763, 1610612761, 1610612751]
+  },
+  {
+    "age": 25,
+    "height": "6-6",
+    "id": 1630322,
+    "name": "Lindy Waters III",
+    "number": "12",
+    "pos": "Forward",
+    "teamId": 1610612760,
+    "teams": [1610612760]
+  },
+  {
+    "age": 22,
+    "height": "6-8",
+    "id": 1630570,
+    "name": "Trendon Watford",
+    "number": "2",
+    "pos": "Forward",
+    "teamId": 1610612757,
+    "teams": [1610612757]
+  },
+  {
+    "age": 20,
+    "height": "6-7",
+    "id": 1631212,
+    "name": "Peyton Watson",
+    "number": "8",
+    "pos": "Guard",
+    "teamId": 1610612743,
+    "teams": [1610612743]
+  },
+  {
+    "age": 26,
+    "height": "6-3",
+    "id": 1629683,
+    "name": "Quinndary Weatherspoon",
+    "number": "15",
+    "pos": "Guard",
+    "teamId": 1610612744,
+    "teams": [1610612759, 1610612744]
+  },
+  {
+    "age": 20,
+    "height": "6-4",
+    "id": 1631104,
+    "name": "Blake Wesley",
+    "number": "14",
+    "pos": "Guard",
+    "teamId": 1610612759,
+    "teams": [1610612759]
+  },
+  {
+    "age": 34,
+    "height": "6-3",
+    "id": 201566,
+    "name": "Russell Westbrook",
+    "number": "0",
+    "pos": "Guard",
+    "teamId": 1610612746,
+    "teams": [1610612760, 1610612745, 1610612764, 1610612747, 1610612746, 0]
+  },
+  {
+    "age": 23,
+    "height": "6-5",
+    "id": 1629632,
+    "name": "Coby White",
+    "number": "0",
+    "pos": "Guard",
+    "teamId": 1610612741,
+    "teams": [1610612741]
+  },
+  {
+    "age": 28,
+    "height": "6-4",
+    "id": 1628401,
+    "name": "Derrick White",
+    "number": "9",
+    "pos": "Guard",
+    "teamId": 1610612738,
+    "teams": [1610612759, 1610612738, 0]
+  },
+  {
+    "age": 25,
+    "height": "6-7",
+    "id": 1631298,
+    "name": "Jack White",
+    "number": "10",
+    "pos": "Forward",
+    "teamId": 1610612743,
+    "teams": [1610612743]
+  },
+  {
+    "age": 23,
+    "height": "6-6",
+    "id": 1630580,
+    "name": "Joe Wieskamp",
+    "number": "11",
+    "pos": "Guard-Forward",
+    "teamId": 1610612761,
+    "teams": [1610612759, 1610612761]
+  },
+  {
+    "age": 24,
+    "height": "6-5",
+    "id": 1630598,
+    "name": "Aaron Wiggins",
+    "number": "21",
+    "pos": "Guard",
+    "teamId": 1610612760,
+    "teams": [1610612760]
+  },
+  {
+    "age": 28,
+    "height": "6-7",
+    "id": 203952,
+    "name": "Andrew Wiggins",
+    "number": "22",
+    "pos": "Forward",
+    "teamId": 1610612744,
+    "teams": [1610612750, 1610612744, 0]
+  },
+  {
+    "age": 24,
+    "height": "6-1",
+    "id": 1629623,
+    "name": "Lindell Wigginton",
+    "number": "28",
+    "pos": "Guard",
+    "teamId": 1610612749,
+    "teams": [1610612749]
+  },
+  {
+    "age": 23,
+    "height": "6-4",
+    "id": 1631214,
+    "name": "Alondes Williams",
+    "number": "",
+    "pos": "Guard",
+    "teamId": 0,
+    "teams": [1610612751]
+  },
+  {
+    "age": 24,
+    "height": "6-6",
+    "id": 1629684,
+    "name": "Grant Williams",
+    "number": "12",
+    "pos": "Forward",
+    "teamId": 1610612738,
+    "teams": [1610612738]
+  },
+  {
+    "age": 21,
+    "height": "6-5",
+    "id": 1631114,
+    "name": "Jalen Williams",
+    "number": "8",
+    "pos": "Guard-Forward",
+    "teamId": 1610612760,
+    "teams": [1610612760]
+  },
+  {
+    "age": 20,
+    "height": "6-9",
+    "id": 1631119,
+    "name": "Jaylin Williams",
+    "number": "6",
+    "pos": "Forward",
+    "teamId": 1610612760,
+    "teams": [1610612760]
+  },
+  {
+    "age": 24,
+    "height": "",
+    "id": 1631466,
+    "name": "Jeenathan Williams",
+    "number": "",
+    "pos": "",
+    "teamId": 0,
+    "teams": []
+  },
+  {
+    "age": 28,
+    "height": "6-6",
+    "id": 1629026,
+    "name": "Kenrich Williams",
+    "number": "34",
+    "pos": "Guard-Forward",
+    "teamId": 1610612760,
+    "teams": [1610612740, 1610612760]
+  },
+  {
+    "age": 21,
+    "height": "7-0",
+    "id": 1631109,
+    "name": "Mark Williams",
+    "number": "5",
+    "pos": "Center",
+    "teamId": 1610612766,
+    "teams": [1610612766]
+  },
+  {
+    "age": 21,
+    "height": "6-7",
+    "id": 1630172,
+    "name": "Patrick Williams",
+    "number": "44",
+    "pos": "Forward",
+    "teamId": 1610612741,
+    "teams": [1610612741]
+  },
+  {
+    "age": 21,
+    "height": "6-9",
+    "id": 1630533,
+    "name": "Ziaire Williams",
+    "number": "8",
+    "pos": "Forward",
+    "teamId": 1610612763,
+    "teams": [1610612763]
+  },
+  {
+    "age": 25,
+    "height": "6-9",
+    "id": 1629057,
+    "name": "Robert Williams III",
+    "number": "44",
+    "pos": "Center-Forward",
+    "teamId": 1610612738,
+    "teams": [1610612738]
+  },
+  {
+    "age": 22,
+    "height": "6-4",
+    "id": 1631246,
+    "name": "Vince Williams Jr.",
+    "number": "5",
+    "pos": "Guard",
+    "teamId": 1610612763,
+    "teams": [1610612763]
+  },
+  {
+    "age": 22,
+    "height": "6-6",
+    "id": 1629627,
+    "name": "Zion Williamson",
+    "number": "1",
+    "pos": "Forward",
+    "teamId": 1610612740,
+    "teams": [1610612740]
+  },
+  {
+    "age": 27,
+    "height": "6-10",
+    "id": 1628391,
+    "name": "D.J. Wilson",
+    "number": "",
+    "pos": "Forward",
+    "teamId": 0,
+    "teams": [1610612749, 1610612745, 0, 1610612761]
+  },
+  {
+    "age": 26,
+    "height": "6-7",
+    "id": 1629685,
+    "name": "Dylan Windler",
+    "number": "9",
+    "pos": "Guard-Forward",
+    "teamId": 1610612739,
+    "teams": [1610612739]
+  },
+  {
+    "age": 26,
+    "height": "6-6",
+    "id": 1626159,
+    "name": "Justise Winslow",
+    "number": "26",
+    "pos": "Forward-Guard",
+    "teamId": 1610612757,
+    "teams": [1610612748, 1610612763, 1610612746, 1610612757, 0]
+  },
+  {
+    "age": 21,
+    "height": "7-0",
+    "id": 1630164,
+    "name": "James Wiseman",
+    "number": "13",
+    "pos": "Center",
+    "teamId": 1610612765,
+    "teams": [1610612744, 1610612765, 0]
+  },
+  {
+    "age": 27,
+    "height": "6-9",
+    "id": 1626174,
+    "name": "Christian Wood",
+    "number": "35",
+    "pos": "Forward",
+    "teamId": 1610612742,
+    "teams": [1610612755, 1610612766, 1610612749, 1610612740, 0, 1610612765, 1610612745, 1610612742]
+  },
+  {
+    "age": 30,
+    "height": "6-5",
+    "id": 1626153,
+    "name": "Delon Wright",
+    "number": "55",
+    "pos": "Guard",
+    "teamId": 1610612764,
+    "teams": [1610612761, 1610612763, 0, 1610612742, 1610612765, 1610612758, 1610612737, 1610612764]
+  },
+  {
+    "age": 24,
+    "height": "5-11",
+    "id": 1630593,
+    "name": "McKinley Wright IV",
+    "number": "23",
+    "pos": "Guard",
+    "teamId": 1610612742,
+    "teams": [1610612750, 1610612742]
+  },
+  {
+    "age": 34,
+    "height": "6-8",
+    "id": 201152,
+    "name": "Thaddeus Young",
+    "number": "21",
+    "pos": "Forward",
+    "teamId": 1610612761,
+    "teams": [1610612755, 1610612750, 1610612751, 0, 1610612754, 1610612741, 1610612759, 1610612761]
+  },
+  {
+    "age": 24,
+    "height": "6-1",
+    "id": 1629027,
+    "name": "Trae Young",
+    "number": "11",
+    "pos": "Guard",
+    "teamId": 1610612737,
+    "teams": [1610612737]
+  },
+  {
+    "age": 24,
+    "height": "6-11",
+    "id": 1630209,
+    "name": "Omer Yurtseven",
+    "number": "77",
+    "pos": "Center",
+    "teamId": 1610612748,
+    "teams": [1610612748]
+  },
+  {
+    "age": 30,
+    "height": "6-11",
+    "id": 203469,
+    "name": "Cody Zeller",
+    "number": "44",
+    "pos": "Forward-Center",
+    "teamId": 1610612748,
+    "teams": [1610612766, 1610612757, 1610612748]
+  },
+  {
+    "age": 25,
+    "height": "7-0",
+    "id": 1627826,
+    "name": "Ivica Zubac",
+    "number": "40",
+    "pos": "Center",
+    "teamId": 1610612746,
+    "teams": [1610612747, 1610612746, 0]
+  }
+]
