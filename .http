@@ -1,0 +1,11 @@
+POST http://localhost:3000/api/token
+Content-Type: application/json
+Accept: application/json
+
+{
+  "playerId": 201586,
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJndWVzc2VzIjpbMSwyLDMsNCw1LDIwMTU4Nl0sInByZXZpb3VzSGlzdG9yeSI6eyJqc29uIjpbWyIzLzIwLzIwMjMiLDVdLFsiMDMvMjAvMjAyMyIsMV1dLCJtZXRhIjp7InZhbHVlcyI6WyJtYXAiXX19LCJ3b25Ub2RheSI6dHJ1ZSwiaWF0IjoxNjc5MzY4NjIxLCJleHAiOjY1MTIzMzcyNDJ9.bFsK53oGglKLRZhy9E96FfkmIFgKuAcqacleuOfXhpU"
+}
+###
+
+GET http://localhost:3000/api/token
