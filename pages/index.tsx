@@ -12,7 +12,7 @@ export const getServerSideProps: GetServerSideProps<{ data: Data }> = async () =
 
   return {
     props: {
-      data: { players, teams, chosenPlayerId: 203952 },
+      data: { players, teams, chosenPlayerId },
     },
   };
 };

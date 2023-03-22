@@ -1,4 +1,4 @@
-import { useMemo, useRef, useState } from 'react';
+import { useRef } from 'react';
 
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
@@ -8,35 +8,44 @@ import Row from 'react-bootstrap/Row';
 import { Typeahead } from 'react-bootstrap-typeahead';
 import { Option } from 'react-bootstrap-typeahead/types/types';
 
+import { PoetltSpinner } from '@components/Spinner';
+import { PoetltToast } from '@components/Toast';
+import { useMount, usePlayerNameMap, usePlayerOptions } from '@hooks';
 import { usePoeltlStore } from '@stores';
-import { Player } from '@types';
+import { useMutation } from '@tanstack/react-query';
+import { TokenResponse, TokenSchema } from '@types';
 
 import { PlayerPictureModal, PlayerTable } from './components';
+import { postToken } from './util';
 
 export const Home = () => {
-  const { playerMap, chosenPlayerId, playerGuesses, setPlayerGuesses } = usePoeltlStore();
+  const { playerGuesses, decodeToken, currentGuess, guessCorrect } = usePoeltlStore((state) => {
+    const { chosenPlayerId, playerGuesses, decodeToken } = state;
+
+    const playerIds = playerGuesses.map(({ id }) => id);
+    const guessCorrect = playerIds.includes(chosenPlayerId);
+
+    return { playerGuesses, decodeToken, currentGuess: guessCorrect ? playerGuesses.length : playerGuesses.length + 1, guessCorrect };
+  });
+
+  const playerOptions = usePlayerOptions();
+  const playerNameMap = usePlayerNameMap();
+
+  const token = typeof window !== 'undefined' ? localStorage.getItem('token') : undefined;
+
+  useMount(() => {
+    if (token) decodeToken(token);
+  });
 
   const ref = useRef<any>(null);
 
-  const [currentGuess, setCurrentGuess] = useState(1);
-  const [guessCorrect, setGuessCorrect] = useState(false);
-
-  const playerOptions: Option[] = useMemo(() => {
-    const names = Array.from(playerMap.values()).map(({ name }) => name);
-    const previousGuessedNames = playerGuesses.map(({ name }) => name);
-
-    return names.filter((name) => !previousGuessedNames.includes(name));
-  }, [playerMap, playerGuesses]);
-
-  const playerNameMap = useMemo(() => {
-    const map = new Map<string, number>();
-
-    playerMap.forEach(({ name }, id) => {
-      map.set(name, id);
-    });
-
-    return map;
-  }, [playerMap]);
+  const { isError, isLoading, mutate, error } = useMutation<TokenResponse, Error, TokenSchema>({
+    mutationFn: (payload) => postToken(payload),
+    onSuccess: ({ token }) => {
+      localStorage.setItem('token', token);
+      decodeToken(token);
+    },
+  });
 
   const handlePlayerSelect = (selected: Option[]) => {
     if (selected.length === 1) {
@@ -46,25 +55,18 @@ export const Home = () => {
 
       const playerId = playerNameMap.get(name)!;
 
-      if (playerId === chosenPlayerId) {
-        setGuessCorrect(true);
-      } else {
-        setCurrentGuess(currentGuess + 1);
-      }
+      const payload: TokenSchema = { playerId };
 
-      const playerRecord = playerMap.get(playerId)!;
-      const player: Player = { ...playerRecord, id: playerId };
-      setPlayerGuesses([...playerGuesses, player]);
+      if (token) payload.token = token;
+
+      mutate(payload);
 
       ref.current.clear();
     }
   };
 
-  //TODO: REMOVE THIS DEBUGGING CODE
-
   return (
     <Container className='pt-5 text-center'>
-      <Row>{JSON.stringify(playerMap.get(chosenPlayerId)!)}</Row>
       <Row>
         <h1>POELTL</h1>
       </Row>
@@ -85,7 +87,7 @@ export const Home = () => {
               id='player-select'
               options={playerOptions}
               placeholder={guessCorrect ? `You solved it in ${currentGuess} guesses!` : `Guess ${currentGuess} of 8`}
-              disabled={currentGuess > 8 || guessCorrect}
+              disabled={currentGuess >= 8 || guessCorrect}
             />
           </Form.Group>
         </Col>
@@ -98,8 +100,10 @@ export const Home = () => {
       <Row className='pt-3'>
         <Col>
           <PlayerTable {...{ players: playerGuesses }} />
+          {isLoading ? <PoetltSpinner /> : null}
         </Col>
       </Row>
+      {isError ? <PoetltToast position='top-end' autohide bg='danger' delay={5000} message={error?.message ?? 'Something went wrong'} /> : null}
     </Container>
   );
 };

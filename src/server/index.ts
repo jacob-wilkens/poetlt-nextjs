@@ -29,10 +29,8 @@ export async function getData(): Promise<Data> {
 //function to get date string of current date in MM/DD/YYYY format
 export function getTodayDateString(): string {
   const today = new Date();
-  const month = (today.getMonth() + 1).toString().padStart(2, '0');
-  const day = today.getDate().toString().padStart(2, '0');
-  const year = today.getFullYear().toString();
-  return `${month}/${day}/${year}`;
+  const options: Intl.DateTimeFormatOptions = { year: 'numeric', month: '2-digit', day: '2-digit' };
+  return new Intl.DateTimeFormat('en-US', options).format(today);
 }
 
 export async function createTokenWithUpdatedHistory({ playerId, previousToken }: UpdateJWTParams): Promise<string> {
@@ -43,33 +41,12 @@ export async function createTokenWithUpdatedHistory({ playerId, previousToken }:
   const chosenPlayerMap = await getChosenPlayerMap();
 
   if (wonToday && history.has(today)) throw new Error('You have already won today, please wait until tomorrow to play again');
-  else if (wonToday && !history.has(today)) {
-    history.set(today, 1);
-    guesses = [playerId];
-    wonToday = chosenPlayerMap.get(today) === playerId;
-    const token = await createJwtToken({ guesses, previousHistory: superjson.serialize(history), wonToday }, { expiresIn });
-    if (!token) throw new Error('Failed to create JWT token');
-    return token;
-  }
-
-  //player has already guessed today, throw error
-  if (guesses.length === 8 || history.get(today) === 8) throw new Error('You have already guessed 8 times today');
-  //player has already guessed this player today, throw error
+  if (guesses.length === 8) throw new Error('You have already guessed 8 times today');
   if (guesses.includes(playerId)) throw new Error('You have already guessed this player today');
 
-  if (!history.get(today)) {
-    history.set(today, 1);
-    guesses.push(playerId);
-  } else {
-    history.set(today, history.get(today)! + 1);
-    guesses.push(playerId);
-  }
-
-  if (chosenPlayerMap.get(today) === playerId) {
-    const token = await createJwtToken({ guesses, previousHistory: superjson.serialize(history), wonToday: true }, { expiresIn });
-    if (!token) throw new Error('Failed to create JWT token');
-    return token;
-  }
+  guesses.push(playerId);
+  wonToday = chosenPlayerMap.get(today) === playerId;
+  history.set(today, wonToday ? guesses.length : 0);
 
   const token = await createJwtToken({ guesses, previousHistory: superjson.serialize(history), wonToday: false }, { expiresIn });
 
@@ -80,9 +57,20 @@ export async function createTokenWithUpdatedHistory({ playerId, previousToken }:
 
 export async function createNewToken(playerId: number): Promise<string> {
   const guesses = [playerId];
-  const previousHistory = superjson.serialize(new Map<string, number>([[getTodayDateString(), 1]]));
 
-  const token = await createJwtToken({ guesses, previousHistory, wonToday: false }, { expiresIn });
+  const chosenPlayerMap = await getChosenPlayerMap();
+  const today = getTodayDateString();
+
+  const wonToday = chosenPlayerMap.get(today) === playerId;
+
+  const history = new Map<string, number>();
+
+  if (wonToday) history.set(today, 1);
+  else history.set(today, 0);
+
+  const previousHistory = superjson.serialize(history);
+
+  const token = await createJwtToken({ guesses, previousHistory, wonToday }, { expiresIn });
 
   if (!token) throw new Error('Failed to create JWT token');
 

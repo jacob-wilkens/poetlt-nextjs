@@ -1,4 +1,5 @@
 import { SuperJSONResult } from 'superjson/dist/types';
+import z from 'zod';
 
 export type Player = {
   id: number;
@@ -45,4 +46,27 @@ export type JWTPayload = {
 export type UpdateJWTParams = {
   playerId: number;
   previousToken: string;
+};
+
+export const tokenSchema = z.object({
+  playerId: z.number().int(),
+  token: z.string().optional(),
+});
+
+export type TokenSchema = z.infer<typeof tokenSchema>;
+
+export type TokenResponse = {
+  token: string;
+};
+
+export type TokenErrorResponse = {
+  error: boolean;
+  message: string;
+};
+
+export type Streaks = {
+  currentStreak: number;
+  longestStreak: number;
+  winPct: number;
+  winDistribution: Map<number, number>;
 };

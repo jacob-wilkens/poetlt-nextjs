@@ -1,16 +1,9 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 
-import z, { ZodError } from 'zod';
+import { ZodError } from 'zod';
 
 import { createNewToken, createTokenWithUpdatedHistory } from '@server';
-
-const tokenSchema = z.object({
-  playerId: z.number().int(),
-  token: z.string().optional(),
-});
-
-//infer type of tokenSchema from zod
-type TokenSchema = z.infer<typeof tokenSchema>;
+import { TokenSchema, tokenSchema } from '@types';
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   switch (req.method) {
