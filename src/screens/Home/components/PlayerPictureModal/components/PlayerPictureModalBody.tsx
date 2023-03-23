@@ -17,6 +17,7 @@ export const PlayerPictureModalBody = () => {
   const { chosenPlayerId, playerGuesses, playerMap } = usePoeltlStore();
   const url = getPlayerPicture(chosenPlayerId);
   const won = playerGuesses.map(({ id }) => id).includes(chosenPlayerId);
+  const maxGuesses = playerGuesses.length === 8;
 
   const { name: playerName } = playerMap.get(chosenPlayerId)!;
 
@@ -24,9 +25,9 @@ export const PlayerPictureModalBody = () => {
   return (
     <Container fluid className='text-center px-5'>
       <Row>
-        <Image alt='Player to be guessed' className='bg-image' src={url} fluid style={won ? {} : style} />
+        <Image alt='Player to be guessed' className='bg-image' src={url} fluid style={won || maxGuesses ? {} : style} />
       </Row>
-      {won ? <PlayerWonContent {...{ playerName, numGuesses: playerGuesses.length }} /> : <PlayerContent />}
+      {won || maxGuesses ? <PlayerWonContent {...{ playerName, numGuesses: playerGuesses.length }} /> : <PlayerContent />}
     </Container>
   );
 };

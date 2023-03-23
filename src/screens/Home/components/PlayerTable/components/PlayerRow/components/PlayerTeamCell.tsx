@@ -6,20 +6,19 @@ type Props = {
   teamName: string;
   teamId: number;
   abbreviation: string;
+  teams: number[];
 };
 
 const getLogoUrl = (teamId: string) => `https://cdn.nba.com/logos/nba/${teamId}/primary/L/logo.svg`;
 
-export const PlayerTeamCell = ({ teamName, teamId, abbreviation }: Props) => {
-  const { teamMap, playerMap, chosenPlayerId } = usePoeltlStore();
+export const PlayerTeamCell = ({ teamName, teamId, abbreviation, teams }: Props) => {
+  const { playerMap, chosenPlayerId } = usePoeltlStore();
   const { teamId: chosenTeamId, teams: chosenTeams } = playerMap.get(chosenPlayerId)!;
-
-  const { name: chosenTeamName } = teamMap.get(chosenTeamId)!;
 
   let className = '';
 
-  if (teamName === chosenTeamName) className = 'bg-success';
-  else if (chosenTeams.includes(teamId)) className = 'bg-warning';
+  if (teamId === chosenTeamId) className = 'bg-success';
+  else if (teams.includes(chosenTeamId)) className = 'bg-warning';
 
   return (
     <td className={className}>

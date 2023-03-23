@@ -65,8 +65,14 @@ export const Home = () => {
     }
   };
 
+  let placeHolderText = '';
+
+  if (currentGuess > 8) placeHolderText = 'You ran out of guesses!';
+  else if (guessCorrect) placeHolderText = `You solved it in ${currentGuess} guesses!`;
+  else placeHolderText = `Guess ${currentGuess} of 8`;
+
   return (
-    <Container className='pt-5 text-center'>
+    <Container className='pt-lg-2 text-center pt-0'>
       <Row>
         <h1>POELTL</h1>
       </Row>
@@ -74,7 +80,8 @@ export const Home = () => {
         <h4>NBA PLAYER GUESSING GAME</h4>
       </Row>
       <Row className='pt-3'>
-        <Col className='text-start'>
+        <Col xl={2} lg={2} md={0} />
+        <Col className='text-start' xl={8} lg={8} md={12}>
           <Form.Group>
             <Form.Label>Player Selection</Form.Label>
             <Typeahead
@@ -86,11 +93,12 @@ export const Home = () => {
               minLength={2}
               id='player-select'
               options={playerOptions}
-              placeholder={guessCorrect ? `You solved it in ${currentGuess} guesses!` : `Guess ${currentGuess} of 8`}
-              disabled={currentGuess >= 8 || guessCorrect}
+              placeholder={placeHolderText}
+              disabled={currentGuess > 8 || guessCorrect}
             />
           </Form.Group>
         </Col>
+        <Col xl={2} lg={2} md={0} />
       </Row>
       <Row className='pt-3'>
         <Col>
@@ -98,10 +106,12 @@ export const Home = () => {
         </Col>
       </Row>
       <Row className='pt-3'>
-        <Col>
+        <Col xl={2} lg={2} md={0} />
+        <Col xl={8} lg={8} md={12}>
           <PlayerTable {...{ players: playerGuesses }} />
           {isLoading ? <PoetltSpinner /> : null}
         </Col>
+        <Col xl={2} lg={2} md={0} />
       </Row>
       {isError ? <PoetltToast position='top-end' autohide bg='danger' delay={5000} message={error?.message ?? 'Something went wrong'} /> : null}
     </Container>

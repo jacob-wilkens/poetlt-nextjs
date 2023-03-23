@@ -17,7 +17,7 @@ type PoeltlStore = {
   decodeToken: (token: string) => void;
 };
 
-export const usePoeltlStore = create<PoeltlStore>((set, get) => ({
+export const usePoeltlStore = create<PoeltlStore>((set) => ({
   playerGuesses: [],
   setPlayerGuesses: (playerGuesses) => set({ playerGuesses }),
   playerMap: new Map<number, PlayerMapRecord>(),
@@ -28,14 +28,8 @@ export const usePoeltlStore = create<PoeltlStore>((set, get) => ({
   setChosenPlayerId: (chosenPlayerId) => set({ chosenPlayerId }),
   history: new Map<string, number>(),
   decodeToken: (token) => {
-    const { guesses, previousHistory: historySuperJson } = jwt.decode(token) as JWTPayload;
+    const { guesses: playerGuesses, previousHistory: historySuperJson } = jwt.decode(token) as JWTPayload;
     const history = superjson.deserialize<Map<string, number>>(historySuperJson);
-
-    const playerGuesses = guesses.map((id): Player => {
-      const player = get().playerMap.get(id)!;
-
-      return { id, ...player };
-    });
 
     set({ history, playerGuesses });
   },

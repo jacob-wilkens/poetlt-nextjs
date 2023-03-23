@@ -8,7 +8,7 @@ type Props = {
 };
 
 export const PlayerRow = ({ player }: Props) => {
-  const { id, name: playerName, age, height, number, pos: position, teamId } = player;
+  const { id, name: playerName, age, height, number, pos: position, teamId, teams } = player;
   const { teamMap } = usePoeltlStore();
 
   const { abbreviation, conference, division, name: teamName } = teamMap.get(teamId)!;
@@ -16,7 +16,7 @@ export const PlayerRow = ({ player }: Props) => {
   return (
     <tr key={id}>
       <PlayerNameCell {...{ playerName }} />
-      <PlayerTeamCell {...{ abbreviation, teamId, teamName }} />
+      <PlayerTeamCell {...{ abbreviation, teamId, teamName, teams }} />
       <PlayerConferenceCell {...{ conference }} />
       <PlayerDivisionCell {...{ division }} />
       <PlayerPositionCell {...{ position }} />

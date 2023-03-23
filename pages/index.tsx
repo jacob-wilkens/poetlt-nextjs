@@ -1,5 +1,6 @@
 import { GetServerSideProps, InferGetServerSidePropsType } from 'next';
 
+import ErrorBoundary from '@components/ErrorBoundary';
 import { useMount } from '@hooks';
 import { Home } from '@screens/Home';
 import { Navigation } from '@screens/Nav';
@@ -40,7 +41,9 @@ const Index = ({ data: { players, teams, chosenPlayerId } }: InferGetServerSideP
   return (
     <>
       <Navigation />
-      <Home />
+      <ErrorBoundary>
+        <Home />
+      </ErrorBoundary>
     </>
   );
 };

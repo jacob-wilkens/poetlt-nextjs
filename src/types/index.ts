@@ -38,7 +38,7 @@ export type StoreMaps = {
 export type ChosenPlayerMap = Map<string, number>; // date -> player id
 
 export type JWTPayload = {
-  guesses: number[];
+  guesses: Player[];
   previousHistory: SuperJSONResult;
   wonToday: boolean;
 };

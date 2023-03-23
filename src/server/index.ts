@@ -3,24 +3,16 @@ import jwt from 'jsonwebtoken';
 import path from 'path';
 import superjson from 'superjson';
 
-import { ChosenPlayerMap, Data, JWTPayload, UpdateJWTParams } from '@types';
+import { ChosenPlayerMap, Data, JWTPayload, Player, Team, UpdateJWTParams } from '@types';
 
 const expiresIn = Math.floor(Date.now() / 1000) + 100 * 365 * 24 * 60 * 60;
 const basePath = process.cwd();
 
 export async function getData(): Promise<Data> {
-  const playerPath = path.join(basePath, 'data', 'players.json');
-  const playerData = await fs.readFile(playerPath, 'utf-8');
+  const players = await getPlayerData();
+  const teams = await getTeamData();
 
-  const teamPath = path.join(basePath, 'data', 'teams.json');
-  const teamData = await fs.readFile(teamPath, 'utf-8');
-
-  const chosenPlayerPath = path.join(basePath, 'data', 'chosen-players.json');
-  const chosenPlayers = await fs.readFile(chosenPlayerPath, 'utf-8');
-  const chosenPlayerMap = superjson.parse<ChosenPlayerMap>(chosenPlayers);
-
-  const players = JSON.parse(playerData);
-  const teams = JSON.parse(teamData);
+  const chosenPlayerMap = await getChosenPlayerMap();
   const chosenPlayerId = chosenPlayerMap.get(getTodayDateString())!;
 
   return { chosenPlayerId, players, teams };
@@ -40,11 +32,16 @@ export async function createTokenWithUpdatedHistory({ playerId, previousToken }:
   const history = superjson.deserialize<Map<string, number>>(previousHistory);
   const chosenPlayerMap = await getChosenPlayerMap();
 
+  const guessedPlayerIds = guesses.map(({ id }) => id);
+
   if (wonToday && history.has(today)) throw new Error('You have already won today, please wait until tomorrow to play again');
   if (guesses.length === 8) throw new Error('You have already guessed 8 times today');
-  if (guesses.includes(playerId)) throw new Error('You have already guessed this player today');
+  if (guessedPlayerIds.includes(playerId)) throw new Error('You have already guessed this player today');
 
-  guesses.push(playerId);
+  const playerMap = await getPlayerMap();
+  const player = playerMap.get(playerId)!;
+
+  guesses.push(player);
   wonToday = chosenPlayerMap.get(today) === playerId;
   history.set(today, wonToday ? guesses.length : 0);
 
@@ -56,7 +53,11 @@ export async function createTokenWithUpdatedHistory({ playerId, previousToken }:
 }
 
 export async function createNewToken(playerId: number): Promise<string> {
-  const guesses = [playerId];
+  const guesses: Player[] = [];
+  const playerMap = await getPlayerMap();
+  const player = playerMap.get(playerId)!;
+
+  guesses.push(player);
 
   const chosenPlayerMap = await getChosenPlayerMap();
   const today = getTodayDateString();
@@ -100,4 +101,67 @@ async function getChosenPlayerMap(): Promise<ChosenPlayerMap> {
   const chosenPlayerData = await fs.readFile(chosenPlayerPath, 'utf-8');
 
   return superjson.parse<ChosenPlayerMap>(chosenPlayerData);
+}
+
+function shuffleArray(arr: number[]): number[] {
+  return arr.sort(() => Math.random() - 0.5);
+}
+
+function createYearlyDateMap(): Map<string, number> {
+  const today = new Date();
+  const year = today.getFullYear();
+  const startDate = new Date(`${year}-01-01`);
+  const endDate = new Date(`${year}-12-31`);
+  const dateMap = new Map<string, number>();
+  const options: Intl.DateTimeFormatOptions = { month: '2-digit', day: '2-digit' };
+
+  for (let currentDate = startDate; currentDate <= endDate; currentDate.setDate(currentDate.getDate() + 1)) {
+    const dateString = new Intl.DateTimeFormat('en-US', { year: 'numeric', ...options }).format(currentDate);
+    dateMap.set(dateString, 0);
+  }
+
+  return dateMap;
+}
+
+async function createChosenPlayerMap(): Promise<ChosenPlayerMap> {
+  const chosenPlayerMap = new Map<string, number>();
+  const yearlyDateMap = createYearlyDateMap();
+
+  const playerPath = path.join(basePath, 'data', 'players.json');
+  const playerData = await fs.readFile(playerPath, 'utf-8');
+
+  const players = (JSON.parse(playerData) as Player[]).map(({ id }) => id);
+
+  const shuffledPlayers = shuffleArray(players);
+
+  [...yearlyDateMap.keys()].forEach((dateString, index) => {
+    chosenPlayerMap.set(dateString, shuffledPlayers[index]);
+  });
+
+  return chosenPlayerMap;
+}
+
+async function getTeamData(): Promise<Team[]> {
+  const teamPath = path.join(basePath, 'data', 'teams.json');
+  const teamData = await fs.readFile(teamPath, 'utf-8');
+
+  return JSON.parse(teamData) as Team[];
+}
+
+async function getPlayerData(): Promise<Player[]> {
+  const playerPath = path.join(basePath, 'data', 'players.json');
+  const playerData = await fs.readFile(playerPath, 'utf-8');
+
+  return JSON.parse(playerData) as Player[];
+}
+
+async function getPlayerMap(): Promise<Map<number, Player>> {
+  const playerMap = new Map<number, Player>();
+  const playerData = await getPlayerData();
+
+  playerData.forEach((player) => {
+    playerMap.set(player.id, player);
+  });
+
+  return playerMap;
 }
