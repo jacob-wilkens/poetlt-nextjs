@@ -9,13 +9,9 @@ import { usePoeltlStore } from '@stores';
 import { Data, PlayerMapRecord, StoreMaps, TeamMapRecord } from '@types';
 
 export const getServerSideProps: GetServerSideProps<{ data: Data }> = async () => {
-  const { players, teams, chosenPlayerId } = await getData();
+  const data = await getData();
 
-  return {
-    props: {
-      data: { players, teams, chosenPlayerId },
-    },
-  };
+  return { props: { data } };
 };
 
 export function getMaps({ players, teams }: Omit<Data, 'chosenPlayerId'>): StoreMaps {
