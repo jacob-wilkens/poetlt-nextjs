@@ -4,25 +4,19 @@ import path from 'path';
 import superjson from 'superjson';
 
 import { ChosenPlayerMap, Data, JWTPayload, Player, Team, UpdateJWTParams } from '@types';
+import { getTodayDateString } from '@utils';
 
 const expiresIn = Math.floor(Date.now() / 1000) + 100 * 365 * 24 * 60 * 60;
 const basePath = process.cwd();
 
 export async function getData(): Promise<Data> {
   const players = await getPlayerData();
-  const teams = await getTeamData();
+  const teams: Team[] = await getTeamData();
 
   const chosenPlayerMap = await getChosenPlayerMap();
   const chosenPlayerId = chosenPlayerMap.get(getTodayDateString())!;
 
   return { chosenPlayerId, players, teams };
-}
-
-//function to get date string of current date in MM/DD/YYYY format
-export function getTodayDateString(): string {
-  const today = new Date();
-  const options: Intl.DateTimeFormatOptions = { year: 'numeric', month: '2-digit', day: '2-digit' };
-  return new Intl.DateTimeFormat('en-US', options).format(today);
 }
 
 export async function createTokenWithUpdatedHistory({ playerId, previousToken }: UpdateJWTParams): Promise<string> {
@@ -164,4 +158,20 @@ async function getPlayerMap(): Promise<Map<number, Player>> {
   });
 
   return playerMap;
+}
+
+export async function resetToken(token: string): Promise<string> {
+  const { previousHistory: oldHistory } = await validateJwtToken(token);
+
+  const history = superjson.deserialize<Map<string, number>>(oldHistory);
+  const today = getTodayDateString();
+  history.set(today, -1);
+
+  const previousHistory = superjson.serialize(history);
+
+  const newToken = await createJwtToken({ guesses: [], previousHistory, wonToday: false }, { expiresIn });
+
+  if (!newToken) throw new Error('Failed to create JWT token');
+
+  return newToken;
 }

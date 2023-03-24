@@ -10,13 +10,11 @@ import { Option } from 'react-bootstrap-typeahead/types/types';
 
 import { PoetltSpinner } from '@components/Spinner';
 import { PoetltToast } from '@components/Toast';
-import { useMount, usePlayerNameMap, usePlayerOptions } from '@hooks';
+import { useMount, usePlayerNameMap, usePlayerOptions, useSubmitToken } from '@hooks';
 import { usePoeltlStore } from '@stores';
-import { useMutation } from '@tanstack/react-query';
-import { TokenResponse, TokenSchema } from '@types';
+import { TokenResetSchema, TokenSchema } from '@types';
 
 import { PlayerPictureModal, PlayerTable } from './components';
-import { postToken } from './util';
 
 export const Home = () => {
   const { playerGuesses, decodeToken, currentGuess, guessCorrect } = usePoeltlStore((state) => {
@@ -31,20 +29,15 @@ export const Home = () => {
   const playerOptions = usePlayerOptions();
   const playerNameMap = usePlayerNameMap();
 
+  const ref = useRef<any>(null);
+
+  const { isError: isPostingTokenError, isLoading: isPostingToken, mutate: postToken, error: postTokenError } = useSubmitToken<TokenSchema>({ url: '/api/token' });
+  const { isError: isResettingTokenError, isLoading: isResettingToken, mutate: resetToken, error: resetTokenError } = useSubmitToken<TokenResetSchema>({ url: '/api/token/reset' });
+
   const token = typeof window !== 'undefined' ? localStorage.getItem('token') : undefined;
 
   useMount(() => {
-    if (token) decodeToken(token);
-  });
-
-  const ref = useRef<any>(null);
-
-  const { isError, isLoading, mutate, error } = useMutation<TokenResponse, Error, TokenSchema>({
-    mutationFn: (payload) => postToken(payload),
-    onSuccess: ({ token }) => {
-      localStorage.setItem('token', token);
-      decodeToken(token);
-    },
+    if (token) decodeToken(token, resetToken);
   });
 
   const handlePlayerSelect = (selected: Option[]) => {
@@ -59,7 +52,7 @@ export const Home = () => {
 
       if (token) payload.token = token;
 
-      mutate(payload);
+      postToken(payload);
 
       ref.current.clear();
     }
@@ -109,11 +102,13 @@ export const Home = () => {
         <Col xl={2} lg={2} md={0} />
         <Col xl={8} lg={8} md={12}>
           <PlayerTable {...{ players: playerGuesses }} />
-          {isLoading ? <PoetltSpinner /> : null}
+          {isPostingToken || isResettingToken ? <PoetltSpinner /> : null}
         </Col>
         <Col xl={2} lg={2} md={0} />
       </Row>
-      {isError ? <PoetltToast position='top-end' autohide bg='danger' delay={5000} message={error?.message ?? 'Something went wrong'} /> : null}
+      {isPostingTokenError || isResettingTokenError ? (
+        <PoetltToast position='top-end' autohide bg='danger' delay={5000} message={postTokenError ? postTokenError?.message : resetTokenError ? resetTokenError?.message : 'Something went wrong'} />
+      ) : null}
     </Container>
   );
 };

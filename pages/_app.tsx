@@ -4,6 +4,9 @@ import type { AppProps } from 'next/app';
 
 import SSRProvider from 'react-bootstrap/SSRProvider';
 
+import { ErrorBoundary } from 'react-error-boundary';
+
+import { ErrorFallback } from '@components/ErrorFallback';
 import ThemeProvider from '@contexts/Theme';
 import { useLoadBootstrap } from '@hooks';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
@@ -22,15 +25,17 @@ function App({ Component, pageProps }: AppProps) {
   const [queryClient] = useState(() => new QueryClient());
 
   return (
-    <QueryClientProvider client={queryClient}>
-      <SSRProvider>
-        <ThemeProvider>
-          <Head />
-          <ReactQueryDevtools initialIsOpen={false} />
-          <Component {...pageProps} />
-        </ThemeProvider>
-      </SSRProvider>
-    </QueryClientProvider>
+    <ErrorBoundary FallbackComponent={ErrorFallback}>
+      <QueryClientProvider client={queryClient}>
+        <SSRProvider>
+          <ThemeProvider>
+            <Head />
+            <ReactQueryDevtools initialIsOpen={false} />
+            <Component {...pageProps} />
+          </ThemeProvider>
+        </SSRProvider>
+      </QueryClientProvider>
+    </ErrorBoundary>
   );
 }
 

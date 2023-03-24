@@ -67,7 +67,7 @@ function getCurrentStreaks(gameResults: Map<string, number>): Streaks {
   const winDistribution = new Map<number, number>();
 
   for (const result of gameResults.values()) {
-    if (result > 0) {
+    if (result > 0 && result !== -1) {
       currentStreak++;
       tempStreak++;
       wins++;

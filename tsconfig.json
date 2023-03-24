@@ -22,7 +22,8 @@
       "@contexts/*": ["contexts/*"],
       "@screens/*": ["screens/*"],
       "@server": ["server"],
-      "@stores": ["stores"]
+      "@stores": ["stores"],
+      "@utils": ["utils"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

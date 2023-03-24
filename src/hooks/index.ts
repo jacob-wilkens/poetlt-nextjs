@@ -4,3 +4,4 @@ export * from './useLoadBootstrap';
 export * from './useMount';
 export * from './usePlayerNameMap';
 export * from './usePlayerOptions';
+export * from './useSubmitToken';

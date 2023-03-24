@@ -1,6 +1,8 @@
 import { GetServerSideProps, InferGetServerSidePropsType } from 'next';
 
-import ErrorBoundary from '@components/ErrorBoundary';
+import { ErrorBoundary } from 'react-error-boundary';
+
+import { ErrorFallback } from '@components/ErrorFallback';
 import { useMount } from '@hooks';
 import { Home } from '@screens/Home';
 import { Navigation } from '@screens/Nav';
@@ -37,7 +39,7 @@ const Index = ({ data: { players, teams, chosenPlayerId } }: InferGetServerSideP
   return (
     <>
       <Navigation />
-      <ErrorBoundary>
+      <ErrorBoundary FallbackComponent={ErrorFallback}>
         <Home />
       </ErrorBoundary>
     </>

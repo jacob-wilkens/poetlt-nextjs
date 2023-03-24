@@ -2,7 +2,8 @@ import jwt from 'jsonwebtoken';
 import superjson from 'superjson';
 import { create } from 'zustand';
 
-import { JWTPayload, Player, PlayerMapRecord, TeamMapRecord } from '@types';
+import { JWTPayload, Player, PlayerMapRecord, TeamMapRecord, TokenResetFn } from '@types';
+import { getTodayDateString } from '@utils';
 
 type PoeltlStore = {
   playerGuesses: Player[];
@@ -14,7 +15,7 @@ type PoeltlStore = {
   chosenPlayerId: number;
   setChosenPlayerId: (chosenPlayerId: number) => void;
   history: Map<string, number>;
-  decodeToken: (token: string) => void;
+  decodeToken: (token: string, resetFn?: TokenResetFn) => void;
 };
 
 export const usePoeltlStore = create<PoeltlStore>((set) => ({
@@ -27,9 +28,13 @@ export const usePoeltlStore = create<PoeltlStore>((set) => ({
   chosenPlayerId: 0,
   setChosenPlayerId: (chosenPlayerId) => set({ chosenPlayerId }),
   history: new Map<string, number>(),
-  decodeToken: (token) => {
+  decodeToken: (token, resetFn) => {
     const { guesses: playerGuesses, previousHistory: historySuperJson } = jwt.decode(token) as JWTPayload;
     const history = superjson.deserialize<Map<string, number>>(historySuperJson);
+
+    const todayDateString = getTodayDateString();
+
+    if (!history.has(todayDateString) && resetFn) resetFn({ token });
 
     set({ history, playerGuesses });
   },

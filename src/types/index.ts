@@ -1,6 +1,8 @@
 import { SuperJSONResult } from 'superjson/dist/types';
 import z from 'zod';
 
+import { UseMutateFunction } from '@tanstack/react-query';
+
 export type Player = {
   id: number;
   name: string;
@@ -53,6 +55,12 @@ export const tokenSchema = z.object({
   token: z.string().optional(),
 });
 
+export const tokenResetSchema = z.object({
+  token: z.string(),
+});
+
+export type TokenResetSchema = z.infer<typeof tokenResetSchema>;
+
 export type TokenSchema = z.infer<typeof tokenSchema>;
 
 export type TokenResponse = {
@@ -69,4 +77,15 @@ export type Streaks = {
   longestStreak: number;
   winPct: number;
   winDistribution: Map<number, number>;
+};
+
+export type TokenResetFn = UseMutateFunction<TokenResponse, Error, { token: string }, unknown>;
+
+export type TokenMutationFnParams<T> = {
+  url: string;
+  payload: T;
+};
+
+export type TokenMutationParams = {
+  url: string;
 };
