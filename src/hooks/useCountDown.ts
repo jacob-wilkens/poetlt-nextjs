@@ -1,7 +1,9 @@
 import { useEffect, useState } from 'react';
 
+export const MID_NIGHT = '00:00:00';
+
 export function useCountDown(): string {
-  const [countdown, setCountdown] = useState('00:00:00');
+  const [countdown, setCountdown] = useState(MID_NIGHT);
 
   useEffect(() => {
     const calculateCountdown = (): void => {
