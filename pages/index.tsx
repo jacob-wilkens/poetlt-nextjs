@@ -41,7 +41,7 @@ const Index = ({ data: { players, teams, chosenPlayerId } }: InferGetServerSideP
     setPlayerMap(playerMap);
     setTeamMap(teamMap);
     setChosenPlayerId(chosenPlayerId);
-    setCookie(null, 'utcOffset', getCurrentUTCOffset());
+    setCookie(null, 'utcOffset', getCurrentUTCOffset(), { maxAge: 30 * 24 * 60 * 60, path: '/' });
   });
 
   return (
