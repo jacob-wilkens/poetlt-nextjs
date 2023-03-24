@@ -28,3 +28,7 @@
 .mystery-text {
   font-size: 1.25rem;
 }
+
+.mystery-player {
+  filter: contrast(0%) brightness(0%);
+}

@@ -1,6 +1,4 @@
-import { CSSProperties } from 'react';
-
-import Image from 'react-bootstrap/Image';
+import Image from 'next/image';
 
 import { Container, Row } from 'react-bootstrap';
 
@@ -11,8 +9,6 @@ import { PlayerWonContent } from './PlayerWonContent';
 
 const getPlayerPicture = (playerId: number) => `https://cdn.nba.com/headshots/nba/latest/1040x760/${playerId}.png`;
 
-const style: CSSProperties = { filter: 'contrast(0%) brightness(0%)' };
-
 export const PlayerPictureModalBody = () => {
   const { chosenPlayerId, playerGuesses, playerMap } = usePoeltlStore();
   const url = getPlayerPicture(chosenPlayerId);
@@ -21,11 +17,12 @@ export const PlayerPictureModalBody = () => {
 
   const { name: playerName } = playerMap.get(chosenPlayerId)!;
 
-  //TODO: convert to next image
   return (
     <Container fluid className='text-center px-5'>
       <Row>
-        <Image alt='Player to be guessed' className='bg-image' src={url} fluid style={won || maxGuesses ? {} : style} />
+        <div className={`d-flex justify-content-center ${won ? undefined : 'mystery-player'}`}>
+          <Image alt='Player to be guessed' src={url} width={300} height={200} />
+        </div>
       </Row>
       {won || maxGuesses ? <PlayerWonContent {...{ playerName, numGuesses: playerGuesses.length }} /> : <PlayerContent />}
     </Container>
