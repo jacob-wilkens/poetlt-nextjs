@@ -9,12 +9,12 @@ import { getTodayDateString } from '@utils';
 const expiresIn = Math.floor(Date.now() / 1000) + 100 * 365 * 24 * 60 * 60;
 const basePath = process.cwd();
 
-export async function getData(): Promise<Data> {
+export async function getData(offSet: number): Promise<Data> {
   const players = await getPlayerData();
   const teams: Team[] = await getTeamData();
 
   const chosenPlayerMap = await getChosenPlayerMap();
-  const chosenPlayerId = chosenPlayerMap.get(getTodayDateString())!;
+  const chosenPlayerId = chosenPlayerMap.get(getTodayDateString(offSet))!;
 
   return { chosenPlayerId, players, teams };
 }
