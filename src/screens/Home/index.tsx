@@ -1,7 +1,5 @@
 import { useRef } from 'react';
 
-import { useRouter } from 'next/router';
-
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
@@ -12,7 +10,7 @@ import { Option } from 'react-bootstrap-typeahead/types/types';
 
 import { PoetltSpinner } from '@components/Spinner';
 import { PoetltToast } from '@components/Toast';
-import { MID_NIGHT, useCountDown, useMount, usePlayerNameMap, usePlayerOptions, useSubmitToken } from '@hooks';
+import { useMount, usePlayerNameMap, usePlayerOptions, useSubmitToken } from '@hooks';
 import { usePoeltlStore } from '@stores';
 import { TokenResetSchema, TokenSchema } from '@types';
 
@@ -41,12 +39,6 @@ export const Home = () => {
   useMount(() => {
     if (token) decodeToken(token, resetToken);
   });
-
-  const router = useRouter();
-
-  const countdown = useCountDown();
-
-  if (countdown === MID_NIGHT) router.reload();
 
   const handlePlayerSelect = (selected: Option[]) => {
     if (selected.length === 1) {
