@@ -87,7 +87,7 @@ export const Home = () => {
               id='player-select'
               options={playerOptions}
               placeholder={placeHolderText}
-              disabled={currentGuess > 8 || guessCorrect}
+              disabled={currentGuess > 8 || guessCorrect || isPostingToken}
             />
           </Form.Group>
         </Col>
