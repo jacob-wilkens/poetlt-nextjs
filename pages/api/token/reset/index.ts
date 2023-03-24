@@ -3,7 +3,7 @@ import type { NextApiRequest, NextApiResponse } from 'next';
 import { ZodError } from 'zod';
 
 import { resetToken } from '@server';
-import { TokenResetSchema, tokenResetSchema } from '@types';
+import { TokenResetSchema, offSetSchema, tokenResetSchema } from '@types';
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   switch (req.method) {
@@ -21,7 +21,10 @@ async function post(req: NextApiRequest, res: NextApiResponse) {
     const { token: oldToken } = req.body as TokenResetSchema;
     const { token: validatedToken } = tokenResetSchema.parse({ token: oldToken });
 
-    const token = await resetToken(validatedToken);
+    const offSet = req.headers['x-timezone-offset'];
+    const offSetNumber = +offSetSchema.parse(offSet);
+
+    const token = await resetToken({ token: validatedToken, offSet: offSetNumber });
 
     res.status(200).json({ token });
   } catch (error) {

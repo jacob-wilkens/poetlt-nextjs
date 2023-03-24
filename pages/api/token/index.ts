@@ -3,7 +3,7 @@ import type { NextApiRequest, NextApiResponse } from 'next';
 import { ZodError } from 'zod';
 
 import { createNewToken, createTokenWithUpdatedHistory } from '@server';
-import { TokenSchema, tokenSchema } from '@types';
+import { TokenSchema, offSetSchema, tokenSchema } from '@types';
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   switch (req.method) {
@@ -21,10 +21,13 @@ async function post(req: NextApiRequest, res: NextApiResponse) {
     const { token: oldToken, playerId } = req.body as TokenSchema;
     tokenSchema.parse({ token: oldToken, playerId });
 
+    const offSet = req.headers['x-timezone-offset'];
+    const offSetNumber = +offSetSchema.parse(offSet);
+
     let token: string = '';
 
-    if (oldToken) token = await createTokenWithUpdatedHistory({ playerId, previousToken: oldToken });
-    else token = await createNewToken(playerId);
+    if (oldToken) token = await createTokenWithUpdatedHistory({ playerId, previousToken: oldToken, offSet: offSetNumber });
+    else token = await createNewToken({ playerId, offSet: offSetNumber });
 
     res.status(200).json({ token });
   } catch (error) {

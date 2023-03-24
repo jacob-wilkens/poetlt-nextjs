@@ -1,6 +1,7 @@
 import { usePoeltlStore } from '@stores';
 import { useMutation } from '@tanstack/react-query';
 import { TokenErrorResponse, TokenMutationFnParams, TokenMutationParams, TokenResponse } from '@types';
+import { getCurrentUTCOffset } from '@utils';
 
 async function postToken<T>({ url, payload }: TokenMutationFnParams<T>): Promise<TokenResponse> {
   try {
@@ -8,6 +9,7 @@ async function postToken<T>({ url, payload }: TokenMutationFnParams<T>): Promise
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
+        'X-Timezone-Offset': getCurrentUTCOffset(),
       },
       body: JSON.stringify(payload),
     });

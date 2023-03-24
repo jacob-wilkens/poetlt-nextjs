@@ -48,12 +48,25 @@ export type JWTPayload = {
 export type UpdateJWTParams = {
   playerId: number;
   previousToken: string;
+  offSet: number;
+};
+
+export type CreateJWTParams = {
+  playerId: number;
+  offSet: number;
+};
+
+export type ResetTokenParams = {
+  token: string;
+  offSet: number;
 };
 
 export const tokenSchema = z.object({
   playerId: z.number().int(),
   token: z.string().optional(),
 });
+
+export const offSetSchema = z.string().refine((val) => !isNaN(Number(val)), { message: 'Value must be a number as a string' });
 
 export const tokenResetSchema = z.object({
   token: z.string(),

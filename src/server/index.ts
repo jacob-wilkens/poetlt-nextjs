@@ -3,7 +3,7 @@ import jwt from 'jsonwebtoken';
 import path from 'path';
 import superjson from 'superjson';
 
-import { ChosenPlayerMap, Data, JWTPayload, Player, Team, UpdateJWTParams } from '@types';
+import { ChosenPlayerMap, CreateJWTParams, Data, JWTPayload, Player, ResetTokenParams, Team, UpdateJWTParams } from '@types';
 import { getTodayDateString } from '@utils';
 
 const expiresIn = Math.floor(Date.now() / 1000) + 100 * 365 * 24 * 60 * 60;
@@ -19,10 +19,10 @@ export async function getData(): Promise<Data> {
   return { chosenPlayerId, players, teams };
 }
 
-export async function createTokenWithUpdatedHistory({ playerId, previousToken }: UpdateJWTParams): Promise<string> {
+export async function createTokenWithUpdatedHistory({ playerId, previousToken, offSet }: UpdateJWTParams): Promise<string> {
   let { guesses, previousHistory, wonToday } = await validateJwtToken(previousToken);
 
-  const today = getTodayDateString();
+  const today = getTodayDateString(offSet);
   const history = superjson.deserialize<Map<string, number>>(previousHistory);
   const chosenPlayerMap = await getChosenPlayerMap();
 
@@ -46,7 +46,7 @@ export async function createTokenWithUpdatedHistory({ playerId, previousToken }:
   return token;
 }
 
-export async function createNewToken(playerId: number): Promise<string> {
+export async function createNewToken({ offSet, playerId }: CreateJWTParams): Promise<string> {
   const guesses: Player[] = [];
   const playerMap = await getPlayerMap();
   const player = playerMap.get(playerId)!;
@@ -54,7 +54,7 @@ export async function createNewToken(playerId: number): Promise<string> {
   guesses.push(player);
 
   const chosenPlayerMap = await getChosenPlayerMap();
-  const today = getTodayDateString();
+  const today = getTodayDateString(offSet);
 
   const wonToday = chosenPlayerMap.get(today) === playerId;
 
@@ -160,11 +160,12 @@ async function getPlayerMap(): Promise<Map<number, Player>> {
   return playerMap;
 }
 
-export async function resetToken(token: string): Promise<string> {
+export async function resetToken({ token, offSet }: ResetTokenParams): Promise<string> {
   const { previousHistory: oldHistory } = await validateJwtToken(token);
 
   const history = superjson.deserialize<Map<string, number>>(oldHistory);
-  const today = getTodayDateString();
+  const today = getTodayDateString(offSet);
+
   history.set(today, -1);
 
   const previousHistory = superjson.serialize(history);
