@@ -81,5 +81,5 @@ function getCurrentStreaks(gameResults: Map<string, number>): Streaks {
     }
   }
 
-  return { currentStreak, longestStreak, winPct: (wins / gameResults.size) * 100, winDistribution };
+  return { currentStreak, longestStreak, winPct: gameResults.size === 0 ? 0 : (wins / gameResults.size) * 100, winDistribution };
 }
