@@ -32,7 +32,7 @@ export const StatModalBody = () => {
         </Col>
         <Col xs={3}>
           <h4 className='stat-title'>
-            WIN <br /> PERCENTAGE
+            WIN <br /> PCT
           </h4>
           <p className='stat-description'>{winPct}%</p>
         </Col>

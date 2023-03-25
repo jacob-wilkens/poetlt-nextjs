@@ -9,4 +9,4 @@ export type Theme = {
   icon: string;
 };
 
-export type ThemeType = 'light' | 'dark' | 'auto';
+export type ThemeType = 'light' | 'dark';

@@ -121,10 +121,8 @@ async function createChosenPlayerMap(): Promise<ChosenPlayerMap> {
   const chosenPlayerMap = new Map<string, number>();
   const yearlyDateMap = createYearlyDateMap();
 
-  const playerPath = path.join(basePath, 'data', 'players.json');
-  const playerData = await fs.readFile(playerPath, 'utf-8');
-
-  const players = (JSON.parse(playerData) as Player[]).map(({ id }) => id);
+  const playerData = await getPlayerData();
+  const players = playerData.map(({ id }) => id);
 
   const shuffledPlayers = shuffleArray(players);
 

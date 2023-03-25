@@ -1,27 +1,17 @@
 import { ReactNode, createContext, useContext, useState } from 'react';
 
-import { useEffectOnce } from '@hooks';
+import { setCookie } from 'nookies';
 
 import { Theme, ThemeContextType, ThemeType } from './types';
 
-const IS_SERVER = typeof window === 'undefined';
 const DEFAULT_THEMES: Theme[] = [
   { name: 'Light', icon: '☀️' },
   { name: 'Dark', icon: '🌙' },
-  { name: 'Auto', icon: '⚙️' },
 ];
 
-const storedTheme: ThemeType = IS_SERVER ? 'light' : (localStorage.getItem('theme') as ThemeType);
-
 function modifyDOM(theme: ThemeType) {
-  if (theme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches) document.documentElement.setAttribute('data-bs-theme', 'dark');
-  else document.documentElement.setAttribute('data-bs-theme', theme);
-}
-
-function getPreferredTheme() {
-  if (storedTheme) return storedTheme;
-
-  return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  document.documentElement.setAttribute('data-bs-theme', theme);
+  setCookie(null, 'theme', theme, { maxAge: 30 * 24 * 60 * 60 * 1000, path: '/' });
 }
 
 const ThemeContext = createContext<ThemeContextType>(null!);
@@ -29,16 +19,12 @@ const ThemeContext = createContext<ThemeContextType>(null!);
 export const useTheme = () => useContext(ThemeContext);
 
 type Props = {
+  preferredTheme: ThemeType;
   children: ReactNode;
 };
 
-export default function ThemeProvider({ children }: Props) {
-  const [mode, setMode] = useState(getPreferredTheme());
-
-  useEffectOnce(() => {
-    if (IS_SERVER) return;
-    modifyDOM(mode);
-  });
+export default function ThemeProvider({ children, preferredTheme }: Props) {
+  const [mode, setMode] = useState(preferredTheme);
 
   function setTheme(theme: ThemeType) {
     modifyDOM(theme);

@@ -22,7 +22,7 @@ export const PlayerTeamCell = ({ teamName, teamId, abbreviation, teams }: Props)
 
   return (
     <td className={className}>
-      <Image src={getLogoUrl(`${teamId}`)} alt={`${teamName} Logo`} width='40rem' height='40rem' />
+      <Image src={getLogoUrl(`${teamId}`)} alt={`${teamName} Logo`} width={'50'} height={'50'} />
       <br />
       {abbreviation}
     </td>

@@ -5,6 +5,9 @@ const nextConfig = {
   images: {
     domains: ['cdn.nba.com'],
   },
+  experimental: {
+    appDir: true,
+  },
 };
 
 module.exports = nextConfig;

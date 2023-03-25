@@ -5,4 +5,4 @@ node_modules
 **/__tmp__/**
 lerna.json
 .github
-_app.tsx
+layout.tsx
