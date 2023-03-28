@@ -1,8 +1,8 @@
 import { ReactNode, createContext, useContext, useState } from 'react';
 
-import { setCookie } from 'nookies';
+import { setCookie } from 'cookies-next';
 
-import { Theme, ThemeContextType, ThemeType } from './types';
+import { Theme, ThemeContextType, ThemeType } from '@types';
 
 const DEFAULT_THEMES: Theme[] = [
   { name: 'Light', icon: '☀️' },
@@ -11,7 +11,7 @@ const DEFAULT_THEMES: Theme[] = [
 
 function modifyDOM(theme: ThemeType) {
   document.documentElement.setAttribute('data-bs-theme', theme);
-  setCookie(null, 'theme', theme, { maxAge: 30 * 24 * 60 * 60 * 1000, path: '/' });
+  setCookie('theme', theme, { maxAge: 30 * 24 * 60 * 60 * 1000, path: '/' });
 }
 
 const ThemeContext = createContext<ThemeContextType>(null!);
@@ -28,7 +28,6 @@ export default function ThemeProvider({ children, preferredTheme }: Props) {
 
   function setTheme(theme: ThemeType) {
     modifyDOM(theme);
-    localStorage.setItem('theme', theme);
     setMode(theme);
   }
 

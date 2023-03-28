@@ -1,6 +1,6 @@
 'use client';
 
-import { useRef } from 'react';
+import { useEffect, useRef } from 'react';
 
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
@@ -12,20 +12,19 @@ import { Option } from 'react-bootstrap-typeahead/types/types';
 
 import { PoetltSpinner } from '@components/Spinner';
 import { PoetltToast } from '@components/Toast';
-import { useMount, usePlayerNameMap, usePlayerOptions, useSubmitToken } from '@hooks';
+import { usePlayerNameMap, usePlayerOptions, useSubmitToken } from '@hooks';
 import { usePoeltlStore } from '@stores';
-import { TokenResetSchema, TokenSchema } from '@types';
 
 import { PlayerPictureModal, PlayerTable } from './components';
 
 export const Home = () => {
-  const { playerGuesses, decodeToken, currentGuess, guessCorrect } = usePoeltlStore((state) => {
-    const { chosenPlayerId, playerGuesses, decodeToken } = state;
+  const { playerGuesses, currentGuess, guessCorrect } = usePoeltlStore((state) => {
+    const { chosenPlayerId, playerGuesses } = state;
 
     const playerIds = playerGuesses.map(({ id }) => id);
     const guessCorrect = playerIds.includes(chosenPlayerId);
 
-    return { playerGuesses, decodeToken, currentGuess: guessCorrect ? playerGuesses.length : playerGuesses.length + 1, guessCorrect };
+    return { playerGuesses, currentGuess: guessCorrect ? playerGuesses.length : playerGuesses.length + 1, guessCorrect };
   });
 
   const playerOptions = usePlayerOptions();
@@ -33,14 +32,12 @@ export const Home = () => {
 
   const ref = useRef<any>(null);
 
-  const { isError: isPostingTokenError, isLoading: isPostingToken, mutate: postToken, error: postTokenError } = useSubmitToken<TokenSchema>({ url: '/api/token' });
-  const { isError: isResettingTokenError, isLoading: isResettingToken, mutate: resetToken, error: resetTokenError } = useSubmitToken<TokenResetSchema>({ url: '/api/token/reset' });
+  const { isError, isLoading, mutate: postToken, error } = useSubmitToken({ url: '/api/token' });
 
-  const token = typeof window !== 'undefined' ? localStorage.getItem('token') : undefined;
-
-  useMount(() => {
-    if (token) decodeToken(token, resetToken);
-  });
+  useEffect(() => {
+    if (isLoading) ref.current?.blur();
+    else ref.current?.focus();
+  }, [isLoading]);
 
   const handlePlayerSelect = (selected: Option[]) => {
     if (selected.length === 1) {
@@ -50,13 +47,9 @@ export const Home = () => {
 
       const playerId = playerNameMap.get(name)!;
 
-      const payload: TokenSchema = { playerId };
+      postToken({ playerId });
 
-      if (token) payload.token = token;
-
-      postToken(payload);
-
-      ref.current.clear();
+      ref.current?.clear();
     }
   };
 
@@ -89,7 +82,7 @@ export const Home = () => {
               id='player-select'
               options={playerOptions}
               placeholder={placeHolderText}
-              disabled={currentGuess > 8 || guessCorrect || isPostingToken}
+              disabled={currentGuess > 8 || guessCorrect || isLoading}
             />
           </Form.Group>
         </Col>
@@ -104,13 +97,11 @@ export const Home = () => {
         <Col xl={2} lg={2} md={0} />
         <Col xl={8} lg={8} md={12}>
           <PlayerTable {...{ players: playerGuesses }} />
-          {isPostingToken || isResettingToken ? <PoetltSpinner /> : null}
+          {isLoading ? <PoetltSpinner /> : null}
         </Col>
         <Col xl={2} lg={2} md={0} />
       </Row>
-      {isPostingTokenError || isResettingTokenError ? (
-        <PoetltToast position='top-end' autohide bg='danger' delay={5000} message={postTokenError ? postTokenError?.message : resetTokenError ? resetTokenError?.message : 'Something went wrong'} />
-      ) : null}
+      {isError ? <PoetltToast position='top-end' autohide bg='danger' delay={5000} message={error ? error?.message : 'Something went wrong'} /> : null}
     </Container>
   );
 };

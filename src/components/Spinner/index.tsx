@@ -5,10 +5,7 @@ import { useTheme } from '@contexts/Theme';
 export const PoetltSpinner = () => {
   const { theme } = useTheme();
 
-  let variant: 'light' | 'dark';
-
-  variant = theme === 'dark' ? 'light' : 'dark';
-
+  const variant: 'light' | 'dark' = theme === 'dark' ? 'light' : 'dark';
   const animation = 'border';
 
   return <Spinner {...{ variant, animation }} />;

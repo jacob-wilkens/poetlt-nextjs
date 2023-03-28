@@ -1,29 +1,33 @@
-import { type NextRequest, NextResponse } from 'next/server';
+import { cookies } from 'next/headers';
+import { type NextRequest } from 'next/server';
 
-import { ZodError } from 'zod';
-
-import { createNewToken, createTokenWithUpdatedHistory } from '@server';
-import { TokenSchema, offSetSchema, tokenSchema } from '@types';
+import { createNewToken, createTokenWithUpdatedHistory, errorHandler } from '@server';
+import { OFF_SET_COOKIE, TokenSchema, offSetSchema, tokenSchema } from '@types';
 
 export async function POST(req: NextRequest) {
   try {
-    const { token: oldToken, playerId } = (await req.json()) as TokenSchema;
+    const { playerId } = (await req.json()) as TokenSchema;
+    tokenSchema.parse({ playerId });
 
-    tokenSchema.parse({ token: oldToken, playerId });
-
-    const offSet = req.headers.get('x-timezone-offset') ?? '0';
+    const cookieStore = cookies();
+    const offSet = cookieStore.has(OFF_SET_COOKIE) ? cookieStore.get(OFF_SET_COOKIE)?.value ?? 0 : 0;
     const offSetNumber = +offSetSchema.parse(offSet);
 
-    let token: string = '';
+    let newToken = '';
 
-    if (oldToken) token = await createTokenWithUpdatedHistory({ playerId, previousToken: oldToken, offSet: offSetNumber });
-    else token = await createNewToken({ playerId, offSet: offSetNumber });
+    if (cookieStore.has('token')) {
+      const token = cookieStore.get('token')?.value ?? '';
+      newToken = await createTokenWithUpdatedHistory({ previousToken: token, playerId, offSet: offSetNumber });
+    } else {
+      newToken = await createNewToken({ playerId, offSet: offSetNumber });
+    }
 
-    return NextResponse.json({ token });
+    // new Date + 1 year
+    const date = new Date();
+    date.setFullYear(date.getFullYear() + 1);
+
+    return new Response(null, { status: 200, headers: { 'Set-Cookie': `token=${newToken}; path=/; Expires=${date.toUTCString()}; SameSite=Strict;` } });
   } catch (error) {
-    if (error instanceof ZodError) return NextResponse.json({ error: true, message: error.flatten() }, { status: 400 });
-    if (error instanceof Error) return NextResponse.json({ error: true, message: error.message }, { status: 500 });
-
-    return NextResponse.json({ error: true, message: 'Something went wrong' }, { status: 500 });
+    return errorHandler(error);
   }
 }

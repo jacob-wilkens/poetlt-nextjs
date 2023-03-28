@@ -1,7 +1,7 @@
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 import { useTheme } from '@contexts/Theme';
-import { ThemeType } from '@contexts/Theme/types';
+import { ThemeType } from '@types';
 
 export function DarkModeMenu() {
   const { theme: currentTheme, setTheme, themes } = useTheme();

@@ -7,9 +7,9 @@ import { ErrorBoundary } from 'react-error-boundary';
 
 import { ErrorFallback } from '@components/ErrorFallback';
 import ThemeProvider from '@contexts/Theme';
-import { ThemeType } from '@contexts/Theme/types';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
+import { ThemeType } from '@types';
 
 type Props = {
   children: ReactNode;

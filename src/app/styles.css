@@ -32,3 +32,8 @@
 .mystery-player {
   filter: contrast(0%) brightness(0%);
 }
+
+.loader-width {
+  width: 5rem;
+  height: 5rem;
+}

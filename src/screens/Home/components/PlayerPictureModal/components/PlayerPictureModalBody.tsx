@@ -20,7 +20,7 @@ export const PlayerPictureModalBody = () => {
   return (
     <Container fluid className='text-center px-5'>
       <Row>
-        <div className={`d-flex justify-content-center ${won ? undefined : 'mystery-player'}`}>
+        <div className={`d-flex justify-content-center ${won || maxGuesses ? undefined : 'mystery-player'}`}>
           <Image alt='Player to be guessed' src={url} width={300} height={200} />
         </div>
       </Row>

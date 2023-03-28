@@ -1,16 +1,12 @@
 import { usePoeltlStore } from '@stores';
 import { useMutation } from '@tanstack/react-query';
-import { TokenErrorResponse, TokenMutationFnParams, TokenMutationParams, TokenResponse } from '@types';
-import { getCurrentUTCOffset } from '@utils';
+import { TokenErrorResponse, TokenMutationFnParams, TokenMutationParams, TokenSchema } from '@types';
 
-async function postToken<T>({ url, payload }: TokenMutationFnParams<T>): Promise<TokenResponse> {
+async function postToken({ url, payload }: TokenMutationFnParams<TokenSchema>) {
   try {
     const response = await fetch(url, {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'X-Timezone-Offset': getCurrentUTCOffset(),
-      },
+      headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload),
     });
 
@@ -18,24 +14,17 @@ async function postToken<T>({ url, payload }: TokenMutationFnParams<T>): Promise
       const { message } = (await response.json()) as TokenErrorResponse;
       throw new Error(message);
     }
-
-    const data = await response.json();
-
-    return data as TokenResponse;
   } catch (error) {
     if (error instanceof Error) throw new Error(error.message);
     else throw new Error('Something went wrong');
   }
 }
 
-export const useSubmitToken = <T>({ url }: TokenMutationParams) => {
+export const useSubmitToken = ({ url }: TokenMutationParams) => {
   const { decodeToken } = usePoeltlStore();
 
-  return useMutation<TokenResponse, Error, T>({
+  return useMutation<void, Error, TokenSchema>({
     mutationFn: (payload) => postToken({ url, payload }),
-    onSuccess: ({ token }) => {
-      localStorage.setItem('token', token);
-      decodeToken(token);
-    },
+    onSuccess: () => decodeToken(),
   });
 };

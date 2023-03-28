@@ -1,15 +1,18 @@
+import { NextResponse } from 'next/server';
+
 import fs from 'fs/promises';
 import jwt from 'jsonwebtoken';
 import path from 'path';
 import superjson from 'superjson';
+import { ZodError } from 'zod';
 
-import { ChosenPlayerMap, CreateJWTParams, Data, JWTPayload, Player, ResetTokenParams, Team, UpdateJWTParams } from '@types';
+import { ChosenPlayerMap, CreateJWTParams, JWTPayload, Player, ResetParams, ResetTokenParams, ServerData, Team, UpdateJWTParams } from '@types';
 import { getTodayDateString } from '@utils';
 
 const expiresIn = Math.floor(Date.now() / 1000) + 100 * 365 * 24 * 60 * 60;
 const basePath = process.cwd();
 
-export async function getData(offSet: number): Promise<Data> {
+export async function getData(offSet: number): Promise<ServerData> {
   const players = await getPlayerData();
   const teams: Team[] = await getTeamData();
 
@@ -72,7 +75,50 @@ export async function createNewToken({ offSet, playerId }: CreateJWTParams): Pro
   return token;
 }
 
-function validateJwtToken(payload: string): Promise<JWTPayload> {
+async function resetToken({ token, offSet }: ResetTokenParams): Promise<string> {
+  const { previousHistory: oldHistory } = await validateJwtToken(token);
+
+  const history = superjson.deserialize<Map<string, number>>(oldHistory);
+  const today = getTodayDateString(offSet);
+
+  history.set(today, -1);
+
+  const previousHistory = superjson.serialize(history);
+
+  const newToken = await createJwtToken({ guesses: [], previousHistory, wonToday: false }, { expiresIn });
+
+  if (!newToken) throw new Error('Failed to create JWT token');
+
+  return newToken;
+}
+
+export async function handleTokenReset({ cookieStore, offSet }: ResetParams) {
+  const token = cookieStore.get('token')?.value ?? '';
+
+  let newHistory: Map<string, number> = new Map();
+  let newGuesses: Player[] = [];
+
+  const { previousHistory, guesses } = await validateJwtToken(token);
+
+  const history = superjson.deserialize<Map<string, number>>(previousHistory);
+
+  newGuesses = guesses;
+  newHistory = history;
+
+  const todayDateString = getTodayDateString(offSet);
+
+  if (!history.has(todayDateString)) {
+    const newToken = await resetToken({ token, offSet });
+    const { guesses, previousHistory } = await validateJwtToken(newToken);
+
+    newHistory = superjson.deserialize<Map<string, number>>(previousHistory);
+    newGuesses = guesses;
+  }
+
+  return { guesses: newGuesses, history: newHistory };
+}
+
+export function validateJwtToken(payload: string): Promise<JWTPayload> {
   return new Promise((resolve, reject) => {
     jwt.verify(payload, process.env.JWT_KEY!, (error, decoded) => {
       if (error) reject(new Error('Failed to validate JWT token'));
@@ -88,6 +134,14 @@ function createJwtToken(payload: JWTPayload, options: jwt.SignOptions): Promise<
       else resolve(token);
     });
   });
+}
+
+export function errorHandler(error: unknown): NextResponse {
+  console.error(error);
+  if (error instanceof ZodError) return NextResponse.json({ error: true, message: error.flatten() }, { status: 400 });
+  if (error instanceof Error) return NextResponse.json({ error: true, message: error.message }, { status: 500 });
+
+  return NextResponse.json({ error: true, message: 'Something went wrong' }, { status: 500 });
 }
 
 async function getChosenPlayerMap(): Promise<ChosenPlayerMap> {
@@ -156,21 +210,4 @@ async function getPlayerMap(): Promise<Map<number, Player>> {
   });
 
   return playerMap;
-}
-
-export async function resetToken({ token, offSet }: ResetTokenParams): Promise<string> {
-  const { previousHistory: oldHistory } = await validateJwtToken(token);
-
-  const history = superjson.deserialize<Map<string, number>>(oldHistory);
-  const today = getTodayDateString(offSet);
-
-  history.set(today, -1);
-
-  const previousHistory = superjson.serialize(history);
-
-  const newToken = await createJwtToken({ guesses: [], previousHistory, wonToday: false }, { expiresIn });
-
-  if (!newToken) throw new Error('Failed to create JWT token');
-
-  return newToken;
 }

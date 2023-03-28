@@ -1,7 +1,15 @@
+import { RequestCookies } from 'next/dist/compiled/@edge-runtime/cookies';
+import { ReadonlyRequestCookies } from 'next/dist/server/app-render';
+
 import { SuperJSONResult } from 'superjson/dist/types';
 import z from 'zod';
 
-import { UseMutateFunction } from '@tanstack/react-query';
+export const OFF_SET_COOKIE = 'utcOffset';
+
+export type ResetParams = {
+  cookieStore: RequestCookies | ReadonlyRequestCookies;
+  offSet: number;
+};
 
 export type Player = {
   id: number;
@@ -22,20 +30,24 @@ export type Team = {
   division: string;
 };
 
-export type Data = {
+export type ServerData = {
   teams: Team[];
   players: Player[];
   chosenPlayerId: number;
 };
 
+export type Data = {
+  teams: Team[];
+  players: Player[];
+  chosenPlayerId: number;
+  playerGuesses: Player[];
+  previousHistory: Map<string, number>;
+  errorValidatingToken: boolean;
+};
+
 export type TeamMapRecord = Omit<Team, 'id'>;
 
 export type PlayerMapRecord = Omit<Player, 'id'>;
-
-export type StoreMaps = {
-  playerMap: Map<number, PlayerMapRecord>;
-  teamMap: Map<number, TeamMapRecord>;
-};
 
 export type ChosenPlayerMap = Map<string, number>; // date -> player id
 
@@ -63,22 +75,11 @@ export type ResetTokenParams = {
 
 export const tokenSchema = z.object({
   playerId: z.number().int(),
-  token: z.string().optional(),
 });
 
 export const offSetSchema = z.string().refine((val) => !isNaN(Number(val)), { message: 'Value must be a number as a string' });
 
-export const tokenResetSchema = z.object({
-  token: z.string(),
-});
-
-export type TokenResetSchema = z.infer<typeof tokenResetSchema>;
-
 export type TokenSchema = z.infer<typeof tokenSchema>;
-
-export type TokenResponse = {
-  token: string;
-};
 
 export type TokenErrorResponse = {
   error: boolean;
@@ -92,8 +93,6 @@ export type Streaks = {
   winDistribution: Map<number, number>;
 };
 
-export type TokenResetFn = UseMutateFunction<TokenResponse, Error, { token: string }, unknown>;
-
 export type TokenMutationFnParams<T> = {
   url: string;
   payload: T;
@@ -102,3 +101,16 @@ export type TokenMutationFnParams<T> = {
 export type TokenMutationParams = {
   url: string;
 };
+
+export type ThemeContextType = {
+  theme: ThemeType;
+  setTheme: (theme: ThemeType) => void;
+  themes: Theme[];
+};
+
+export type Theme = {
+  name: string;
+  icon: string;
+};
+
+export type ThemeType = 'light' | 'dark';
