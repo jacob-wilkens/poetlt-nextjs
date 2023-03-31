@@ -145,7 +145,7 @@ function createJwtToken(payload: JWTPayload, options: jwt.SignOptions): Promise<
 
 export function errorHandler(error: unknown): NextResponse {
   console.error(error);
-  if (error instanceof ZodError) return NextResponse.json({ error: true, message: error.flatten() }, { status: 400 });
+  if (error instanceof ZodError) return NextResponse.json({ error: true, message: error.errors.map(({ message }) => message).join(',') }, { status: 400 });
   if (error instanceof Error) return NextResponse.json({ error: true, message: error.message }, { status: 500 });
 
   return NextResponse.json({ error: true, message: 'Something went wrong' }, { status: 500 });
