@@ -57,6 +57,13 @@ export type JWTPayload = {
   wonToday: boolean;
 };
 
+export type Guess = {
+  playerId: number;
+  offSet: number;
+  history: Map<string, number>;
+  previousGuesses: Player[];
+};
+
 export type UpdateJWTParams = {
   playerId: number;
   previousToken: string;

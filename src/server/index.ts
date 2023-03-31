@@ -6,7 +6,7 @@ import path from 'path';
 import superjson from 'superjson';
 import { ZodError } from 'zod';
 
-import { ChosenPlayerMap, CreateJWTParams, JWTPayload, Player, ResetParams, ResetTokenParams, ServerData, Team, UpdateJWTParams } from '@types';
+import { ChosenPlayerMap, CreateJWTParams, Guess, JWTPayload, Player, ResetParams, ResetTokenParams, ServerData, Team, UpdateJWTParams } from '@types';
 import { getTodayDateString } from '@utils';
 
 const expiresIn = Math.floor(Date.now() / 1000) + 100 * 365 * 24 * 60 * 60;
@@ -23,11 +23,12 @@ export async function getData(offSet: number): Promise<ServerData> {
 }
 
 export async function createTokenWithUpdatedHistory({ playerId, previousToken, offSet }: UpdateJWTParams): Promise<string> {
-  let { guesses, previousHistory, wonToday } = await validateJwtToken(previousToken);
+  const { guesses, previousHistory, wonToday } = await validateJwtToken(previousToken);
 
   const today = getTodayDateString(offSet);
   const history = superjson.deserialize<Map<string, number>>(previousHistory);
-  const chosenPlayerMap = await getChosenPlayerMap();
+
+  if (!history.has(today)) return generateToken({ history, offSet, playerId, previousGuesses: [] });
 
   const guessedPlayerIds = guesses.map(({ id }) => id);
 
@@ -35,11 +36,17 @@ export async function createTokenWithUpdatedHistory({ playerId, previousToken, o
   if (guesses.length === 8) throw new Error('You have already guessed 8 times today');
   if (guessedPlayerIds.includes(playerId)) throw new Error('You have already guessed this player today');
 
+  return generateToken({ history, offSet, playerId, previousGuesses: guesses });
+}
+
+async function generateToken({ history, offSet, playerId, previousGuesses }: Guess): Promise<string> {
+  const chosenPlayerMap = await getChosenPlayerMap();
   const playerMap = await getPlayerMap();
   const player = playerMap.get(playerId)!;
 
-  guesses.push(player);
-  wonToday = chosenPlayerMap.get(today) === playerId;
+  const today = getTodayDateString(offSet);
+  const guesses: Player[] = [...previousGuesses, player];
+  const wonToday = chosenPlayerMap.get(today) === playerId;
   history.set(today, wonToday ? guesses.length : 0);
 
   const token = await createJwtToken({ guesses, previousHistory: superjson.serialize(history), wonToday: false }, { expiresIn });

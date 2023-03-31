@@ -13,7 +13,7 @@ const getLogoUrl = (teamId: string) => `https://cdn.nba.com/logos/nba/${teamId}/
 
 export const PlayerTeamCell = ({ teamName, teamId, abbreviation, teams }: Props) => {
   const { playerMap, chosenPlayerId } = usePoeltlStore();
-  const { teamId: chosenTeamId, teams: chosenTeams } = playerMap.get(chosenPlayerId)!;
+  const { teamId: chosenTeamId } = playerMap.get(chosenPlayerId)!;
 
   let className = '';
 
@@ -22,7 +22,7 @@ export const PlayerTeamCell = ({ teamName, teamId, abbreviation, teams }: Props)
 
   return (
     <td className={className}>
-      <Image src={getLogoUrl(`${teamId}`)} alt={`${teamName} Logo`} width={'50'} height={'50'} />
+      <Image src={getLogoUrl(`${teamId}`)} alt={`${teamName} Logo`} width={'40'} height={'40'} />
       <br />
       {abbreviation}
     </td>

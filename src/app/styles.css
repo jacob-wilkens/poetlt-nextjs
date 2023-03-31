@@ -1,3 +1,9 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
 .stat-title {
   font-weight: 400;
   font-size: 1rem;
@@ -36,4 +42,8 @@
 .loader-width {
   width: 5rem;
   height: 5rem;
+}
+
+h4 {
+  margin-bottom: 0;
 }
